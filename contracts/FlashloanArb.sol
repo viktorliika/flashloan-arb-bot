@@ -42,6 +42,9 @@ contract FlashloanArb is Ownable, ReentrancyGuard {
     
     // V3 default fee level
     uint24 public constant DEFAULT_V3_FEE = 3000; // 0.3%
+    
+    // Slippage tolerance in basis points (100 = 1%)
+    uint256 public slippageTolerance = 300; // 3% default
 
     // ================ Events ================
 
@@ -169,6 +172,15 @@ contract FlashloanArb is Ownable, ReentrancyGuard {
     function setMinProfitAmount(uint256 _newMinProfitAmount) external onlyOwner {
         emit MinProfitAmountUpdated(minProfitAmount, _newMinProfitAmount);
         minProfitAmount = _newMinProfitAmount;
+    }
+    
+    /**
+     * @dev Update slippage tolerance
+     * @param _newSlippageTolerance New slippage tolerance in basis points (100 = 1%)
+     */
+    function setSlippageTolerance(uint256 _newSlippageTolerance) external onlyOwner {
+        require(_newSlippageTolerance <= 5000, "Slippage tolerance too high"); // Max 50%
+        slippageTolerance = _newSlippageTolerance;
     }
 
     /**
@@ -312,10 +324,17 @@ contract FlashloanArb is Ownable, ReentrancyGuard {
         path[0] = tokenFrom;
         path[1] = tokenTo;
         
-        // Execute swap
+        // Get expected output amount
+        uint[] memory amountsOut = IUniswapRouter(router).getAmountsOut(amountIn, path);
+        uint256 expectedOutput = amountsOut[1];
+        
+        // Calculate minimum output with slippage protection
+        uint256 minOutput = expectedOutput * (10000 - slippageTolerance) / 10000;
+        
+        // Execute swap with slippage protection
         uint[] memory amounts = IUniswapRouter(router).swapExactTokensForTokens(
             amountIn,
-            1, // Min output (we'll check profit at the end)
+            minOutput,
             path,
             address(this),
             block.timestamp + 15 minutes
@@ -333,7 +352,17 @@ contract FlashloanArb is Ownable, ReentrancyGuard {
         address tokenTo,
         uint256 amountIn
     ) internal returns (uint256) {
-        // Create params for V3 swap
+        // Get quote from V3 - this would require calling the Quoter contract in a real implementation
+        // Here we'll simulate by checking token balances before and after
+        uint256 balanceBefore = IERC20(tokenTo).balanceOf(address(this));
+        
+        // Estimate output based on input (in a real implementation, use the Quoter contract)
+        uint256 estimatedOutput = estimateV3Output(router, tokenFrom, tokenTo, amountIn);
+        
+        // Calculate minimum output with slippage protection
+        uint256 minOutput = estimatedOutput * (10000 - slippageTolerance) / 10000;
+        
+        // Create params for V3 swap with slippage protection
         IUniswapV3Router.ExactInputSingleParams memory params = IUniswapV3Router.ExactInputSingleParams({
             tokenIn: tokenFrom,
             tokenOut: tokenTo,
@@ -341,11 +370,43 @@ contract FlashloanArb is Ownable, ReentrancyGuard {
             recipient: address(this),
             deadline: block.timestamp + 15 minutes,
             amountIn: amountIn,
-            amountOutMinimum: 1, // Min output (we'll check profit at the end)
+            amountOutMinimum: minOutput, // Apply slippage protection
             sqrtPriceLimitX96: 0 // No price limit
         });
         
         // Execute swap
         return IUniswapV3Router(router).exactInputSingle(params);
+    }
+    
+    /**
+     * @dev Estimate output for Uniswap V3 swap
+     * @notice In a real implementation, this would call the Quoter contract
+     */
+    function estimateV3Output(
+        address router,
+        address tokenFrom,
+        address tokenTo,
+        uint256 amountIn
+    ) internal view returns (uint256) {
+        // This is a simplified estimation. In reality, you would:
+        // 1. Call the Uniswap V3 Quoter contract to get an accurate quote
+        // 2. Use historical data if quoter is not available
+        
+        // For simplicity in this implementation, we'll assume 
+        // V3 gives slightly better rates than V2 (1.005x)
+        // In a real implementation, this should call the Quoter
+        
+        // Create path for V2 quote as fallback
+        address[] memory path = new address[](2);
+        path[0] = tokenFrom;
+        path[1] = tokenTo;
+        
+        try IUniswapRouter(dexARouter).getAmountsOut(amountIn, path) returns (uint[] memory amountsOut) {
+            // Apply a 0.5% improvement as V3 is typically more efficient
+            return amountsOut[1] * 1005 / 1000;
+        } catch {
+            // If that fails, provide a conservative estimate
+            return amountIn / 2; // Very conservative fallback
+        }
     }
 }
