@@ -1,0 +1,97 @@
+[2025-05-03T20:52:13.938Z] Starting min profit threshold reduction script...
+[2025-05-03T20:52:15.342Z] Using account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T20:52:15.416Z] Current min profit threshold: 0.01 ETH
+[2025-05-03T20:52:15.419Z] Setting new min profit threshold: 0.0001 ETH
+[2025-05-03T20:52:15.691Z] Updated min profit for original contract: 0x8b9d5A75328b5F3167b04B42AD00092E7d6c485c
+[2025-05-03T20:52:15.796Z] Updated min profit for V2 contract: 0xCdb63c58b907e76872474A0597C5252eDC97c883
+[2025-05-03T20:52:15.817Z] New min profit threshold: 0.0001 ETH
+[2025-05-03T20:52:15.819Z] 
+Min profit threshold reduced successfully!
+[2025-05-03T20:52:15.821Z] This will allow the contract to execute trades with much smaller profit margins.
+[2025-05-03T20:52:15.823Z] Try running the arbitrage scripts again:
+[2025-05-03T20:52:15.825Z] 1. npm run create:arb
+[2025-05-03T20:52:15.828Z] 2. npm run execute:triangle
+[2025-05-03T21:13:49.063Z] Starting min profit threshold reduction script...
+[2025-05-03T21:13:50.387Z] Using account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T21:13:50.447Z] Current min profit threshold: 0.01 ETH
+[2025-05-03T21:13:50.450Z] Setting new min profit threshold: 0.0001 ETH
+[2025-05-03T21:13:50.853Z] Updated min profit for original contract: 0x564Db7a11653228164FD03BcA60465270E67b3d7
+[2025-05-03T21:13:50.933Z] Updated min profit for V2 contract: 0x9DBb24B10502aD166c198Dbeb5AB54d2d13AfcFd
+[2025-05-03T21:13:50.968Z] New min profit threshold: 0.0001 ETH
+[2025-05-03T21:13:50.971Z] 
+Min profit threshold reduced successfully!
+[2025-05-03T21:13:50.979Z] This will allow the contract to execute trades with much smaller profit margins.
+[2025-05-03T21:13:50.981Z] Try running the arbitrage scripts again:
+[2025-05-03T21:13:50.983Z] 1. npm run create:arb
+[2025-05-03T21:13:50.985Z] 2. npm run execute:triangle
+[2025-05-03T21:29:10.284Z] Starting min profit threshold reduction script...
+[2025-05-03T21:29:12.008Z] Using account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T21:29:12.101Z] Current min profit threshold: 0.0001 ETH
+[2025-05-03T21:29:12.106Z] Setting new min profit threshold: 0.0001 ETH
+[2025-05-03T21:29:12.394Z] Updated min profit for original contract: 0x564Db7a11653228164FD03BcA60465270E67b3d7
+[2025-05-03T21:29:12.476Z] Updated min profit for V2 contract: 0x9DBb24B10502aD166c198Dbeb5AB54d2d13AfcFd
+[2025-05-03T21:29:12.516Z] New min profit threshold: 0.0001 ETH
+[2025-05-03T21:29:12.518Z] 
+Min profit threshold reduced successfully!
+[2025-05-03T21:29:12.521Z] This will allow the contract to execute trades with much smaller profit margins.
+[2025-05-03T21:29:12.524Z] Try running the arbitrage scripts again:
+[2025-05-03T21:29:12.526Z] 1. npm run create:arb
+[2025-05-03T21:29:12.528Z] 2. npm run execute:triangle
+[2025-05-03T21:36:18.786Z] Starting min profit threshold reduction script...
+[2025-05-03T21:36:20.452Z] Using account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T21:36:20.574Z] Current min profit threshold: 0.0001 ETH
+[2025-05-03T21:36:20.578Z] Setting new min profit threshold: 0.0001 ETH
+[2025-05-03T21:36:20.902Z] Updated min profit for original contract: 0x564Db7a11653228164FD03BcA60465270E67b3d7
+[2025-05-03T21:36:20.967Z] Updated min profit for V2 contract: 0x9DBb24B10502aD166c198Dbeb5AB54d2d13AfcFd
+[2025-05-03T21:36:21.008Z] New min profit threshold: 0.0001 ETH
+[2025-05-03T21:36:21.009Z] 
+Min profit threshold reduced successfully!
+[2025-05-03T21:36:21.011Z] This will allow the contract to execute trades with much smaller profit margins.
+[2025-05-03T21:36:21.012Z] Try running the arbitrage scripts again:
+[2025-05-03T21:36:21.013Z] 1. npm run create:arb
+[2025-05-03T21:36:21.015Z] 2. npm run execute:triangle
+[2025-05-03T21:47:36.638Z] Starting min profit threshold reduction script...
+[2025-05-03T21:47:38.434Z] Using account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T21:53:41.472Z] Starting min profit threshold reduction script...
+[2025-05-03T21:53:43.139Z] Using account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T21:53:43.141Z] Original contract address: 0x564Db7a11653228164FD03BcA60465270E67b3d7
+[2025-05-03T21:53:43.145Z] V2 contract address: 0xf274De14171Ab928A5Ec19928cE35FaD91a42B64
+[2025-05-03T21:53:43.234Z] ❌ Error: No contract found at address 0x564Db7a11653228164FD03BcA60465270E67b3d7. Please check if the fork is running and contracts are deployed.
+[2025-05-03T21:53:43.240Z] 
+🔍 Troubleshooting:
+[2025-05-03T21:53:43.242Z] 1. Make sure your forked mainnet is running (npm run fork)
+[2025-05-03T21:53:43.244Z] 2. Make sure you've deployed both contracts (npm run deploy:fork and npm run deploy:enhanced)
+[2025-05-03T21:53:43.246Z] 3. Check fork-config.json for correct contract addresses
+[2025-05-03T21:53:43.248Z] 4. Try restarting your fork and redeploying the contracts
+[2025-05-03T21:56:05.344Z] Starting min profit threshold reduction script...
+[2025-05-03T21:56:07.972Z] Using account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T21:56:07.981Z] Original contract address: 0xd8A9159c111D0597AD1b475b8d7e5A217a1d1d05
+[2025-05-03T21:56:07.992Z] V2 contract address: 0xf274De14171Ab928A5Ec19928cE35FaD91a42B64
+[2025-05-03T21:56:08.147Z] Setting min profit threshold to 0.000000001 ETH (virtually zero)
+[2025-05-03T21:56:08.151Z] Updating original contract at 0xd8A9159c111D0597AD1b475b8d7e5A217a1d1d05...
+[2025-05-03T21:56:08.535Z] ✅ Updated min profit for original contract: 0xd8A9159c111D0597AD1b475b8d7e5A217a1d1d05
+[2025-05-03T21:56:08.536Z] Updating V2 contract at 0xf274De14171Ab928A5Ec19928cE35FaD91a42B64...
+[2025-05-03T21:56:08.643Z] ✅ Updated min profit for V2 contract: 0xf274De14171Ab928A5Ec19928cE35FaD91a42B64
+[2025-05-03T21:56:08.644Z] 
+🎉 Min profit threshold reduced successfully!
+[2025-05-03T21:56:08.646Z] This will allow the contract to execute trades with much smaller profit margins.
+[2025-05-03T21:56:08.648Z] 
+Next steps:
+[2025-05-03T21:56:08.650Z] 1. npm run triangle:imbalance (to create strong imbalances in all triangle pools)
+[2025-05-03T21:56:08.652Z] 2. npm run execute:triangle (to execute the triangle arbitrage)
+[2025-05-03T22:06:14.771Z] Starting min profit threshold reduction script...
+[2025-05-03T22:06:16.098Z] Using account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T22:06:16.100Z] Original contract address: 0xEb0fCBB68Ca7Ba175Dc1D3dABFD618e7a3F582F6
+[2025-05-03T22:06:16.102Z] V2 contract address: 0xE2307e3710d108ceC7a4722a020a050681c835b3
+[2025-05-03T22:06:16.200Z] Setting min profit threshold to 0.000000001 ETH (virtually zero)
+[2025-05-03T22:06:16.204Z] Updating original contract at 0xEb0fCBB68Ca7Ba175Dc1D3dABFD618e7a3F582F6...
+[2025-05-03T22:06:16.492Z] ✅ Updated min profit for original contract: 0xEb0fCBB68Ca7Ba175Dc1D3dABFD618e7a3F582F6
+[2025-05-03T22:06:16.494Z] Updating V2 contract at 0xE2307e3710d108ceC7a4722a020a050681c835b3...
+[2025-05-03T22:06:16.560Z] ✅ Updated min profit for V2 contract: 0xE2307e3710d108ceC7a4722a020a050681c835b3
+[2025-05-03T22:06:16.561Z] 
+🎉 Min profit threshold reduced successfully!
+[2025-05-03T22:06:16.564Z] This will allow the contract to execute trades with much smaller profit margins.
+[2025-05-03T22:06:16.565Z] 
+Next steps:
+[2025-05-03T22:06:16.567Z] 1. npm run triangle:imbalance (to create strong imbalances in all triangle pools)
+[2025-05-03T22:06:16.568Z] 2. npm run execute:triangle (to execute the triangle arbitrage)

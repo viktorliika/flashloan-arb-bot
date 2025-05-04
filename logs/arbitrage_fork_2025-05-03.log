@@ -1,0 +1,127 @@
+[2025-05-03T09:31:48.721Z] Starting arbitrage scanner in forked mainnet mode...
+[2025-05-03T09:31:48.728Z] Loaded fork config with network ID: 1
+[2025-05-03T09:31:50.700Z] Using account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T09:31:51.357Z] Connected to all contracts in forked mainnet
+[2025-05-03T09:31:51.358Z] WETH decimals: 18
+[2025-05-03T09:31:51.361Z] DAI decimals: 18
+[2025-05-03T09:31:51.363Z] USDC decimals: 6
+[2025-05-03T09:31:51.365Z] Starting arbitrage scanning between Uniswap V2 and Sushiswap...
+[2025-05-03T09:31:51.368Z] Scan #1 of 10
+[2025-05-03T09:31:52.129Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-03T09:31:52.189Z] WETH/DAI prices:
+[2025-05-03T09:31:52.191Z] - Uniswap V2: 1 unit = 22371.019212656806924774 units
+[2025-05-03T09:31:52.196Z] - Sushiswap: 1 unit = 22298.706626971605496337 units
+[2025-05-03T09:31:52.199Z] Price difference: 0.324290%
+[2025-05-03T09:31:52.225Z] No profitable arbitrage opportunity found for WETH/DAI.
+[2025-05-03T09:31:52.227Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-03T09:31:53.303Z] WETH/USDC prices:
+[2025-05-03T09:31:53.305Z] - Uniswap V2: 1 unit = 22457.355919 units
+[2025-05-03T09:31:53.307Z] - Sushiswap: 1 unit = 22415.92051 units
+[2025-05-03T09:31:53.308Z] Price difference: 0.184848%
+[2025-05-03T09:31:53.332Z] No profitable arbitrage opportunity found for WETH/USDC.
+[2025-05-03T09:31:53.334Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-03T09:31:53.878Z] DAI/USDC prices:
+[2025-05-03T09:31:53.880Z] - Uniswap V2: 1 unit = 9959.522016 units
+[2025-05-03T09:31:53.882Z] - Sushiswap: 1 unit = 5634.784512 units
+[2025-05-03T09:31:53.884Z] Price difference: 76.750717%
+[2025-05-03T09:31:53.920Z] No profitable arbitrage opportunity found for DAI/USDC.
+[2025-05-03T09:31:56.935Z] Waiting for next scan cycle...
+[2025-05-03T09:31:56.937Z] Scan #2 of 10
+[2025-05-03T09:31:57.608Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-03T09:31:57.685Z] WETH/DAI prices:
+[2025-05-03T09:31:57.687Z] - Uniswap V2: 1 unit = 22371.019212656806924774 units
+[2025-05-03T09:31:57.689Z] - Sushiswap: 1 unit = 22298.706626971605496337 units
+[2025-05-03T09:31:57.690Z] Price difference: 0.324290%
+[2025-05-03T09:31:57.897Z] No profitable arbitrage opportunity found for WETH/DAI.
+[2025-05-03T09:31:57.899Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-03T09:31:57.986Z] WETH/USDC prices:
+[2025-05-03T09:31:57.988Z] - Uniswap V2: 1 unit = 22457.355919 units
+[2025-05-03T09:31:57.989Z] - Sushiswap: 1 unit = 22415.92051 units
+[2025-05-03T09:31:57.990Z] Price difference: 0.184848%
+[2025-05-03T09:31:58.010Z] No profitable arbitrage opportunity found for WETH/USDC.
+[2025-05-03T09:31:58.012Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-03T09:31:58.088Z] DAI/USDC prices:
+[2025-05-03T09:31:58.089Z] - Uniswap V2: 1 unit = 9959.522016 units
+[2025-05-03T09:31:58.092Z] - Sushiswap: 1 unit = 5634.784512 units
+[2025-05-03T09:31:58.097Z] Price difference: 76.750717%
+[2025-05-03T09:31:58.126Z] No profitable arbitrage opportunity found for DAI/USDC.
+[2025-05-03T09:32:01.142Z] Waiting for next scan cycle...
+[2025-05-03T09:32:01.145Z] Scan #3 of 10
+[2025-05-03T09:32:01.965Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-03T09:32:02.025Z] WETH/DAI prices:
+[2025-05-03T09:32:02.027Z] - Uniswap V2: 1 unit = 22371.019212656806924774 units
+[2025-05-03T09:32:02.029Z] - Sushiswap: 1 unit = 22298.706626971605496337 units
+[2025-05-03T09:32:02.031Z] Price difference: 0.324290%
+[2025-05-03T09:32:02.066Z] No profitable arbitrage opportunity found for WETH/DAI.
+[2025-05-03T09:32:02.070Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-03T09:32:02.134Z] WETH/USDC prices:
+[2025-05-03T09:32:02.136Z] - Uniswap V2: 1 unit = 22457.355919 units
+[2025-05-03T09:32:02.138Z] - Sushiswap: 1 unit = 22415.92051 units
+[2025-05-03T09:32:02.139Z] Price difference: 0.184848%
+[2025-05-03T09:32:02.172Z] No profitable arbitrage opportunity found for WETH/USDC.
+[2025-05-03T09:32:02.174Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-03T09:32:02.239Z] DAI/USDC prices:
+[2025-05-03T09:32:02.241Z] - Uniswap V2: 1 unit = 9959.522016 units
+[2025-05-03T09:32:02.243Z] - Sushiswap: 1 unit = 5634.784512 units
+[2025-05-03T09:32:02.247Z] Price difference: 76.750717%
+[2025-05-03T09:32:02.268Z] No profitable arbitrage opportunity found for DAI/USDC.
+[2025-05-03T09:32:05.281Z] Waiting for next scan cycle...
+[2025-05-03T09:32:05.285Z] Scan #4 of 10
+[2025-05-03T09:32:06.088Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-03T09:32:06.152Z] WETH/DAI prices:
+[2025-05-03T09:32:06.154Z] - Uniswap V2: 1 unit = 22371.019212656806924774 units
+[2025-05-03T09:32:06.155Z] - Sushiswap: 1 unit = 22298.706626971605496337 units
+[2025-05-03T09:32:06.157Z] Price difference: 0.324290%
+[2025-05-03T09:32:06.186Z] No profitable arbitrage opportunity found for WETH/DAI.
+[2025-05-03T09:32:06.188Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-03T09:32:06.237Z] WETH/USDC prices:
+[2025-05-03T09:32:06.238Z] - Uniswap V2: 1 unit = 22457.355919 units
+[2025-05-03T09:32:06.240Z] - Sushiswap: 1 unit = 22415.92051 units
+[2025-05-03T09:32:06.241Z] Price difference: 0.184848%
+[2025-05-03T09:32:06.291Z] No profitable arbitrage opportunity found for WETH/USDC.
+[2025-05-03T09:32:06.294Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-03T09:32:06.350Z] DAI/USDC prices:
+[2025-05-03T09:32:06.351Z] - Uniswap V2: 1 unit = 9959.522016 units
+[2025-05-03T09:32:06.352Z] - Sushiswap: 1 unit = 5634.784512 units
+[2025-05-03T09:32:06.354Z] Price difference: 76.750717%
+[2025-05-03T09:32:06.382Z] No profitable arbitrage opportunity found for DAI/USDC.
+[2025-05-03T09:32:09.393Z] Waiting for next scan cycle...
+[2025-05-03T09:32:09.396Z] Scan #5 of 10
+[2025-05-03T09:32:10.051Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-03T09:32:10.115Z] WETH/DAI prices:
+[2025-05-03T09:32:10.116Z] - Uniswap V2: 1 unit = 22371.019212656806924774 units
+[2025-05-03T09:32:10.117Z] - Sushiswap: 1 unit = 22298.706626971605496337 units
+[2025-05-03T09:32:10.119Z] Price difference: 0.324290%
+[2025-05-03T09:32:10.142Z] No profitable arbitrage opportunity found for WETH/DAI.
+[2025-05-03T09:32:10.145Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-03T09:32:10.207Z] WETH/USDC prices:
+[2025-05-03T09:32:10.208Z] - Uniswap V2: 1 unit = 22457.355919 units
+[2025-05-03T09:32:10.210Z] - Sushiswap: 1 unit = 22415.92051 units
+[2025-05-03T09:32:10.214Z] Price difference: 0.184848%
+[2025-05-03T09:32:10.236Z] No profitable arbitrage opportunity found for WETH/USDC.
+[2025-05-03T09:32:10.238Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-03T09:32:10.295Z] DAI/USDC prices:
+[2025-05-03T09:32:10.297Z] - Uniswap V2: 1 unit = 9959.522016 units
+[2025-05-03T09:32:10.299Z] - Sushiswap: 1 unit = 5634.784512 units
+[2025-05-03T09:32:10.301Z] Price difference: 76.750717%
+[2025-05-03T09:32:10.336Z] No profitable arbitrage opportunity found for DAI/USDC.
+[2025-05-03T09:32:13.347Z] Waiting for next scan cycle...
+[2025-05-03T09:32:13.349Z] Scan #6 of 10
+[2025-05-03T09:32:14.013Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-03T09:32:14.079Z] WETH/DAI prices:
+[2025-05-03T09:32:14.080Z] - Uniswap V2: 1 unit = 22371.019212656806924774 units
+[2025-05-03T09:32:14.082Z] - Sushiswap: 1 unit = 22298.706626971605496337 units
+[2025-05-03T09:32:14.083Z] Price difference: 0.324290%
+[2025-05-03T09:32:14.106Z] No profitable arbitrage opportunity found for WETH/DAI.
+[2025-05-03T09:32:14.107Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-03T09:32:14.170Z] WETH/USDC prices:
+[2025-05-03T09:32:14.171Z] - Uniswap V2: 1 unit = 22457.355919 units
+[2025-05-03T09:32:14.172Z] - Sushiswap: 1 unit = 22415.92051 units
+[2025-05-03T09:32:14.174Z] Price difference: 0.184848%
+[2025-05-03T09:32:14.203Z] No profitable arbitrage opportunity found for WETH/USDC.
+[2025-05-03T09:32:14.204Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-03T09:32:14.404Z] DAI/USDC prices:
+[2025-05-03T09:32:14.407Z] - Uniswap V2: 1 unit = 9959.522016 units
+[2025-05-03T09:32:14.409Z] - Sushiswap: 1 unit = 5634.784512 units
+[2025-05-03T09:32:14.412Z] Price difference: 76.750717%
+[2025-05-03T09:32:14.466Z] No profitable arbitrage opportunity found for DAI/USDC.

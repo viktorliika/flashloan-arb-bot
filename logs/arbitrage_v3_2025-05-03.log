@@ -1,0 +1,1422 @@
+[2025-05-03T15:29:03.140Z] Starting arbitrage scanner with Uniswap V3 support...
+[2025-05-03T15:29:03.151Z] Loaded fork config with network ID: 1
+[2025-05-03T15:29:04.516Z] Using account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T15:29:05.088Z] Connected to all contracts in forked mainnet
+[2025-05-03T15:29:05.091Z] WETH decimals: 18
+[2025-05-03T15:29:05.093Z] DAI decimals: 18
+[2025-05-03T15:29:05.096Z] USDC decimals: 6
+[2025-05-03T15:29:05.098Z] Starting arbitrage scanning with Uniswap V3 support...
+[2025-05-03T15:29:05.103Z] Scan #1 of 10
+[2025-05-03T15:29:05.845Z] Checking WETH/DAI for V2/V3 arbitrage opportunities...
+[2025-05-03T15:29:46.742Z] WETH/DAI prices:
+[2025-05-03T15:29:46.745Z] - Uniswap V2: 1 unit = 11205.492984017425003326 units
+[2025-05-03T15:29:46.746Z] - Sushiswap: 1 unit = 11178.641037390249137127 units
+[2025-05-03T15:29:46.748Z] - Uniswap V3: No valid pools found
+[2025-05-03T15:29:46.751Z] Flash loan details:
+[2025-05-03T15:29:46.754Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:29:46.763Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:29:46.766Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:29:46.768Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:29:46.773Z] - Step 1: Swap 5.0 WETH -> 11205.492984017425003326 DAI on Uniswap V2
+[2025-05-03T15:29:46.777Z] - Step 2: Swap 11205.492984017425003326 DAI -> 11171.876505065372728317 WETH on Sushiswap (estimated)
+[2025-05-03T15:29:46.780Z] - POTENTIALLY PROFITABLE! Net profit: 11166.872005065372728317 WETH (223337.4400%)
+[2025-05-03T15:29:46.781Z] 🚀 ARBITRAGE OPPORTUNITY: Uniswap V2 -> Sushiswap for WETH/DAI
+[2025-05-03T15:29:46.784Z] Expected profit: 11166.872005065372728317 WETH (223337.4400%)
+[2025-05-03T15:29:46.790Z] ⚠️ Note: This is a simplified estimation. In production, execute more precise checks before trading.
+[2025-05-03T15:29:46.796Z] Checking WETH/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:31:09.595Z] Error checking WETH/USDC: Error: could not detect network (event="noNetwork", code=NETWORK_ERROR, version=providers/5.8.0)
+[2025-05-03T15:31:09.611Z] Checking DAI/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:32:32.221Z] Error checking DAI/USDC: Error: could not detect network (event="noNetwork", code=NETWORK_ERROR, version=providers/5.8.0)
+[2025-05-03T15:32:35.257Z] Waiting for next scan cycle...
+[2025-05-03T15:32:35.268Z] Scan #2 of 10
+[2025-05-03T15:32:36.020Z] Checking WETH/DAI for V2/V3 arbitrage opportunities...
+[2025-05-03T15:33:59.690Z] Error checking WETH/DAI: Error: could not detect network (event="noNetwork", code=NETWORK_ERROR, version=providers/5.8.0)
+[2025-05-03T15:33:59.828Z] Checking WETH/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:35:22.776Z] Error checking WETH/USDC: Error: could not detect network (event="noNetwork", code=NETWORK_ERROR, version=providers/5.8.0)
+[2025-05-03T15:35:22.779Z] Checking DAI/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:36:45.622Z] Error checking DAI/USDC: Error: could not detect network (event="noNetwork", code=NETWORK_ERROR, version=providers/5.8.0)
+[2025-05-03T15:36:48.673Z] Waiting for next scan cycle...
+[2025-05-03T15:36:48.680Z] Scan #3 of 10
+[2025-05-03T15:36:49.625Z] Checking WETH/DAI for V2/V3 arbitrage opportunities...
+[2025-05-03T15:38:14.127Z] Error checking WETH/DAI: Error: could not detect network (event="noNetwork", code=NETWORK_ERROR, version=providers/5.8.0)
+[2025-05-03T15:38:14.175Z] Checking WETH/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:39:54.252Z] WETH/USDC prices:
+[2025-05-03T15:39:54.267Z] - Uniswap V2: 1 unit = 11231.067266 units
+[2025-05-03T15:39:54.268Z] - Sushiswap: 1 unit = 11228.146 units
+[2025-05-03T15:39:54.270Z] - Uniswap V3 (0.05%): 1 unit = 11236.909029 units
+[2025-05-03T15:39:54.273Z] Flash loan details:
+[2025-05-03T15:39:54.276Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:39:54.279Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:39:54.282Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:39:54.284Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:39:54.289Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:39:54.293Z] - Step 2: Swap 11236.909029 USDC -> 0.000000011203198302 WETH on Uniswap V2 (estimated)
+[2025-05-03T15:39:54.302Z] - NOT PROFITABLE. Would lose 5.004499988796801698 WETH
+[2025-05-03T15:39:54.307Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:39:54.317Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:39:54.321Z] - Step 2: Swap 11236.909029 USDC -> 0.000000011203198302 WETH on Sushiswap (estimated)
+[2025-05-03T15:39:54.323Z] - NOT PROFITABLE. Would lose 5.004499988796801698 WETH
+[2025-05-03T15:39:54.325Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:39:54.330Z] - Step 1: Swap 5.0 WETH -> 11231.067266 USDC on Uniswap V2
+[2025-05-03T15:39:54.336Z] - Step 2: Swap 11231.067266 USDC -> 0.000000011197374065 WETH on Sushiswap (estimated)
+[2025-05-03T15:39:54.338Z] - NOT PROFITABLE. Would lose 5.004499988802625935 WETH
+[2025-05-03T15:39:54.341Z] Checking DAI/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:40:05.674Z] DAI/USDC prices:
+[2025-05-03T15:40:05.676Z] - Uniswap V2: 1 unit = 4982.049318 units
+[2025-05-03T15:40:05.678Z] - Sushiswap: 1 unit = 3604.806935 units
+[2025-05-03T15:40:05.680Z] - Uniswap V3 (0.01%): 1 unit = 4999.975316 units
+[2025-05-03T15:40:05.682Z] Flash loan details:
+[2025-05-03T15:40:05.686Z] - Amount borrowed: 5000.0 DAI
+[2025-05-03T15:40:05.692Z] - Flash loan fee: 4.5 DAI
+[2025-05-03T15:40:05.695Z] - Repayment required: 5004.5 DAI
+[2025-05-03T15:40:05.699Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Uniswap V2:
+[2025-05-03T15:40:05.703Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:40:05.706Z] - Step 2: Swap 4999.975316 USDC -> 0.000000004984975391 DAI on Uniswap V2 (estimated)
+[2025-05-03T15:40:05.709Z] - NOT PROFITABLE. Would lose 5004.499999995015024609 DAI
+[2025-05-03T15:40:05.711Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Sushiswap:
+[2025-05-03T15:40:05.714Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:40:05.719Z] - Step 2: Swap 4999.975316 USDC -> 0.000000004984975391 DAI on Sushiswap (estimated)
+[2025-05-03T15:40:05.722Z] - NOT PROFITABLE. Would lose 5004.499999995015024609 DAI
+[2025-05-03T15:40:05.724Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:40:05.728Z] - Step 1: Swap 5000.0 DAI -> 4982.049318 USDC on Uniswap V2
+[2025-05-03T15:40:05.733Z] - Step 2: Swap 4982.049318 USDC -> 0.000000004967103171 DAI on Sushiswap (estimated)
+[2025-05-03T15:40:05.737Z] - NOT PROFITABLE. Would lose 5004.499999995032896829 DAI
+[2025-05-03T15:40:08.751Z] Waiting for next scan cycle...
+[2025-05-03T15:40:08.753Z] Scan #4 of 10
+[2025-05-03T15:40:09.705Z] Checking WETH/DAI for V2/V3 arbitrage opportunities...
+[2025-05-03T15:40:12.878Z] WETH/DAI prices:
+[2025-05-03T15:40:12.891Z] - Uniswap V2: 1 unit = 11205.492984017425003326 units
+[2025-05-03T15:40:12.900Z] - Sushiswap: 1 unit = 11178.641037390249137127 units
+[2025-05-03T15:40:12.903Z] - Uniswap V3 (0.05%): 1 unit = 11239.814929738163820474 units
+[2025-05-03T15:40:12.913Z] Flash loan details:
+[2025-05-03T15:40:12.941Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:40:12.948Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:40:12.954Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:40:12.958Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:40:12.964Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:40:12.979Z] - Step 2: Swap 11239.814929738163820474 DAI -> 11206.095484948949329013 WETH on Uniswap V2 (estimated)
+[2025-05-03T15:40:13.003Z] - POTENTIALLY PROFITABLE! Net profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:40:13.021Z] 🚀 ARBITRAGE OPPORTUNITY: Uniswap V3 (0.05%) -> Uniswap V2 for WETH/DAI
+[2025-05-03T15:40:13.027Z] Expected profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:40:13.046Z] ⚠️ Note: This is a simplified estimation. In production, execute more precise checks before trading.
+[2025-05-03T15:40:13.055Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:40:13.063Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:40:13.070Z] - Step 2: Swap 11239.814929738163820474 DAI -> 11206.095484948949329013 WETH on Sushiswap (estimated)
+[2025-05-03T15:40:13.075Z] - POTENTIALLY PROFITABLE! Net profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:40:13.080Z] 🚀 ARBITRAGE OPPORTUNITY: Uniswap V3 (0.05%) -> Sushiswap for WETH/DAI
+[2025-05-03T15:40:13.090Z] Expected profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:40:13.099Z] ⚠️ Note: This is a simplified estimation. In production, execute more precise checks before trading.
+[2025-05-03T15:40:13.106Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:40:13.114Z] - Step 1: Swap 5.0 WETH -> 11205.492984017425003326 DAI on Uniswap V2
+[2025-05-03T15:40:13.127Z] - Step 2: Swap 11205.492984017425003326 DAI -> 11171.876505065372728317 WETH on Sushiswap (estimated)
+[2025-05-03T15:40:13.142Z] - POTENTIALLY PROFITABLE! Net profit: 11166.872005065372728317 WETH (223337.4400%)
+[2025-05-03T15:40:13.146Z] 🚀 ARBITRAGE OPPORTUNITY: Uniswap V2 -> Sushiswap for WETH/DAI
+[2025-05-03T15:40:13.152Z] Expected profit: 11166.872005065372728317 WETH (223337.4400%)
+[2025-05-03T15:40:13.160Z] ⚠️ Note: This is a simplified estimation. In production, execute more precise checks before trading.
+[2025-05-03T15:40:13.162Z] Checking WETH/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:40:13.789Z] WETH/USDC prices:
+[2025-05-03T15:40:13.797Z] - Uniswap V2: 1 unit = 11231.067266 units
+[2025-05-03T15:40:13.809Z] - Sushiswap: 1 unit = 11228.146 units
+[2025-05-03T15:40:13.841Z] - Uniswap V3 (0.05%): 1 unit = 11236.909029 units
+[2025-05-03T15:40:13.869Z] Flash loan details:
+[2025-05-03T15:40:13.873Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:40:13.876Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:40:13.893Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:40:13.898Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:40:13.910Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:40:13.949Z] - Step 2: Swap 11236.909029 USDC -> 0.000000011203198302 WETH on Uniswap V2 (estimated)
+[2025-05-03T15:40:14.037Z] - NOT PROFITABLE. Would lose 5.004499988796801698 WETH
+[2025-05-03T15:40:14.091Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:40:14.115Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:40:14.137Z] - Step 2: Swap 11236.909029 USDC -> 0.000000011203198302 WETH on Sushiswap (estimated)
+[2025-05-03T15:40:14.202Z] - NOT PROFITABLE. Would lose 5.004499988796801698 WETH
+[2025-05-03T15:40:14.209Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:40:14.217Z] - Step 1: Swap 5.0 WETH -> 11231.067266 USDC on Uniswap V2
+[2025-05-03T15:40:14.246Z] - Step 2: Swap 11231.067266 USDC -> 0.000000011197374065 WETH on Sushiswap (estimated)
+[2025-05-03T15:40:14.321Z] - NOT PROFITABLE. Would lose 5.004499988802625935 WETH
+[2025-05-03T15:40:14.393Z] Checking DAI/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:40:15.397Z] DAI/USDC prices:
+[2025-05-03T15:40:15.399Z] - Uniswap V2: 1 unit = 4982.049318 units
+[2025-05-03T15:40:15.401Z] - Sushiswap: 1 unit = 3604.806935 units
+[2025-05-03T15:40:15.403Z] - Uniswap V3 (0.01%): 1 unit = 4999.975316 units
+[2025-05-03T15:40:15.405Z] Flash loan details:
+[2025-05-03T15:40:15.407Z] - Amount borrowed: 5000.0 DAI
+[2025-05-03T15:40:15.410Z] - Flash loan fee: 4.5 DAI
+[2025-05-03T15:40:15.413Z] - Repayment required: 5004.5 DAI
+[2025-05-03T15:40:15.415Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Uniswap V2:
+[2025-05-03T15:40:15.419Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:40:15.422Z] - Step 2: Swap 4999.975316 USDC -> 0.000000004984975391 DAI on Uniswap V2 (estimated)
+[2025-05-03T15:40:15.426Z] - NOT PROFITABLE. Would lose 5004.499999995015024609 DAI
+[2025-05-03T15:40:15.430Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Sushiswap:
+[2025-05-03T15:40:15.434Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:40:15.440Z] - Step 2: Swap 4999.975316 USDC -> 0.000000004984975391 DAI on Sushiswap (estimated)
+[2025-05-03T15:40:15.442Z] - NOT PROFITABLE. Would lose 5004.499999995015024609 DAI
+[2025-05-03T15:40:15.444Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:40:15.452Z] - Step 1: Swap 5000.0 DAI -> 4982.049318 USDC on Uniswap V2
+[2025-05-03T15:40:15.455Z] - Step 2: Swap 4982.049318 USDC -> 0.000000004967103171 DAI on Sushiswap (estimated)
+[2025-05-03T15:40:15.457Z] - NOT PROFITABLE. Would lose 5004.499999995032896829 DAI
+[2025-05-03T15:40:18.470Z] Waiting for next scan cycle...
+[2025-05-03T15:40:18.476Z] Scan #5 of 10
+[2025-05-03T15:40:19.351Z] Checking WETH/DAI for V2/V3 arbitrage opportunities...
+[2025-05-03T15:40:21.350Z] WETH/DAI prices:
+[2025-05-03T15:40:21.356Z] - Uniswap V2: 1 unit = 11205.492984017425003326 units
+[2025-05-03T15:40:21.359Z] - Sushiswap: 1 unit = 11178.641037390249137127 units
+[2025-05-03T15:40:21.362Z] - Uniswap V3 (0.05%): 1 unit = 11239.814929738163820474 units
+[2025-05-03T15:40:21.364Z] Flash loan details:
+[2025-05-03T15:40:21.366Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:40:21.371Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:40:21.374Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:40:21.379Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:40:21.382Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:40:21.387Z] - Step 2: Swap 11239.814929738163820474 DAI -> 11206.095484948949329013 WETH on Uniswap V2 (estimated)
+[2025-05-03T15:40:21.390Z] - POTENTIALLY PROFITABLE! Net profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:40:21.398Z] 🚀 ARBITRAGE OPPORTUNITY: Uniswap V3 (0.05%) -> Uniswap V2 for WETH/DAI
+[2025-05-03T15:40:21.401Z] Expected profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:40:21.406Z] ⚠️ Note: This is a simplified estimation. In production, execute more precise checks before trading.
+[2025-05-03T15:40:21.411Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:40:21.416Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:40:21.421Z] - Step 2: Swap 11239.814929738163820474 DAI -> 11206.095484948949329013 WETH on Sushiswap (estimated)
+[2025-05-03T15:40:21.424Z] - POTENTIALLY PROFITABLE! Net profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:40:21.427Z] 🚀 ARBITRAGE OPPORTUNITY: Uniswap V3 (0.05%) -> Sushiswap for WETH/DAI
+[2025-05-03T15:40:21.438Z] Expected profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:40:21.443Z] ⚠️ Note: This is a simplified estimation. In production, execute more precise checks before trading.
+[2025-05-03T15:40:21.453Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:40:21.456Z] - Step 1: Swap 5.0 WETH -> 11205.492984017425003326 DAI on Uniswap V2
+[2025-05-03T15:40:21.462Z] - Step 2: Swap 11205.492984017425003326 DAI -> 11171.876505065372728317 WETH on Sushiswap (estimated)
+[2025-05-03T15:40:21.470Z] - POTENTIALLY PROFITABLE! Net profit: 11166.872005065372728317 WETH (223337.4400%)
+[2025-05-03T15:40:21.472Z] 🚀 ARBITRAGE OPPORTUNITY: Uniswap V2 -> Sushiswap for WETH/DAI
+[2025-05-03T15:40:21.475Z] Expected profit: 11166.872005065372728317 WETH (223337.4400%)
+[2025-05-03T15:40:21.480Z] ⚠️ Note: This is a simplified estimation. In production, execute more precise checks before trading.
+[2025-05-03T15:40:21.485Z] Checking WETH/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:40:21.947Z] WETH/USDC prices:
+[2025-05-03T15:40:21.951Z] - Uniswap V2: 1 unit = 11231.067266 units
+[2025-05-03T15:40:21.956Z] - Sushiswap: 1 unit = 11228.146 units
+[2025-05-03T15:40:21.960Z] - Uniswap V3 (0.05%): 1 unit = 11236.909029 units
+[2025-05-03T15:40:21.962Z] Flash loan details:
+[2025-05-03T15:40:21.965Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:40:21.968Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:40:21.972Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:40:21.975Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:40:21.981Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:40:21.984Z] - Step 2: Swap 11236.909029 USDC -> 0.000000011203198302 WETH on Uniswap V2 (estimated)
+[2025-05-03T15:40:21.987Z] - NOT PROFITABLE. Would lose 5.004499988796801698 WETH
+[2025-05-03T15:40:21.991Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:40:21.994Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:40:22.001Z] - Step 2: Swap 11236.909029 USDC -> 0.000000011203198302 WETH on Sushiswap (estimated)
+[2025-05-03T15:40:22.004Z] - NOT PROFITABLE. Would lose 5.004499988796801698 WETH
+[2025-05-03T15:40:22.006Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:40:22.011Z] - Step 1: Swap 5.0 WETH -> 11231.067266 USDC on Uniswap V2
+[2025-05-03T15:40:22.019Z] - Step 2: Swap 11231.067266 USDC -> 0.000000011197374065 WETH on Sushiswap (estimated)
+[2025-05-03T15:40:22.022Z] - NOT PROFITABLE. Would lose 5.004499988802625935 WETH
+[2025-05-03T15:40:22.024Z] Checking DAI/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:40:22.358Z] DAI/USDC prices:
+[2025-05-03T15:40:22.362Z] - Uniswap V2: 1 unit = 4982.049318 units
+[2025-05-03T15:40:22.364Z] - Sushiswap: 1 unit = 3604.806935 units
+[2025-05-03T15:40:22.376Z] - Uniswap V3 (0.01%): 1 unit = 4999.975316 units
+[2025-05-03T15:40:22.378Z] Flash loan details:
+[2025-05-03T15:40:22.387Z] - Amount borrowed: 5000.0 DAI
+[2025-05-03T15:40:22.393Z] - Flash loan fee: 4.5 DAI
+[2025-05-03T15:40:22.398Z] - Repayment required: 5004.5 DAI
+[2025-05-03T15:40:22.402Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Uniswap V2:
+[2025-05-03T15:40:22.412Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:40:22.416Z] - Step 2: Swap 4999.975316 USDC -> 0.000000004984975391 DAI on Uniswap V2 (estimated)
+[2025-05-03T15:40:22.420Z] - NOT PROFITABLE. Would lose 5004.499999995015024609 DAI
+[2025-05-03T15:40:22.423Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Sushiswap:
+[2025-05-03T15:40:22.428Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:40:22.506Z] - Step 2: Swap 4999.975316 USDC -> 0.000000004984975391 DAI on Sushiswap (estimated)
+[2025-05-03T15:40:22.564Z] - NOT PROFITABLE. Would lose 5004.499999995015024609 DAI
+[2025-05-03T15:40:22.601Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:40:22.619Z] - Step 1: Swap 5000.0 DAI -> 4982.049318 USDC on Uniswap V2
+[2025-05-03T15:40:22.659Z] - Step 2: Swap 4982.049318 USDC -> 0.000000004967103171 DAI on Sushiswap (estimated)
+[2025-05-03T15:40:22.664Z] - NOT PROFITABLE. Would lose 5004.499999995032896829 DAI
+[2025-05-03T15:40:25.674Z] Waiting for next scan cycle...
+[2025-05-03T15:40:25.677Z] Scan #6 of 10
+[2025-05-03T15:40:26.641Z] Checking WETH/DAI for V2/V3 arbitrage opportunities...
+[2025-05-03T15:40:28.408Z] WETH/DAI prices:
+[2025-05-03T15:40:28.410Z] - Uniswap V2: 1 unit = 11205.492984017425003326 units
+[2025-05-03T15:40:28.415Z] - Sushiswap: 1 unit = 11178.641037390249137127 units
+[2025-05-03T15:40:28.418Z] - Uniswap V3 (0.05%): 1 unit = 11239.814929738163820474 units
+[2025-05-03T15:40:28.420Z] Flash loan details:
+[2025-05-03T15:40:28.427Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:40:28.429Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:40:28.434Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:40:28.436Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:40:28.440Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:40:28.445Z] - Step 2: Swap 11239.814929738163820474 DAI -> 11206.095484948949329013 WETH on Uniswap V2 (estimated)
+[2025-05-03T15:40:28.452Z] - POTENTIALLY PROFITABLE! Net profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:40:28.455Z] 🚀 ARBITRAGE OPPORTUNITY: Uniswap V3 (0.05%) -> Uniswap V2 for WETH/DAI
+[2025-05-03T15:40:28.465Z] Expected profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:40:28.469Z] ⚠️ Note: This is a simplified estimation. In production, execute more precise checks before trading.
+[2025-05-03T15:40:28.474Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:40:28.479Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:40:28.485Z] - Step 2: Swap 11239.814929738163820474 DAI -> 11206.095484948949329013 WETH on Sushiswap (estimated)
+[2025-05-03T15:40:28.489Z] - POTENTIALLY PROFITABLE! Net profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:40:28.496Z] 🚀 ARBITRAGE OPPORTUNITY: Uniswap V3 (0.05%) -> Sushiswap for WETH/DAI
+[2025-05-03T15:40:28.505Z] Expected profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:40:28.513Z] ⚠️ Note: This is a simplified estimation. In production, execute more precise checks before trading.
+[2025-05-03T15:40:28.522Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:40:28.530Z] - Step 1: Swap 5.0 WETH -> 11205.492984017425003326 DAI on Uniswap V2
+[2025-05-03T15:40:28.535Z] - Step 2: Swap 11205.492984017425003326 DAI -> 11171.876505065372728317 WETH on Sushiswap (estimated)
+[2025-05-03T15:40:28.540Z] - POTENTIALLY PROFITABLE! Net profit: 11166.872005065372728317 WETH (223337.4400%)
+[2025-05-03T15:40:28.542Z] 🚀 ARBITRAGE OPPORTUNITY: Uniswap V2 -> Sushiswap for WETH/DAI
+[2025-05-03T15:40:28.554Z] Expected profit: 11166.872005065372728317 WETH (223337.4400%)
+[2025-05-03T15:40:28.564Z] ⚠️ Note: This is a simplified estimation. In production, execute more precise checks before trading.
+[2025-05-03T15:40:28.572Z] Checking WETH/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:40:29.256Z] WETH/USDC prices:
+[2025-05-03T15:40:29.259Z] - Uniswap V2: 1 unit = 11231.067266 units
+[2025-05-03T15:40:29.272Z] - Sushiswap: 1 unit = 11228.146 units
+[2025-05-03T15:40:29.276Z] - Uniswap V3 (0.05%): 1 unit = 11236.909029 units
+[2025-05-03T15:40:29.286Z] Flash loan details:
+[2025-05-03T15:40:29.294Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:40:29.308Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:40:29.319Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:40:29.326Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:40:29.340Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:40:29.344Z] - Step 2: Swap 11236.909029 USDC -> 0.000000011203198302 WETH on Uniswap V2 (estimated)
+[2025-05-03T15:40:29.350Z] - NOT PROFITABLE. Would lose 5.004499988796801698 WETH
+[2025-05-03T15:40:29.355Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:40:29.360Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:40:29.369Z] - Step 2: Swap 11236.909029 USDC -> 0.000000011203198302 WETH on Sushiswap (estimated)
+[2025-05-03T15:40:29.380Z] - NOT PROFITABLE. Would lose 5.004499988796801698 WETH
+[2025-05-03T15:40:29.391Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:40:29.408Z] - Step 1: Swap 5.0 WETH -> 11231.067266 USDC on Uniswap V2
+[2025-05-03T15:40:29.421Z] - Step 2: Swap 11231.067266 USDC -> 0.000000011197374065 WETH on Sushiswap (estimated)
+[2025-05-03T15:40:29.427Z] - NOT PROFITABLE. Would lose 5.004499988802625935 WETH
+[2025-05-03T15:40:29.430Z] Checking DAI/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:40:30.631Z] DAI/USDC prices:
+[2025-05-03T15:40:30.633Z] - Uniswap V2: 1 unit = 4982.049318 units
+[2025-05-03T15:40:30.636Z] - Sushiswap: 1 unit = 3604.806935 units
+[2025-05-03T15:40:30.638Z] - Uniswap V3 (0.01%): 1 unit = 4999.975316 units
+[2025-05-03T15:40:30.640Z] Flash loan details:
+[2025-05-03T15:40:30.643Z] - Amount borrowed: 5000.0 DAI
+[2025-05-03T15:40:30.645Z] - Flash loan fee: 4.5 DAI
+[2025-05-03T15:40:30.648Z] - Repayment required: 5004.5 DAI
+[2025-05-03T15:40:30.651Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Uniswap V2:
+[2025-05-03T15:40:30.655Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:40:30.659Z] - Step 2: Swap 4999.975316 USDC -> 0.000000004984975391 DAI on Uniswap V2 (estimated)
+[2025-05-03T15:40:30.661Z] - NOT PROFITABLE. Would lose 5004.499999995015024609 DAI
+[2025-05-03T15:40:30.664Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Sushiswap:
+[2025-05-03T15:40:30.668Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:40:30.671Z] - Step 2: Swap 4999.975316 USDC -> 0.000000004984975391 DAI on Sushiswap (estimated)
+[2025-05-03T15:40:30.673Z] - NOT PROFITABLE. Would lose 5004.499999995015024609 DAI
+[2025-05-03T15:40:30.675Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:40:30.678Z] - Step 1: Swap 5000.0 DAI -> 4982.049318 USDC on Uniswap V2
+[2025-05-03T15:40:30.681Z] - Step 2: Swap 4982.049318 USDC -> 0.000000004967103171 DAI on Sushiswap (estimated)
+[2025-05-03T15:40:30.686Z] - NOT PROFITABLE. Would lose 5004.499999995032896829 DAI
+[2025-05-03T15:40:33.691Z] Waiting for next scan cycle...
+[2025-05-03T15:40:33.694Z] Scan #7 of 10
+[2025-05-03T15:40:34.530Z] Checking WETH/DAI for V2/V3 arbitrage opportunities...
+[2025-05-03T15:40:40.238Z] WETH/DAI prices:
+[2025-05-03T15:40:40.250Z] - Uniswap V2: 1 unit = 11205.492984017425003326 units
+[2025-05-03T15:40:40.252Z] - Sushiswap: 1 unit = 11178.641037390249137127 units
+[2025-05-03T15:40:40.255Z] - Uniswap V3 (0.05%): 1 unit = 11239.814929738163820474 units
+[2025-05-03T15:40:40.257Z] Flash loan details:
+[2025-05-03T15:40:40.261Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:40:40.263Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:40:40.267Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:40:40.269Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:40:40.289Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:40:40.293Z] - Step 2: Swap 11239.814929738163820474 DAI -> 11206.095484948949329013 WETH on Uniswap V2 (estimated)
+[2025-05-03T15:40:40.299Z] - POTENTIALLY PROFITABLE! Net profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:40:40.305Z] 🚀 ARBITRAGE OPPORTUNITY: Uniswap V3 (0.05%) -> Uniswap V2 for WETH/DAI
+[2025-05-03T15:40:40.308Z] Expected profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:40:40.324Z] ⚠️ Note: This is a simplified estimation. In production, execute more precise checks before trading.
+[2025-05-03T15:40:40.335Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:40:40.339Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:40:40.342Z] - Step 2: Swap 11239.814929738163820474 DAI -> 11206.095484948949329013 WETH on Sushiswap (estimated)
+[2025-05-03T15:40:40.347Z] - POTENTIALLY PROFITABLE! Net profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:40:40.368Z] 🚀 ARBITRAGE OPPORTUNITY: Uniswap V3 (0.05%) -> Sushiswap for WETH/DAI
+[2025-05-03T15:40:40.371Z] Expected profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:40:40.375Z] ⚠️ Note: This is a simplified estimation. In production, execute more precise checks before trading.
+[2025-05-03T15:40:40.379Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:40:40.382Z] - Step 1: Swap 5.0 WETH -> 11205.492984017425003326 DAI on Uniswap V2
+[2025-05-03T15:40:40.387Z] - Step 2: Swap 11205.492984017425003326 DAI -> 11171.876505065372728317 WETH on Sushiswap (estimated)
+[2025-05-03T15:40:40.391Z] - POTENTIALLY PROFITABLE! Net profit: 11166.872005065372728317 WETH (223337.4400%)
+[2025-05-03T15:40:40.393Z] 🚀 ARBITRAGE OPPORTUNITY: Uniswap V2 -> Sushiswap for WETH/DAI
+[2025-05-03T15:40:40.397Z] Expected profit: 11166.872005065372728317 WETH (223337.4400%)
+[2025-05-03T15:40:40.413Z] ⚠️ Note: This is a simplified estimation. In production, execute more precise checks before trading.
+[2025-05-03T15:40:40.422Z] Checking WETH/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:40:41.163Z] WETH/USDC prices:
+[2025-05-03T15:40:41.166Z] - Uniswap V2: 1 unit = 11231.067266 units
+[2025-05-03T15:40:41.170Z] - Sushiswap: 1 unit = 11228.146 units
+[2025-05-03T15:40:41.181Z] - Uniswap V3 (0.05%): 1 unit = 11236.909029 units
+[2025-05-03T15:40:41.185Z] Flash loan details:
+[2025-05-03T15:40:41.194Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:40:41.200Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:40:41.204Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:40:41.208Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:40:41.213Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:40:41.217Z] - Step 2: Swap 11236.909029 USDC -> 0.000000011203198302 WETH on Uniswap V2 (estimated)
+[2025-05-03T15:40:41.227Z] - NOT PROFITABLE. Would lose 5.004499988796801698 WETH
+[2025-05-03T15:40:41.230Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:40:41.235Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:40:41.240Z] - Step 2: Swap 11236.909029 USDC -> 0.000000011203198302 WETH on Sushiswap (estimated)
+[2025-05-03T15:40:41.245Z] - NOT PROFITABLE. Would lose 5.004499988796801698 WETH
+[2025-05-03T15:40:41.248Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:40:41.251Z] - Step 1: Swap 5.0 WETH -> 11231.067266 USDC on Uniswap V2
+[2025-05-03T15:40:41.260Z] - Step 2: Swap 11231.067266 USDC -> 0.000000011197374065 WETH on Sushiswap (estimated)
+[2025-05-03T15:40:41.264Z] - NOT PROFITABLE. Would lose 5.004499988802625935 WETH
+[2025-05-03T15:40:41.277Z] Checking DAI/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:40:41.634Z] DAI/USDC prices:
+[2025-05-03T15:40:41.637Z] - Uniswap V2: 1 unit = 4982.049318 units
+[2025-05-03T15:40:41.640Z] - Sushiswap: 1 unit = 3604.806935 units
+[2025-05-03T15:40:41.642Z] - Uniswap V3 (0.01%): 1 unit = 4999.975316 units
+[2025-05-03T15:40:41.644Z] Flash loan details:
+[2025-05-03T15:40:41.647Z] - Amount borrowed: 5000.0 DAI
+[2025-05-03T15:40:41.653Z] - Flash loan fee: 4.5 DAI
+[2025-05-03T15:40:41.657Z] - Repayment required: 5004.5 DAI
+[2025-05-03T15:40:41.660Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Uniswap V2:
+[2025-05-03T15:40:41.663Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:40:41.666Z] - Step 2: Swap 4999.975316 USDC -> 0.000000004984975391 DAI on Uniswap V2 (estimated)
+[2025-05-03T15:40:41.675Z] - NOT PROFITABLE. Would lose 5004.499999995015024609 DAI
+[2025-05-03T15:40:41.677Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Sushiswap:
+[2025-05-03T15:40:41.683Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:40:41.691Z] - Step 2: Swap 4999.975316 USDC -> 0.000000004984975391 DAI on Sushiswap (estimated)
+[2025-05-03T15:40:41.694Z] - NOT PROFITABLE. Would lose 5004.499999995015024609 DAI
+[2025-05-03T15:40:41.696Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:40:41.701Z] - Step 1: Swap 5000.0 DAI -> 4982.049318 USDC on Uniswap V2
+[2025-05-03T15:40:41.712Z] - Step 2: Swap 4982.049318 USDC -> 0.000000004967103171 DAI on Sushiswap (estimated)
+[2025-05-03T15:40:41.716Z] - NOT PROFITABLE. Would lose 5004.499999995032896829 DAI
+[2025-05-03T15:40:44.729Z] Waiting for next scan cycle...
+[2025-05-03T15:40:44.733Z] Scan #8 of 10
+[2025-05-03T15:40:45.480Z] Checking WETH/DAI for V2/V3 arbitrage opportunities...
+[2025-05-03T15:40:49.320Z] WETH/DAI prices:
+[2025-05-03T15:40:49.333Z] - Uniswap V2: 1 unit = 11205.492984017425003326 units
+[2025-05-03T15:40:49.346Z] - Sushiswap: 1 unit = 11178.641037390249137127 units
+[2025-05-03T15:40:49.351Z] - Uniswap V3 (0.05%): 1 unit = 11239.814929738163820474 units
+[2025-05-03T15:40:49.354Z] Flash loan details:
+[2025-05-03T15:40:49.361Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:40:49.366Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:40:49.368Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:40:49.370Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:40:49.373Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:40:49.375Z] - Step 2: Swap 11239.814929738163820474 DAI -> 11206.095484948949329013 WETH on Uniswap V2 (estimated)
+[2025-05-03T15:40:49.378Z] - POTENTIALLY PROFITABLE! Net profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:40:49.379Z] 🚀 ARBITRAGE OPPORTUNITY: Uniswap V3 (0.05%) -> Uniswap V2 for WETH/DAI
+[2025-05-03T15:40:49.395Z] Expected profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:40:49.429Z] ⚠️ Note: This is a simplified estimation. In production, execute more precise checks before trading.
+[2025-05-03T15:40:49.435Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:40:49.448Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:40:49.457Z] - Step 2: Swap 11239.814929738163820474 DAI -> 11206.095484948949329013 WETH on Sushiswap (estimated)
+[2025-05-03T15:40:49.462Z] - POTENTIALLY PROFITABLE! Net profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:40:49.464Z] 🚀 ARBITRAGE OPPORTUNITY: Uniswap V3 (0.05%) -> Sushiswap for WETH/DAI
+[2025-05-03T15:40:49.466Z] Expected profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:40:49.503Z] ⚠️ Note: This is a simplified estimation. In production, execute more precise checks before trading.
+[2025-05-03T15:40:49.508Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:40:49.511Z] - Step 1: Swap 5.0 WETH -> 11205.492984017425003326 DAI on Uniswap V2
+[2025-05-03T15:40:49.513Z] - Step 2: Swap 11205.492984017425003326 DAI -> 11171.876505065372728317 WETH on Sushiswap (estimated)
+[2025-05-03T15:40:49.515Z] - POTENTIALLY PROFITABLE! Net profit: 11166.872005065372728317 WETH (223337.4400%)
+[2025-05-03T15:40:49.517Z] 🚀 ARBITRAGE OPPORTUNITY: Uniswap V2 -> Sushiswap for WETH/DAI
+[2025-05-03T15:40:49.519Z] Expected profit: 11166.872005065372728317 WETH (223337.4400%)
+[2025-05-03T15:40:49.523Z] ⚠️ Note: This is a simplified estimation. In production, execute more precise checks before trading.
+[2025-05-03T15:40:49.527Z] Checking WETH/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:40:49.854Z] WETH/USDC prices:
+[2025-05-03T15:40:49.857Z] - Uniswap V2: 1 unit = 11231.067266 units
+[2025-05-03T15:40:49.869Z] - Sushiswap: 1 unit = 11228.146 units
+[2025-05-03T15:40:49.875Z] - Uniswap V3 (0.05%): 1 unit = 11236.909029 units
+[2025-05-03T15:40:49.881Z] Flash loan details:
+[2025-05-03T15:40:49.885Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:40:49.889Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:40:49.894Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:40:49.904Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:40:49.907Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:40:49.911Z] - Step 2: Swap 11236.909029 USDC -> 0.000000011203198302 WETH on Uniswap V2 (estimated)
+[2025-05-03T15:40:49.915Z] - NOT PROFITABLE. Would lose 5.004499988796801698 WETH
+[2025-05-03T15:40:49.921Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:40:49.927Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:40:49.936Z] - Step 2: Swap 11236.909029 USDC -> 0.000000011203198302 WETH on Sushiswap (estimated)
+[2025-05-03T15:40:49.947Z] - NOT PROFITABLE. Would lose 5.004499988796801698 WETH
+[2025-05-03T15:40:49.954Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:40:49.958Z] - Step 1: Swap 5.0 WETH -> 11231.067266 USDC on Uniswap V2
+[2025-05-03T15:40:49.962Z] - Step 2: Swap 11231.067266 USDC -> 0.000000011197374065 WETH on Sushiswap (estimated)
+[2025-05-03T15:40:49.995Z] - NOT PROFITABLE. Would lose 5.004499988802625935 WETH
+[2025-05-03T15:40:50.004Z] Checking DAI/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:40:50.860Z] DAI/USDC prices:
+[2025-05-03T15:40:50.862Z] - Uniswap V2: 1 unit = 4982.049318 units
+[2025-05-03T15:40:50.867Z] - Sushiswap: 1 unit = 3604.806935 units
+[2025-05-03T15:40:50.873Z] - Uniswap V3 (0.01%): 1 unit = 4999.975316 units
+[2025-05-03T15:40:50.879Z] Flash loan details:
+[2025-05-03T15:40:50.901Z] - Amount borrowed: 5000.0 DAI
+[2025-05-03T15:40:50.926Z] - Flash loan fee: 4.5 DAI
+[2025-05-03T15:40:50.949Z] - Repayment required: 5004.5 DAI
+[2025-05-03T15:40:50.953Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Uniswap V2:
+[2025-05-03T15:40:50.960Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:40:50.970Z] - Step 2: Swap 4999.975316 USDC -> 0.000000004984975391 DAI on Uniswap V2 (estimated)
+[2025-05-03T15:40:50.980Z] - NOT PROFITABLE. Would lose 5004.499999995015024609 DAI
+[2025-05-03T15:40:50.984Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Sushiswap:
+[2025-05-03T15:40:50.990Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:40:50.994Z] - Step 2: Swap 4999.975316 USDC -> 0.000000004984975391 DAI on Sushiswap (estimated)
+[2025-05-03T15:40:50.996Z] - NOT PROFITABLE. Would lose 5004.499999995015024609 DAI
+[2025-05-03T15:40:50.999Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:40:51.004Z] - Step 1: Swap 5000.0 DAI -> 4982.049318 USDC on Uniswap V2
+[2025-05-03T15:40:51.007Z] - Step 2: Swap 4982.049318 USDC -> 0.000000004967103171 DAI on Sushiswap (estimated)
+[2025-05-03T15:40:51.021Z] - NOT PROFITABLE. Would lose 5004.499999995032896829 DAI
+[2025-05-03T15:40:54.030Z] Waiting for next scan cycle...
+[2025-05-03T15:40:54.035Z] Scan #9 of 10
+[2025-05-03T15:40:54.963Z] Checking WETH/DAI for V2/V3 arbitrage opportunities...
+[2025-05-03T15:40:57.709Z] WETH/DAI prices:
+[2025-05-03T15:40:57.721Z] - Uniswap V2: 1 unit = 11205.492984017425003326 units
+[2025-05-03T15:40:57.726Z] - Sushiswap: 1 unit = 11178.641037390249137127 units
+[2025-05-03T15:40:57.728Z] - Uniswap V3 (0.05%): 1 unit = 11239.814929738163820474 units
+[2025-05-03T15:40:57.730Z] Flash loan details:
+[2025-05-03T15:40:57.732Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:40:57.734Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:40:57.738Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:40:57.741Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:40:57.743Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:40:57.747Z] - Step 2: Swap 11239.814929738163820474 DAI -> 11206.095484948949329013 WETH on Uniswap V2 (estimated)
+[2025-05-03T15:40:57.749Z] - POTENTIALLY PROFITABLE! Net profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:40:57.751Z] 🚀 ARBITRAGE OPPORTUNITY: Uniswap V3 (0.05%) -> Uniswap V2 for WETH/DAI
+[2025-05-03T15:40:57.757Z] Expected profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:40:57.763Z] ⚠️ Note: This is a simplified estimation. In production, execute more precise checks before trading.
+[2025-05-03T15:40:57.768Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:40:57.771Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:40:57.778Z] - Step 2: Swap 11239.814929738163820474 DAI -> 11206.095484948949329013 WETH on Sushiswap (estimated)
+[2025-05-03T15:40:57.780Z] - POTENTIALLY PROFITABLE! Net profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:40:57.782Z] 🚀 ARBITRAGE OPPORTUNITY: Uniswap V3 (0.05%) -> Sushiswap for WETH/DAI
+[2025-05-03T15:40:57.784Z] Expected profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:40:57.788Z] ⚠️ Note: This is a simplified estimation. In production, execute more precise checks before trading.
+[2025-05-03T15:40:57.791Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:40:57.793Z] - Step 1: Swap 5.0 WETH -> 11205.492984017425003326 DAI on Uniswap V2
+[2025-05-03T15:40:57.798Z] - Step 2: Swap 11205.492984017425003326 DAI -> 11171.876505065372728317 WETH on Sushiswap (estimated)
+[2025-05-03T15:40:57.800Z] - POTENTIALLY PROFITABLE! Net profit: 11166.872005065372728317 WETH (223337.4400%)
+[2025-05-03T15:40:57.802Z] 🚀 ARBITRAGE OPPORTUNITY: Uniswap V2 -> Sushiswap for WETH/DAI
+[2025-05-03T15:40:57.805Z] Expected profit: 11166.872005065372728317 WETH (223337.4400%)
+[2025-05-03T15:40:57.809Z] ⚠️ Note: This is a simplified estimation. In production, execute more precise checks before trading.
+[2025-05-03T15:40:57.816Z] Checking WETH/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:40:57.948Z] WETH/USDC prices:
+[2025-05-03T15:40:57.950Z] - Uniswap V2: 1 unit = 11231.067266 units
+[2025-05-03T15:40:57.954Z] - Sushiswap: 1 unit = 11228.146 units
+[2025-05-03T15:40:57.957Z] - Uniswap V3 (0.05%): 1 unit = 11236.909029 units
+[2025-05-03T15:40:57.961Z] Flash loan details:
+[2025-05-03T15:40:57.964Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:40:57.967Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:40:57.970Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:40:57.972Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:40:57.975Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:40:57.979Z] - Step 2: Swap 11236.909029 USDC -> 0.000000011203198302 WETH on Uniswap V2 (estimated)
+[2025-05-03T15:40:57.982Z] - NOT PROFITABLE. Would lose 5.004499988796801698 WETH
+[2025-05-03T15:40:57.984Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:40:57.987Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:40:57.991Z] - Step 2: Swap 11236.909029 USDC -> 0.000000011203198302 WETH on Sushiswap (estimated)
+[2025-05-03T15:40:57.993Z] - NOT PROFITABLE. Would lose 5.004499988796801698 WETH
+[2025-05-03T15:40:57.996Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:40:57.999Z] - Step 1: Swap 5.0 WETH -> 11231.067266 USDC on Uniswap V2
+[2025-05-03T15:40:58.004Z] - Step 2: Swap 11231.067266 USDC -> 0.000000011197374065 WETH on Sushiswap (estimated)
+[2025-05-03T15:40:58.007Z] - NOT PROFITABLE. Would lose 5.004499988802625935 WETH
+[2025-05-03T15:40:58.009Z] Checking DAI/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:40:58.314Z] DAI/USDC prices:
+[2025-05-03T15:40:58.316Z] - Uniswap V2: 1 unit = 4982.049318 units
+[2025-05-03T15:40:58.318Z] - Sushiswap: 1 unit = 3604.806935 units
+[2025-05-03T15:40:58.322Z] - Uniswap V3 (0.01%): 1 unit = 4999.975316 units
+[2025-05-03T15:40:58.324Z] Flash loan details:
+[2025-05-03T15:40:58.327Z] - Amount borrowed: 5000.0 DAI
+[2025-05-03T15:40:58.330Z] - Flash loan fee: 4.5 DAI
+[2025-05-03T15:40:58.333Z] - Repayment required: 5004.5 DAI
+[2025-05-03T15:40:58.335Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Uniswap V2:
+[2025-05-03T15:40:58.338Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:40:58.340Z] - Step 2: Swap 4999.975316 USDC -> 0.000000004984975391 DAI on Uniswap V2 (estimated)
+[2025-05-03T15:40:58.342Z] - NOT PROFITABLE. Would lose 5004.499999995015024609 DAI
+[2025-05-03T15:40:58.343Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Sushiswap:
+[2025-05-03T15:40:58.346Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:40:58.350Z] - Step 2: Swap 4999.975316 USDC -> 0.000000004984975391 DAI on Sushiswap (estimated)
+[2025-05-03T15:40:58.354Z] - NOT PROFITABLE. Would lose 5004.499999995015024609 DAI
+[2025-05-03T15:40:58.356Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:40:58.358Z] - Step 1: Swap 5000.0 DAI -> 4982.049318 USDC on Uniswap V2
+[2025-05-03T15:40:58.363Z] - Step 2: Swap 4982.049318 USDC -> 0.000000004967103171 DAI on Sushiswap (estimated)
+[2025-05-03T15:40:58.367Z] - NOT PROFITABLE. Would lose 5004.499999995032896829 DAI
+[2025-05-03T15:41:01.370Z] Waiting for next scan cycle...
+[2025-05-03T15:41:01.372Z] Scan #10 of 10
+[2025-05-03T15:41:02.366Z] Checking WETH/DAI for V2/V3 arbitrage opportunities...
+[2025-05-03T15:41:05.433Z] WETH/DAI prices:
+[2025-05-03T15:41:05.464Z] - Uniswap V2: 1 unit = 11205.492984017425003326 units
+[2025-05-03T15:41:05.500Z] - Sushiswap: 1 unit = 11178.641037390249137127 units
+[2025-05-03T15:41:05.502Z] - Uniswap V3 (0.05%): 1 unit = 11239.814929738163820474 units
+[2025-05-03T15:41:05.504Z] Flash loan details:
+[2025-05-03T15:41:05.509Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:41:05.511Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:41:05.514Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:41:05.516Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:41:05.519Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:41:05.523Z] - Step 2: Swap 11239.814929738163820474 DAI -> 11206.095484948949329013 WETH on Uniswap V2 (estimated)
+[2025-05-03T15:41:05.526Z] - POTENTIALLY PROFITABLE! Net profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:41:05.528Z] 🚀 ARBITRAGE OPPORTUNITY: Uniswap V3 (0.05%) -> Uniswap V2 for WETH/DAI
+[2025-05-03T15:41:05.531Z] Expected profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:41:05.536Z] ⚠️ Note: This is a simplified estimation. In production, execute more precise checks before trading.
+[2025-05-03T15:41:05.539Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:41:05.543Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:41:05.546Z] - Step 2: Swap 11239.814929738163820474 DAI -> 11206.095484948949329013 WETH on Sushiswap (estimated)
+[2025-05-03T15:41:05.550Z] - POTENTIALLY PROFITABLE! Net profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:41:05.552Z] 🚀 ARBITRAGE OPPORTUNITY: Uniswap V3 (0.05%) -> Sushiswap for WETH/DAI
+[2025-05-03T15:41:05.557Z] Expected profit: 11201.090984948949329013 WETH (224021.8100%)
+[2025-05-03T15:41:05.561Z] ⚠️ Note: This is a simplified estimation. In production, execute more precise checks before trading.
+[2025-05-03T15:41:05.563Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:41:05.566Z] - Step 1: Swap 5.0 WETH -> 11205.492984017425003326 DAI on Uniswap V2
+[2025-05-03T15:41:05.569Z] - Step 2: Swap 11205.492984017425003326 DAI -> 11171.876505065372728317 WETH on Sushiswap (estimated)
+[2025-05-03T15:41:05.572Z] - POTENTIALLY PROFITABLE! Net profit: 11166.872005065372728317 WETH (223337.4400%)
+[2025-05-03T15:41:05.574Z] 🚀 ARBITRAGE OPPORTUNITY: Uniswap V2 -> Sushiswap for WETH/DAI
+[2025-05-03T15:41:05.577Z] Expected profit: 11166.872005065372728317 WETH (223337.4400%)
+[2025-05-03T15:41:05.582Z] ⚠️ Note: This is a simplified estimation. In production, execute more precise checks before trading.
+[2025-05-03T15:41:05.584Z] Checking WETH/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:41:05.897Z] WETH/USDC prices:
+[2025-05-03T15:41:05.907Z] - Uniswap V2: 1 unit = 11231.067266 units
+[2025-05-03T15:41:05.919Z] - Sushiswap: 1 unit = 11228.146 units
+[2025-05-03T15:41:05.927Z] - Uniswap V3 (0.05%): 1 unit = 11236.909029 units
+[2025-05-03T15:41:05.931Z] Flash loan details:
+[2025-05-03T15:41:05.945Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:41:05.951Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:41:05.958Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:41:05.964Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:41:05.990Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:41:05.994Z] - Step 2: Swap 11236.909029 USDC -> 0.000000011203198302 WETH on Uniswap V2 (estimated)
+[2025-05-03T15:41:06.001Z] - NOT PROFITABLE. Would lose 5.004499988796801698 WETH
+[2025-05-03T15:41:06.009Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:41:06.019Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:41:06.033Z] - Step 2: Swap 11236.909029 USDC -> 0.000000011203198302 WETH on Sushiswap (estimated)
+[2025-05-03T15:41:06.039Z] - NOT PROFITABLE. Would lose 5.004499988796801698 WETH
+[2025-05-03T15:41:06.048Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:41:06.066Z] - Step 1: Swap 5.0 WETH -> 11231.067266 USDC on Uniswap V2
+[2025-05-03T15:41:06.079Z] - Step 2: Swap 11231.067266 USDC -> 0.000000011197374065 WETH on Sushiswap (estimated)
+[2025-05-03T15:41:06.085Z] - NOT PROFITABLE. Would lose 5.004499988802625935 WETH
+[2025-05-03T15:41:06.120Z] Checking DAI/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:41:06.516Z] DAI/USDC prices:
+[2025-05-03T15:41:06.517Z] - Uniswap V2: 1 unit = 4982.049318 units
+[2025-05-03T15:41:06.519Z] - Sushiswap: 1 unit = 3604.806935 units
+[2025-05-03T15:41:06.521Z] - Uniswap V3 (0.01%): 1 unit = 4999.975316 units
+[2025-05-03T15:41:06.523Z] Flash loan details:
+[2025-05-03T15:41:06.525Z] - Amount borrowed: 5000.0 DAI
+[2025-05-03T15:41:06.527Z] - Flash loan fee: 4.5 DAI
+[2025-05-03T15:41:06.530Z] - Repayment required: 5004.5 DAI
+[2025-05-03T15:41:06.534Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Uniswap V2:
+[2025-05-03T15:41:06.539Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:41:06.542Z] - Step 2: Swap 4999.975316 USDC -> 0.000000004984975391 DAI on Uniswap V2 (estimated)
+[2025-05-03T15:41:06.545Z] - NOT PROFITABLE. Would lose 5004.499999995015024609 DAI
+[2025-05-03T15:41:06.548Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Sushiswap:
+[2025-05-03T15:41:06.551Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:41:06.555Z] - Step 2: Swap 4999.975316 USDC -> 0.000000004984975391 DAI on Sushiswap (estimated)
+[2025-05-03T15:41:06.558Z] - NOT PROFITABLE. Would lose 5004.499999995015024609 DAI
+[2025-05-03T15:41:06.560Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:41:06.564Z] - Step 1: Swap 5000.0 DAI -> 4982.049318 USDC on Uniswap V2
+[2025-05-03T15:41:06.567Z] - Step 2: Swap 4982.049318 USDC -> 0.000000004967103171 DAI on Sushiswap (estimated)
+[2025-05-03T15:41:06.573Z] - NOT PROFITABLE. Would lose 5004.499999995032896829 DAI
+[2025-05-03T15:41:09.586Z] Waiting for next scan cycle...
+[2025-05-03T15:41:09.592Z] Scan complete. Total scans: 10
+[2025-05-03T15:58:49.082Z] Starting arbitrage scanner with Uniswap V3 support...
+[2025-05-03T15:58:49.104Z] Loaded fork config with network ID: 1
+[2025-05-03T15:58:50.600Z] Using account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T15:58:50.738Z] Connected to all contracts in forked mainnet
+[2025-05-03T15:58:50.752Z] WETH decimals: 18
+[2025-05-03T15:58:50.754Z] DAI decimals: 18
+[2025-05-03T15:58:50.757Z] USDC decimals: 6
+[2025-05-03T15:58:50.759Z] Starting arbitrage scanning with Uniswap V3 support...
+[2025-05-03T15:58:50.766Z] Scan #1 of 10
+[2025-05-03T15:58:51.330Z] Checking WETH/DAI for V2/V3 arbitrage opportunities...
+[2025-05-03T15:59:03.922Z] WETH/DAI prices:
+[2025-05-03T15:59:03.937Z] - Uniswap V2: 1 unit = 11205.492984017425003326 units
+[2025-05-03T15:59:03.979Z] - Sushiswap: 1 unit = 11178.641037390249137127 units
+[2025-05-03T15:59:03.998Z] - Uniswap V3 (0.05%): 1 unit = 11239.814929738163820474 units
+[2025-05-03T15:59:04.006Z] Flash loan details:
+[2025-05-03T15:59:04.020Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:59:04.030Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:59:04.036Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:59:04.054Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:59:04.112Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:59:04.454Z] - Step 2: Swap 11239.814929738163820474 DAI -> 4.967486548460907943 WETH on Uniswap V2
+[2025-05-03T15:59:04.465Z] - NOT PROFITABLE. Would lose 0.037013451539092057 WETH
+[2025-05-03T15:59:04.470Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:59:04.493Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:59:04.653Z] - Step 2: Swap 11239.814929738163820474 DAI -> 4.971025770764298858 WETH on Sushiswap
+[2025-05-03T15:59:04.663Z] - NOT PROFITABLE. Would lose 0.033474229235701142 WETH
+[2025-05-03T15:59:04.669Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:59:04.674Z] - Step 1: Swap 5.0 WETH -> 11205.492984017425003326 DAI on Uniswap V2
+[2025-05-03T15:59:05.148Z] - Step 2: Swap 11205.492984017425003326 DAI -> 4.955885971726169258 WETH on Sushiswap
+[2025-05-03T15:59:05.151Z] - NOT PROFITABLE. Would lose 0.048614028273830742 WETH
+[2025-05-03T15:59:05.153Z] Checking WETH/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:59:05.629Z] WETH/USDC prices:
+[2025-05-03T15:59:05.632Z] - Uniswap V2: 1 unit = 11231.067266 units
+[2025-05-03T15:59:05.636Z] - Sushiswap: 1 unit = 11228.146 units
+[2025-05-03T15:59:05.639Z] - Uniswap V3 (0.05%): 1 unit = 11236.909029 units
+[2025-05-03T15:59:05.645Z] Flash loan details:
+[2025-05-03T15:59:05.655Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:59:05.671Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:59:05.685Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:59:05.694Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:59:05.700Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:59:05.725Z] - Step 2: Swap 11236.909029 USDC -> 4.970516995258018307 WETH on Uniswap V2
+[2025-05-03T15:59:05.729Z] - NOT PROFITABLE. Would lose 0.033983004741981693 WETH
+[2025-05-03T15:59:05.731Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:59:05.735Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:59:06.511Z] - Step 2: Swap 11236.909029 USDC -> 4.956059628875585653 WETH on Sushiswap
+[2025-05-03T15:59:06.513Z] - NOT PROFITABLE. Would lose 0.048440371124414347 WETH
+[2025-05-03T15:59:06.515Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:59:06.517Z] - Step 1: Swap 5.0 WETH -> 11231.067266 USDC on Uniswap V2
+[2025-05-03T15:59:06.537Z] - Step 2: Swap 11231.067266 USDC -> 4.953487727785361491 WETH on Sushiswap
+[2025-05-03T15:59:06.540Z] - NOT PROFITABLE. Would lose 0.051012272214638509 WETH
+[2025-05-03T15:59:06.544Z] Checking DAI/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:59:07.144Z] DAI/USDC prices:
+[2025-05-03T15:59:07.146Z] - Uniswap V2: 1 unit = 4982.049318 units
+[2025-05-03T15:59:07.148Z] - Sushiswap: 1 unit = 3604.806935 units
+[2025-05-03T15:59:07.150Z] - Uniswap V3 (0.01%): 1 unit = 4999.975316 units
+[2025-05-03T15:59:07.152Z] Flash loan details:
+[2025-05-03T15:59:07.154Z] - Amount borrowed: 5000.0 DAI
+[2025-05-03T15:59:07.157Z] - Flash loan fee: 4.5 DAI
+[2025-05-03T15:59:07.162Z] - Repayment required: 5004.5 DAI
+[2025-05-03T15:59:07.165Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Uniswap V2:
+[2025-05-03T15:59:07.168Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:59:07.191Z] - Step 2: Swap 4999.975316 USDC -> 4983.344438532737330227 DAI on Uniswap V2
+[2025-05-03T15:59:07.197Z] - NOT PROFITABLE. Would lose 21.155561467262669773 DAI
+[2025-05-03T15:59:07.200Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Sushiswap:
+[2025-05-03T15:59:07.203Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:59:07.235Z] - Step 2: Swap 4999.975316 USDC -> 3582.396486251979903396 DAI on Sushiswap
+[2025-05-03T15:59:07.238Z] - NOT PROFITABLE. Would lose 1422.103513748020096604 DAI
+[2025-05-03T15:59:07.240Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:59:07.244Z] - Step 1: Swap 5000.0 DAI -> 4982.049318 USDC on Uniswap V2
+[2025-05-03T15:59:07.277Z] - Step 2: Swap 4982.049318 USDC -> 3573.123770733568678871 DAI on Sushiswap
+[2025-05-03T15:59:07.280Z] - NOT PROFITABLE. Would lose 1431.376229266431321129 DAI
+[2025-05-03T15:59:10.285Z] Waiting for next scan cycle...
+[2025-05-03T15:59:10.288Z] Scan #2 of 10
+[2025-05-03T15:59:11.214Z] Checking WETH/DAI for V2/V3 arbitrage opportunities...
+[2025-05-03T15:59:13.011Z] WETH/DAI prices:
+[2025-05-03T15:59:13.013Z] - Uniswap V2: 1 unit = 11205.492984017425003326 units
+[2025-05-03T15:59:13.015Z] - Sushiswap: 1 unit = 11178.641037390249137127 units
+[2025-05-03T15:59:13.017Z] - Uniswap V3 (0.05%): 1 unit = 11239.814929738163820474 units
+[2025-05-03T15:59:13.019Z] Flash loan details:
+[2025-05-03T15:59:13.022Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:59:13.026Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:59:13.029Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:59:13.031Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:59:13.035Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:59:13.059Z] - Step 2: Swap 11239.814929738163820474 DAI -> 4.967486548460907943 WETH on Uniswap V2
+[2025-05-03T15:59:13.066Z] - NOT PROFITABLE. Would lose 0.037013451539092057 WETH
+[2025-05-03T15:59:13.068Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:59:13.072Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:59:13.114Z] - Step 2: Swap 11239.814929738163820474 DAI -> 4.971025770764298858 WETH on Sushiswap
+[2025-05-03T15:59:13.116Z] - NOT PROFITABLE. Would lose 0.033474229235701142 WETH
+[2025-05-03T15:59:13.118Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:59:13.122Z] - Step 1: Swap 5.0 WETH -> 11205.492984017425003326 DAI on Uniswap V2
+[2025-05-03T15:59:13.342Z] - Step 2: Swap 11205.492984017425003326 DAI -> 4.955885971726169258 WETH on Sushiswap
+[2025-05-03T15:59:13.345Z] - NOT PROFITABLE. Would lose 0.048614028273830742 WETH
+[2025-05-03T15:59:13.347Z] Checking WETH/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:59:13.526Z] WETH/USDC prices:
+[2025-05-03T15:59:13.528Z] - Uniswap V2: 1 unit = 11231.067266 units
+[2025-05-03T15:59:13.530Z] - Sushiswap: 1 unit = 11228.146 units
+[2025-05-03T15:59:13.532Z] - Uniswap V3 (0.05%): 1 unit = 11236.909029 units
+[2025-05-03T15:59:13.535Z] Flash loan details:
+[2025-05-03T15:59:13.537Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:59:13.544Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:59:13.550Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:59:13.553Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:59:13.563Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:59:13.598Z] - Step 2: Swap 11236.909029 USDC -> 4.970516995258018307 WETH on Uniswap V2
+[2025-05-03T15:59:13.601Z] - NOT PROFITABLE. Would lose 0.033983004741981693 WETH
+[2025-05-03T15:59:13.603Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:59:13.607Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:59:13.646Z] - Step 2: Swap 11236.909029 USDC -> 4.956059628875585653 WETH on Sushiswap
+[2025-05-03T15:59:13.649Z] - NOT PROFITABLE. Would lose 0.048440371124414347 WETH
+[2025-05-03T15:59:13.651Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:59:13.655Z] - Step 1: Swap 5.0 WETH -> 11231.067266 USDC on Uniswap V2
+[2025-05-03T15:59:13.683Z] - Step 2: Swap 11231.067266 USDC -> 4.953487727785361491 WETH on Sushiswap
+[2025-05-03T15:59:13.688Z] - NOT PROFITABLE. Would lose 0.051012272214638509 WETH
+[2025-05-03T15:59:13.690Z] Checking DAI/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:59:14.254Z] DAI/USDC prices:
+[2025-05-03T15:59:14.256Z] - Uniswap V2: 1 unit = 4982.049318 units
+[2025-05-03T15:59:14.260Z] - Sushiswap: 1 unit = 3604.806935 units
+[2025-05-03T15:59:14.262Z] - Uniswap V3 (0.01%): 1 unit = 4999.975316 units
+[2025-05-03T15:59:14.264Z] Flash loan details:
+[2025-05-03T15:59:14.268Z] - Amount borrowed: 5000.0 DAI
+[2025-05-03T15:59:14.270Z] - Flash loan fee: 4.5 DAI
+[2025-05-03T15:59:14.273Z] - Repayment required: 5004.5 DAI
+[2025-05-03T15:59:14.278Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Uniswap V2:
+[2025-05-03T15:59:14.283Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:59:14.307Z] - Step 2: Swap 4999.975316 USDC -> 4983.344438532737330227 DAI on Uniswap V2
+[2025-05-03T15:59:14.316Z] - NOT PROFITABLE. Would lose 21.155561467262669773 DAI
+[2025-05-03T15:59:14.318Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Sushiswap:
+[2025-05-03T15:59:14.321Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:59:14.363Z] - Step 2: Swap 4999.975316 USDC -> 3582.396486251979903396 DAI on Sushiswap
+[2025-05-03T15:59:14.365Z] - NOT PROFITABLE. Would lose 1422.103513748020096604 DAI
+[2025-05-03T15:59:14.369Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:59:14.373Z] - Step 1: Swap 5000.0 DAI -> 4982.049318 USDC on Uniswap V2
+[2025-05-03T15:59:14.408Z] - Step 2: Swap 4982.049318 USDC -> 3573.123770733568678871 DAI on Sushiswap
+[2025-05-03T15:59:14.417Z] - NOT PROFITABLE. Would lose 1431.376229266431321129 DAI
+[2025-05-03T15:59:17.434Z] Waiting for next scan cycle...
+[2025-05-03T15:59:17.436Z] Scan #3 of 10
+[2025-05-03T15:59:18.330Z] Checking WETH/DAI for V2/V3 arbitrage opportunities...
+[2025-05-03T15:59:20.112Z] WETH/DAI prices:
+[2025-05-03T15:59:20.166Z] - Uniswap V2: 1 unit = 11205.492984017425003326 units
+[2025-05-03T15:59:20.249Z] - Sushiswap: 1 unit = 11178.641037390249137127 units
+[2025-05-03T15:59:20.346Z] - Uniswap V3 (0.05%): 1 unit = 11239.814929738163820474 units
+[2025-05-03T15:59:20.349Z] Flash loan details:
+[2025-05-03T15:59:20.351Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:59:20.355Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:59:20.361Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:59:20.365Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:59:20.368Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:59:20.408Z] - Step 2: Swap 11239.814929738163820474 DAI -> 4.967486548460907943 WETH on Uniswap V2
+[2025-05-03T15:59:20.414Z] - NOT PROFITABLE. Would lose 0.037013451539092057 WETH
+[2025-05-03T15:59:20.416Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:59:20.420Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:59:20.445Z] - Step 2: Swap 11239.814929738163820474 DAI -> 4.971025770764298858 WETH on Sushiswap
+[2025-05-03T15:59:20.449Z] - NOT PROFITABLE. Would lose 0.033474229235701142 WETH
+[2025-05-03T15:59:20.450Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:59:20.453Z] - Step 1: Swap 5.0 WETH -> 11205.492984017425003326 DAI on Uniswap V2
+[2025-05-03T15:59:20.497Z] - Step 2: Swap 11205.492984017425003326 DAI -> 4.955885971726169258 WETH on Sushiswap
+[2025-05-03T15:59:20.500Z] - NOT PROFITABLE. Would lose 0.048614028273830742 WETH
+[2025-05-03T15:59:20.504Z] Checking WETH/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:59:20.617Z] WETH/USDC prices:
+[2025-05-03T15:59:20.619Z] - Uniswap V2: 1 unit = 11231.067266 units
+[2025-05-03T15:59:20.621Z] - Sushiswap: 1 unit = 11228.146 units
+[2025-05-03T15:59:20.625Z] - Uniswap V3 (0.05%): 1 unit = 11236.909029 units
+[2025-05-03T15:59:20.628Z] Flash loan details:
+[2025-05-03T15:59:20.632Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:59:20.634Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:59:20.637Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:59:20.639Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:59:20.645Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:59:20.681Z] - Step 2: Swap 11236.909029 USDC -> 4.970516995258018307 WETH on Uniswap V2
+[2025-05-03T15:59:20.684Z] - NOT PROFITABLE. Would lose 0.033983004741981693 WETH
+[2025-05-03T15:59:20.686Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:59:20.689Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:59:20.724Z] - Step 2: Swap 11236.909029 USDC -> 4.956059628875585653 WETH on Sushiswap
+[2025-05-03T15:59:20.734Z] - NOT PROFITABLE. Would lose 0.048440371124414347 WETH
+[2025-05-03T15:59:20.737Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:59:20.742Z] - Step 1: Swap 5.0 WETH -> 11231.067266 USDC on Uniswap V2
+[2025-05-03T15:59:20.780Z] - Step 2: Swap 11231.067266 USDC -> 4.953487727785361491 WETH on Sushiswap
+[2025-05-03T15:59:20.784Z] - NOT PROFITABLE. Would lose 0.051012272214638509 WETH
+[2025-05-03T15:59:20.786Z] Checking DAI/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:59:21.579Z] DAI/USDC prices:
+[2025-05-03T15:59:21.582Z] - Uniswap V2: 1 unit = 4982.049318 units
+[2025-05-03T15:59:21.585Z] - Sushiswap: 1 unit = 3604.806935 units
+[2025-05-03T15:59:21.588Z] - Uniswap V3 (0.01%): 1 unit = 4999.975316 units
+[2025-05-03T15:59:21.594Z] Flash loan details:
+[2025-05-03T15:59:21.604Z] - Amount borrowed: 5000.0 DAI
+[2025-05-03T15:59:21.613Z] - Flash loan fee: 4.5 DAI
+[2025-05-03T15:59:21.619Z] - Repayment required: 5004.5 DAI
+[2025-05-03T15:59:21.621Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Uniswap V2:
+[2025-05-03T15:59:21.628Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:59:21.663Z] - Step 2: Swap 4999.975316 USDC -> 4983.344438532737330227 DAI on Uniswap V2
+[2025-05-03T15:59:21.670Z] - NOT PROFITABLE. Would lose 21.155561467262669773 DAI
+[2025-05-03T15:59:21.678Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Sushiswap:
+[2025-05-03T15:59:21.682Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:59:21.713Z] - Step 2: Swap 4999.975316 USDC -> 3582.396486251979903396 DAI on Sushiswap
+[2025-05-03T15:59:21.716Z] - NOT PROFITABLE. Would lose 1422.103513748020096604 DAI
+[2025-05-03T15:59:21.718Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:59:21.721Z] - Step 1: Swap 5000.0 DAI -> 4982.049318 USDC on Uniswap V2
+[2025-05-03T15:59:21.750Z] - Step 2: Swap 4982.049318 USDC -> 3573.123770733568678871 DAI on Sushiswap
+[2025-05-03T15:59:21.752Z] - NOT PROFITABLE. Would lose 1431.376229266431321129 DAI
+[2025-05-03T15:59:24.763Z] Waiting for next scan cycle...
+[2025-05-03T15:59:24.765Z] Scan #4 of 10
+[2025-05-03T15:59:25.572Z] Checking WETH/DAI for V2/V3 arbitrage opportunities...
+[2025-05-03T15:59:27.593Z] WETH/DAI prices:
+[2025-05-03T15:59:27.595Z] - Uniswap V2: 1 unit = 11205.492984017425003326 units
+[2025-05-03T15:59:27.598Z] - Sushiswap: 1 unit = 11178.641037390249137127 units
+[2025-05-03T15:59:27.601Z] - Uniswap V3 (0.05%): 1 unit = 11239.814929738163820474 units
+[2025-05-03T15:59:27.603Z] Flash loan details:
+[2025-05-03T15:59:27.606Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:59:27.608Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:59:27.613Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:59:27.615Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:59:27.618Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:59:27.640Z] - Step 2: Swap 11239.814929738163820474 DAI -> 4.967486548460907943 WETH on Uniswap V2
+[2025-05-03T15:59:27.643Z] - NOT PROFITABLE. Would lose 0.037013451539092057 WETH
+[2025-05-03T15:59:27.646Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:59:27.649Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:59:28.219Z] - Step 2: Swap 11239.814929738163820474 DAI -> 4.971025770764298858 WETH on Sushiswap
+[2025-05-03T15:59:28.222Z] - NOT PROFITABLE. Would lose 0.033474229235701142 WETH
+[2025-05-03T15:59:28.224Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:59:28.227Z] - Step 1: Swap 5.0 WETH -> 11205.492984017425003326 DAI on Uniswap V2
+[2025-05-03T15:59:28.253Z] - Step 2: Swap 11205.492984017425003326 DAI -> 4.955885971726169258 WETH on Sushiswap
+[2025-05-03T15:59:28.255Z] - NOT PROFITABLE. Would lose 0.048614028273830742 WETH
+[2025-05-03T15:59:28.257Z] Checking WETH/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:59:28.436Z] WETH/USDC prices:
+[2025-05-03T15:59:28.438Z] - Uniswap V2: 1 unit = 11231.067266 units
+[2025-05-03T15:59:28.440Z] - Sushiswap: 1 unit = 11228.146 units
+[2025-05-03T15:59:28.442Z] - Uniswap V3 (0.05%): 1 unit = 11236.909029 units
+[2025-05-03T15:59:28.444Z] Flash loan details:
+[2025-05-03T15:59:28.446Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:59:28.448Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:59:28.451Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:59:28.452Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:59:28.455Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:59:28.511Z] - Step 2: Swap 11236.909029 USDC -> 4.970516995258018307 WETH on Uniswap V2
+[2025-05-03T15:59:28.513Z] - NOT PROFITABLE. Would lose 0.033983004741981693 WETH
+[2025-05-03T15:59:28.516Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:59:28.519Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:59:28.550Z] - Step 2: Swap 11236.909029 USDC -> 4.956059628875585653 WETH on Sushiswap
+[2025-05-03T15:59:28.554Z] - NOT PROFITABLE. Would lose 0.048440371124414347 WETH
+[2025-05-03T15:59:28.556Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:59:28.560Z] - Step 1: Swap 5.0 WETH -> 11231.067266 USDC on Uniswap V2
+[2025-05-03T15:59:28.589Z] - Step 2: Swap 11231.067266 USDC -> 4.953487727785361491 WETH on Sushiswap
+[2025-05-03T15:59:28.594Z] - NOT PROFITABLE. Would lose 0.051012272214638509 WETH
+[2025-05-03T15:59:28.603Z] Checking DAI/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:59:28.742Z] DAI/USDC prices:
+[2025-05-03T15:59:28.747Z] - Uniswap V2: 1 unit = 4982.049318 units
+[2025-05-03T15:59:28.749Z] - Sushiswap: 1 unit = 3604.806935 units
+[2025-05-03T15:59:28.750Z] - Uniswap V3 (0.01%): 1 unit = 4999.975316 units
+[2025-05-03T15:59:28.753Z] Flash loan details:
+[2025-05-03T15:59:28.756Z] - Amount borrowed: 5000.0 DAI
+[2025-05-03T15:59:28.769Z] - Flash loan fee: 4.5 DAI
+[2025-05-03T15:59:28.773Z] - Repayment required: 5004.5 DAI
+[2025-05-03T15:59:28.779Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Uniswap V2:
+[2025-05-03T15:59:28.783Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:59:28.819Z] - Step 2: Swap 4999.975316 USDC -> 4983.344438532737330227 DAI on Uniswap V2
+[2025-05-03T15:59:28.822Z] - NOT PROFITABLE. Would lose 21.155561467262669773 DAI
+[2025-05-03T15:59:28.830Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Sushiswap:
+[2025-05-03T15:59:28.834Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:59:28.865Z] - Step 2: Swap 4999.975316 USDC -> 3582.396486251979903396 DAI on Sushiswap
+[2025-05-03T15:59:28.867Z] - NOT PROFITABLE. Would lose 1422.103513748020096604 DAI
+[2025-05-03T15:59:28.871Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:59:28.882Z] - Step 1: Swap 5000.0 DAI -> 4982.049318 USDC on Uniswap V2
+[2025-05-03T15:59:28.920Z] - Step 2: Swap 4982.049318 USDC -> 3573.123770733568678871 DAI on Sushiswap
+[2025-05-03T15:59:28.926Z] - NOT PROFITABLE. Would lose 1431.376229266431321129 DAI
+[2025-05-03T15:59:31.939Z] Waiting for next scan cycle...
+[2025-05-03T15:59:31.941Z] Scan #5 of 10
+[2025-05-03T15:59:32.888Z] Checking WETH/DAI for V2/V3 arbitrage opportunities...
+[2025-05-03T15:59:35.052Z] WETH/DAI prices:
+[2025-05-03T15:59:35.055Z] - Uniswap V2: 1 unit = 11205.492984017425003326 units
+[2025-05-03T15:59:35.060Z] - Sushiswap: 1 unit = 11178.641037390249137127 units
+[2025-05-03T15:59:35.063Z] - Uniswap V3 (0.05%): 1 unit = 11239.814929738163820474 units
+[2025-05-03T15:59:35.065Z] Flash loan details:
+[2025-05-03T15:59:35.069Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:59:35.082Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:59:35.089Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:59:35.099Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:59:35.105Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:59:35.166Z] - Step 2: Swap 11239.814929738163820474 DAI -> 4.967486548460907943 WETH on Uniswap V2
+[2025-05-03T15:59:35.169Z] - NOT PROFITABLE. Would lose 0.037013451539092057 WETH
+[2025-05-03T15:59:35.173Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:59:35.186Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:59:35.258Z] - Step 2: Swap 11239.814929738163820474 DAI -> 4.971025770764298858 WETH on Sushiswap
+[2025-05-03T15:59:35.270Z] - NOT PROFITABLE. Would lose 0.033474229235701142 WETH
+[2025-05-03T15:59:35.275Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:59:35.279Z] - Step 1: Swap 5.0 WETH -> 11205.492984017425003326 DAI on Uniswap V2
+[2025-05-03T15:59:35.318Z] - Step 2: Swap 11205.492984017425003326 DAI -> 4.955885971726169258 WETH on Sushiswap
+[2025-05-03T15:59:35.323Z] - NOT PROFITABLE. Would lose 0.048614028273830742 WETH
+[2025-05-03T15:59:35.330Z] Checking WETH/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:59:35.764Z] WETH/USDC prices:
+[2025-05-03T15:59:35.766Z] - Uniswap V2: 1 unit = 11231.067266 units
+[2025-05-03T15:59:35.769Z] - Sushiswap: 1 unit = 11228.146 units
+[2025-05-03T15:59:35.771Z] - Uniswap V3 (0.05%): 1 unit = 11236.909029 units
+[2025-05-03T15:59:35.779Z] Flash loan details:
+[2025-05-03T15:59:35.782Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:59:35.787Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:59:35.804Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:59:35.807Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:59:35.813Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:59:35.863Z] - Step 2: Swap 11236.909029 USDC -> 4.970516995258018307 WETH on Uniswap V2
+[2025-05-03T15:59:35.866Z] - NOT PROFITABLE. Would lose 0.033983004741981693 WETH
+[2025-05-03T15:59:35.868Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:59:35.871Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:59:36.093Z] - Step 2: Swap 11236.909029 USDC -> 4.956059628875585653 WETH on Sushiswap
+[2025-05-03T15:59:36.097Z] - NOT PROFITABLE. Would lose 0.048440371124414347 WETH
+[2025-05-03T15:59:36.098Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:59:36.105Z] - Step 1: Swap 5.0 WETH -> 11231.067266 USDC on Uniswap V2
+[2025-05-03T15:59:36.155Z] - Step 2: Swap 11231.067266 USDC -> 4.953487727785361491 WETH on Sushiswap
+[2025-05-03T15:59:36.163Z] - NOT PROFITABLE. Would lose 0.051012272214638509 WETH
+[2025-05-03T15:59:36.166Z] Checking DAI/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:59:36.516Z] DAI/USDC prices:
+[2025-05-03T15:59:36.518Z] - Uniswap V2: 1 unit = 4982.049318 units
+[2025-05-03T15:59:36.520Z] - Sushiswap: 1 unit = 3604.806935 units
+[2025-05-03T15:59:36.527Z] - Uniswap V3 (0.01%): 1 unit = 4999.975316 units
+[2025-05-03T15:59:36.530Z] Flash loan details:
+[2025-05-03T15:59:36.538Z] - Amount borrowed: 5000.0 DAI
+[2025-05-03T15:59:36.544Z] - Flash loan fee: 4.5 DAI
+[2025-05-03T15:59:36.550Z] - Repayment required: 5004.5 DAI
+[2025-05-03T15:59:36.552Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Uniswap V2:
+[2025-05-03T15:59:36.555Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:59:36.605Z] - Step 2: Swap 4999.975316 USDC -> 4983.344438532737330227 DAI on Uniswap V2
+[2025-05-03T15:59:36.612Z] - NOT PROFITABLE. Would lose 21.155561467262669773 DAI
+[2025-05-03T15:59:36.615Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Sushiswap:
+[2025-05-03T15:59:36.620Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:59:36.691Z] - Step 2: Swap 4999.975316 USDC -> 3582.396486251979903396 DAI on Sushiswap
+[2025-05-03T15:59:36.698Z] - NOT PROFITABLE. Would lose 1422.103513748020096604 DAI
+[2025-05-03T15:59:36.701Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:59:36.705Z] - Step 1: Swap 5000.0 DAI -> 4982.049318 USDC on Uniswap V2
+[2025-05-03T15:59:36.756Z] - Step 2: Swap 4982.049318 USDC -> 3573.123770733568678871 DAI on Sushiswap
+[2025-05-03T15:59:36.762Z] - NOT PROFITABLE. Would lose 1431.376229266431321129 DAI
+[2025-05-03T15:59:39.779Z] Waiting for next scan cycle...
+[2025-05-03T15:59:39.781Z] Scan #6 of 10
+[2025-05-03T15:59:40.294Z] Checking WETH/DAI for V2/V3 arbitrage opportunities...
+[2025-05-03T15:59:42.353Z] WETH/DAI prices:
+[2025-05-03T15:59:42.356Z] - Uniswap V2: 1 unit = 11205.492984017425003326 units
+[2025-05-03T15:59:42.358Z] - Sushiswap: 1 unit = 11178.641037390249137127 units
+[2025-05-03T15:59:42.360Z] - Uniswap V3 (0.05%): 1 unit = 11239.814929738163820474 units
+[2025-05-03T15:59:42.362Z] Flash loan details:
+[2025-05-03T15:59:42.365Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:59:42.367Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:59:42.370Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:59:42.373Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:59:42.380Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:59:42.413Z] - Step 2: Swap 11239.814929738163820474 DAI -> 4.967486548460907943 WETH on Uniswap V2
+[2025-05-03T15:59:42.416Z] - NOT PROFITABLE. Would lose 0.037013451539092057 WETH
+[2025-05-03T15:59:42.418Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:59:42.421Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:59:42.861Z] - Step 2: Swap 11239.814929738163820474 DAI -> 4.971025770764298858 WETH on Sushiswap
+[2025-05-03T15:59:42.864Z] - NOT PROFITABLE. Would lose 0.033474229235701142 WETH
+[2025-05-03T15:59:42.866Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:59:42.869Z] - Step 1: Swap 5.0 WETH -> 11205.492984017425003326 DAI on Uniswap V2
+[2025-05-03T15:59:42.891Z] - Step 2: Swap 11205.492984017425003326 DAI -> 4.955885971726169258 WETH on Sushiswap
+[2025-05-03T15:59:42.894Z] - NOT PROFITABLE. Would lose 0.048614028273830742 WETH
+[2025-05-03T15:59:42.896Z] Checking WETH/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:59:43.015Z] WETH/USDC prices:
+[2025-05-03T15:59:43.017Z] - Uniswap V2: 1 unit = 11231.067266 units
+[2025-05-03T15:59:43.019Z] - Sushiswap: 1 unit = 11228.146 units
+[2025-05-03T15:59:43.021Z] - Uniswap V3 (0.05%): 1 unit = 11236.909029 units
+[2025-05-03T15:59:43.023Z] Flash loan details:
+[2025-05-03T15:59:43.026Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:59:43.028Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:59:43.031Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:59:43.032Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:59:43.035Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:59:43.057Z] - Step 2: Swap 11236.909029 USDC -> 4.970516995258018307 WETH on Uniswap V2
+[2025-05-03T15:59:43.060Z] - NOT PROFITABLE. Would lose 0.033983004741981693 WETH
+[2025-05-03T15:59:43.062Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:59:43.066Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:59:43.084Z] - Step 2: Swap 11236.909029 USDC -> 4.956059628875585653 WETH on Sushiswap
+[2025-05-03T15:59:43.086Z] - NOT PROFITABLE. Would lose 0.048440371124414347 WETH
+[2025-05-03T15:59:43.089Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:59:43.136Z] - Step 1: Swap 5.0 WETH -> 11231.067266 USDC on Uniswap V2
+[2025-05-03T15:59:43.261Z] - Step 2: Swap 11231.067266 USDC -> 4.953487727785361491 WETH on Sushiswap
+[2025-05-03T15:59:43.264Z] - NOT PROFITABLE. Would lose 0.051012272214638509 WETH
+[2025-05-03T15:59:43.266Z] Checking DAI/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:59:43.382Z] DAI/USDC prices:
+[2025-05-03T15:59:43.384Z] - Uniswap V2: 1 unit = 4982.049318 units
+[2025-05-03T15:59:43.386Z] - Sushiswap: 1 unit = 3604.806935 units
+[2025-05-03T15:59:43.388Z] - Uniswap V3 (0.01%): 1 unit = 4999.975316 units
+[2025-05-03T15:59:43.392Z] Flash loan details:
+[2025-05-03T15:59:43.394Z] - Amount borrowed: 5000.0 DAI
+[2025-05-03T15:59:43.397Z] - Flash loan fee: 4.5 DAI
+[2025-05-03T15:59:43.401Z] - Repayment required: 5004.5 DAI
+[2025-05-03T15:59:43.403Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Uniswap V2:
+[2025-05-03T15:59:43.412Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:59:43.440Z] - Step 2: Swap 4999.975316 USDC -> 4983.344438532737330227 DAI on Uniswap V2
+[2025-05-03T15:59:43.448Z] - NOT PROFITABLE. Would lose 21.155561467262669773 DAI
+[2025-05-03T15:59:43.452Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Sushiswap:
+[2025-05-03T15:59:43.457Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:59:43.527Z] - Step 2: Swap 4999.975316 USDC -> 3582.396486251979903396 DAI on Sushiswap
+[2025-05-03T15:59:43.530Z] - NOT PROFITABLE. Would lose 1422.103513748020096604 DAI
+[2025-05-03T15:59:43.531Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:59:43.534Z] - Step 1: Swap 5000.0 DAI -> 4982.049318 USDC on Uniswap V2
+[2025-05-03T15:59:43.565Z] - Step 2: Swap 4982.049318 USDC -> 3573.123770733568678871 DAI on Sushiswap
+[2025-05-03T15:59:43.567Z] - NOT PROFITABLE. Would lose 1431.376229266431321129 DAI
+[2025-05-03T15:59:46.583Z] Waiting for next scan cycle...
+[2025-05-03T15:59:46.586Z] Scan #7 of 10
+[2025-05-03T15:59:47.327Z] Checking WETH/DAI for V2/V3 arbitrage opportunities...
+[2025-05-03T15:59:49.081Z] WETH/DAI prices:
+[2025-05-03T15:59:49.082Z] - Uniswap V2: 1 unit = 11205.492984017425003326 units
+[2025-05-03T15:59:49.084Z] - Sushiswap: 1 unit = 11178.641037390249137127 units
+[2025-05-03T15:59:49.086Z] - Uniswap V3 (0.05%): 1 unit = 11239.814929738163820474 units
+[2025-05-03T15:59:49.087Z] Flash loan details:
+[2025-05-03T15:59:49.090Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:59:49.091Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:59:49.094Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:59:49.096Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:59:49.099Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:59:49.129Z] - Step 2: Swap 11239.814929738163820474 DAI -> 4.967486548460907943 WETH on Uniswap V2
+[2025-05-03T15:59:49.132Z] - NOT PROFITABLE. Would lose 0.037013451539092057 WETH
+[2025-05-03T15:59:49.133Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:59:49.136Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:59:49.157Z] - Step 2: Swap 11239.814929738163820474 DAI -> 4.971025770764298858 WETH on Sushiswap
+[2025-05-03T15:59:49.159Z] - NOT PROFITABLE. Would lose 0.033474229235701142 WETH
+[2025-05-03T15:59:49.165Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:59:49.169Z] - Step 1: Swap 5.0 WETH -> 11205.492984017425003326 DAI on Uniswap V2
+[2025-05-03T15:59:49.187Z] - Step 2: Swap 11205.492984017425003326 DAI -> 4.955885971726169258 WETH on Sushiswap
+[2025-05-03T15:59:49.189Z] - NOT PROFITABLE. Would lose 0.048614028273830742 WETH
+[2025-05-03T15:59:49.193Z] Checking WETH/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:59:49.497Z] WETH/USDC prices:
+[2025-05-03T15:59:49.499Z] - Uniswap V2: 1 unit = 11231.067266 units
+[2025-05-03T15:59:49.501Z] - Sushiswap: 1 unit = 11228.146 units
+[2025-05-03T15:59:49.503Z] - Uniswap V3 (0.05%): 1 unit = 11236.909029 units
+[2025-05-03T15:59:49.505Z] Flash loan details:
+[2025-05-03T15:59:49.507Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:59:49.509Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:59:49.511Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:59:49.513Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:59:49.516Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:59:49.544Z] - Step 2: Swap 11236.909029 USDC -> 4.970516995258018307 WETH on Uniswap V2
+[2025-05-03T15:59:49.546Z] - NOT PROFITABLE. Would lose 0.033983004741981693 WETH
+[2025-05-03T15:59:49.548Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:59:49.552Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:59:49.980Z] - Step 2: Swap 11236.909029 USDC -> 4.956059628875585653 WETH on Sushiswap
+[2025-05-03T15:59:49.982Z] - NOT PROFITABLE. Would lose 0.048440371124414347 WETH
+[2025-05-03T15:59:49.984Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:59:49.987Z] - Step 1: Swap 5.0 WETH -> 11231.067266 USDC on Uniswap V2
+[2025-05-03T15:59:50.036Z] - Step 2: Swap 11231.067266 USDC -> 4.953487727785361491 WETH on Sushiswap
+[2025-05-03T15:59:50.039Z] - NOT PROFITABLE. Would lose 0.051012272214638509 WETH
+[2025-05-03T15:59:50.041Z] Checking DAI/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:59:50.132Z] DAI/USDC prices:
+[2025-05-03T15:59:50.133Z] - Uniswap V2: 1 unit = 4982.049318 units
+[2025-05-03T15:59:50.135Z] - Sushiswap: 1 unit = 3604.806935 units
+[2025-05-03T15:59:50.138Z] - Uniswap V3 (0.01%): 1 unit = 4999.975316 units
+[2025-05-03T15:59:50.140Z] Flash loan details:
+[2025-05-03T15:59:50.145Z] - Amount borrowed: 5000.0 DAI
+[2025-05-03T15:59:50.150Z] - Flash loan fee: 4.5 DAI
+[2025-05-03T15:59:50.152Z] - Repayment required: 5004.5 DAI
+[2025-05-03T15:59:50.154Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Uniswap V2:
+[2025-05-03T15:59:50.157Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:59:50.188Z] - Step 2: Swap 4999.975316 USDC -> 4983.344438532737330227 DAI on Uniswap V2
+[2025-05-03T15:59:50.191Z] - NOT PROFITABLE. Would lose 21.155561467262669773 DAI
+[2025-05-03T15:59:50.195Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Sushiswap:
+[2025-05-03T15:59:50.200Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:59:50.220Z] - Step 2: Swap 4999.975316 USDC -> 3582.396486251979903396 DAI on Sushiswap
+[2025-05-03T15:59:50.223Z] - NOT PROFITABLE. Would lose 1422.103513748020096604 DAI
+[2025-05-03T15:59:50.226Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:59:50.232Z] - Step 1: Swap 5000.0 DAI -> 4982.049318 USDC on Uniswap V2
+[2025-05-03T15:59:50.256Z] - Step 2: Swap 4982.049318 USDC -> 3573.123770733568678871 DAI on Sushiswap
+[2025-05-03T15:59:50.259Z] - NOT PROFITABLE. Would lose 1431.376229266431321129 DAI
+[2025-05-03T15:59:53.267Z] Waiting for next scan cycle...
+[2025-05-03T15:59:53.269Z] Scan #8 of 10
+[2025-05-03T15:59:53.953Z] Checking WETH/DAI for V2/V3 arbitrage opportunities...
+[2025-05-03T15:59:56.308Z] WETH/DAI prices:
+[2025-05-03T15:59:56.324Z] - Uniswap V2: 1 unit = 11205.492984017425003326 units
+[2025-05-03T15:59:56.334Z] - Sushiswap: 1 unit = 11178.641037390249137127 units
+[2025-05-03T15:59:56.338Z] - Uniswap V3 (0.05%): 1 unit = 11239.814929738163820474 units
+[2025-05-03T15:59:56.346Z] Flash loan details:
+[2025-05-03T15:59:56.351Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:59:56.369Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:59:56.373Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:59:56.379Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:59:56.382Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:59:56.507Z] - Step 2: Swap 11239.814929738163820474 DAI -> 4.967486548460907943 WETH on Uniswap V2
+[2025-05-03T15:59:56.516Z] - NOT PROFITABLE. Would lose 0.037013451539092057 WETH
+[2025-05-03T15:59:56.518Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:59:56.526Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T15:59:56.606Z] - Step 2: Swap 11239.814929738163820474 DAI -> 4.971025770764298858 WETH on Sushiswap
+[2025-05-03T15:59:56.621Z] - NOT PROFITABLE. Would lose 0.033474229235701142 WETH
+[2025-05-03T15:59:56.631Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:59:56.646Z] - Step 1: Swap 5.0 WETH -> 11205.492984017425003326 DAI on Uniswap V2
+[2025-05-03T15:59:56.775Z] - Step 2: Swap 11205.492984017425003326 DAI -> 4.955885971726169258 WETH on Sushiswap
+[2025-05-03T15:59:56.779Z] - NOT PROFITABLE. Would lose 0.048614028273830742 WETH
+[2025-05-03T15:59:56.785Z] Checking WETH/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:59:57.004Z] WETH/USDC prices:
+[2025-05-03T15:59:57.010Z] - Uniswap V2: 1 unit = 11231.067266 units
+[2025-05-03T15:59:57.013Z] - Sushiswap: 1 unit = 11228.146 units
+[2025-05-03T15:59:57.020Z] - Uniswap V3 (0.05%): 1 unit = 11236.909029 units
+[2025-05-03T15:59:57.030Z] Flash loan details:
+[2025-05-03T15:59:57.035Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T15:59:57.039Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T15:59:57.054Z] - Repayment required: 5.0045 WETH
+[2025-05-03T15:59:57.068Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T15:59:57.072Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:59:57.125Z] - Step 2: Swap 11236.909029 USDC -> 4.970516995258018307 WETH on Uniswap V2
+[2025-05-03T15:59:57.146Z] - NOT PROFITABLE. Would lose 0.033983004741981693 WETH
+[2025-05-03T15:59:57.149Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T15:59:57.155Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T15:59:57.239Z] - Step 2: Swap 11236.909029 USDC -> 4.956059628875585653 WETH on Sushiswap
+[2025-05-03T15:59:57.252Z] - NOT PROFITABLE. Would lose 0.048440371124414347 WETH
+[2025-05-03T15:59:57.255Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:59:57.261Z] - Step 1: Swap 5.0 WETH -> 11231.067266 USDC on Uniswap V2
+[2025-05-03T15:59:57.741Z] - Step 2: Swap 11231.067266 USDC -> 4.953487727785361491 WETH on Sushiswap
+[2025-05-03T15:59:57.746Z] - NOT PROFITABLE. Would lose 0.051012272214638509 WETH
+[2025-05-03T15:59:57.750Z] Checking DAI/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T15:59:58.687Z] DAI/USDC prices:
+[2025-05-03T15:59:58.690Z] - Uniswap V2: 1 unit = 4982.049318 units
+[2025-05-03T15:59:58.693Z] - Sushiswap: 1 unit = 3604.806935 units
+[2025-05-03T15:59:58.702Z] - Uniswap V3 (0.01%): 1 unit = 4999.975316 units
+[2025-05-03T15:59:58.706Z] Flash loan details:
+[2025-05-03T15:59:58.712Z] - Amount borrowed: 5000.0 DAI
+[2025-05-03T15:59:58.717Z] - Flash loan fee: 4.5 DAI
+[2025-05-03T15:59:58.720Z] - Repayment required: 5004.5 DAI
+[2025-05-03T15:59:58.723Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Uniswap V2:
+[2025-05-03T15:59:58.727Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:59:58.995Z] - Step 2: Swap 4999.975316 USDC -> 4983.344438532737330227 DAI on Uniswap V2
+[2025-05-03T15:59:58.998Z] - NOT PROFITABLE. Would lose 21.155561467262669773 DAI
+[2025-05-03T15:59:59.000Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Sushiswap:
+[2025-05-03T15:59:59.003Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T15:59:59.029Z] - Step 2: Swap 4999.975316 USDC -> 3582.396486251979903396 DAI on Sushiswap
+[2025-05-03T15:59:59.032Z] - NOT PROFITABLE. Would lose 1422.103513748020096604 DAI
+[2025-05-03T15:59:59.038Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T15:59:59.047Z] - Step 1: Swap 5000.0 DAI -> 4982.049318 USDC on Uniswap V2
+[2025-05-03T15:59:59.068Z] - Step 2: Swap 4982.049318 USDC -> 3573.123770733568678871 DAI on Sushiswap
+[2025-05-03T15:59:59.071Z] - NOT PROFITABLE. Would lose 1431.376229266431321129 DAI
+[2025-05-03T16:00:02.093Z] Waiting for next scan cycle...
+[2025-05-03T16:00:02.094Z] Scan #9 of 10
+[2025-05-03T16:00:02.723Z] Checking WETH/DAI for V2/V3 arbitrage opportunities...
+[2025-05-03T16:00:04.386Z] WETH/DAI prices:
+[2025-05-03T16:00:04.388Z] - Uniswap V2: 1 unit = 11205.492984017425003326 units
+[2025-05-03T16:00:04.390Z] - Sushiswap: 1 unit = 11178.641037390249137127 units
+[2025-05-03T16:00:04.391Z] - Uniswap V3 (0.05%): 1 unit = 11239.814929738163820474 units
+[2025-05-03T16:00:04.393Z] Flash loan details:
+[2025-05-03T16:00:04.396Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T16:00:04.398Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T16:00:04.401Z] - Repayment required: 5.0045 WETH
+[2025-05-03T16:00:04.403Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T16:00:04.406Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T16:00:04.435Z] - Step 2: Swap 11239.814929738163820474 DAI -> 4.967486548460907943 WETH on Uniswap V2
+[2025-05-03T16:00:04.437Z] - NOT PROFITABLE. Would lose 0.037013451539092057 WETH
+[2025-05-03T16:00:04.439Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T16:00:04.443Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T16:00:04.478Z] - Step 2: Swap 11239.814929738163820474 DAI -> 4.971025770764298858 WETH on Sushiswap
+[2025-05-03T16:00:04.481Z] - NOT PROFITABLE. Would lose 0.033474229235701142 WETH
+[2025-05-03T16:00:04.484Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T16:00:04.486Z] - Step 1: Swap 5.0 WETH -> 11205.492984017425003326 DAI on Uniswap V2
+[2025-05-03T16:00:04.508Z] - Step 2: Swap 11205.492984017425003326 DAI -> 4.955885971726169258 WETH on Sushiswap
+[2025-05-03T16:00:04.511Z] - NOT PROFITABLE. Would lose 0.048614028273830742 WETH
+[2025-05-03T16:00:04.514Z] Checking WETH/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T16:00:04.811Z] WETH/USDC prices:
+[2025-05-03T16:00:04.813Z] - Uniswap V2: 1 unit = 11231.067266 units
+[2025-05-03T16:00:04.815Z] - Sushiswap: 1 unit = 11228.146 units
+[2025-05-03T16:00:04.818Z] - Uniswap V3 (0.05%): 1 unit = 11236.909029 units
+[2025-05-03T16:00:04.820Z] Flash loan details:
+[2025-05-03T16:00:04.823Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T16:00:04.829Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T16:00:04.833Z] - Repayment required: 5.0045 WETH
+[2025-05-03T16:00:04.835Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T16:00:04.837Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T16:00:04.865Z] - Step 2: Swap 11236.909029 USDC -> 4.970516995258018307 WETH on Uniswap V2
+[2025-05-03T16:00:04.868Z] - NOT PROFITABLE. Would lose 0.033983004741981693 WETH
+[2025-05-03T16:00:04.870Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T16:00:04.873Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T16:00:05.080Z] - Step 2: Swap 11236.909029 USDC -> 4.956059628875585653 WETH on Sushiswap
+[2025-05-03T16:00:05.082Z] - NOT PROFITABLE. Would lose 0.048440371124414347 WETH
+[2025-05-03T16:00:05.084Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T16:00:05.087Z] - Step 1: Swap 5.0 WETH -> 11231.067266 USDC on Uniswap V2
+[2025-05-03T16:00:05.119Z] - Step 2: Swap 11231.067266 USDC -> 4.953487727785361491 WETH on Sushiswap
+[2025-05-03T16:00:05.121Z] - NOT PROFITABLE. Would lose 0.051012272214638509 WETH
+[2025-05-03T16:00:05.123Z] Checking DAI/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T16:00:05.403Z] DAI/USDC prices:
+[2025-05-03T16:00:05.406Z] - Uniswap V2: 1 unit = 4982.049318 units
+[2025-05-03T16:00:05.408Z] - Sushiswap: 1 unit = 3604.806935 units
+[2025-05-03T16:00:05.409Z] - Uniswap V3 (0.01%): 1 unit = 4999.975316 units
+[2025-05-03T16:00:05.412Z] Flash loan details:
+[2025-05-03T16:00:05.414Z] - Amount borrowed: 5000.0 DAI
+[2025-05-03T16:00:05.416Z] - Flash loan fee: 4.5 DAI
+[2025-05-03T16:00:05.419Z] - Repayment required: 5004.5 DAI
+[2025-05-03T16:00:05.421Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Uniswap V2:
+[2025-05-03T16:00:05.424Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T16:00:05.470Z] - Step 2: Swap 4999.975316 USDC -> 4983.344438532737330227 DAI on Uniswap V2
+[2025-05-03T16:00:05.473Z] - NOT PROFITABLE. Would lose 21.155561467262669773 DAI
+[2025-05-03T16:00:05.479Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Sushiswap:
+[2025-05-03T16:00:05.483Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T16:00:05.521Z] - Step 2: Swap 4999.975316 USDC -> 3582.396486251979903396 DAI on Sushiswap
+[2025-05-03T16:00:05.523Z] - NOT PROFITABLE. Would lose 1422.103513748020096604 DAI
+[2025-05-03T16:00:05.527Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T16:00:05.532Z] - Step 1: Swap 5000.0 DAI -> 4982.049318 USDC on Uniswap V2
+[2025-05-03T16:00:05.563Z] - Step 2: Swap 4982.049318 USDC -> 3573.123770733568678871 DAI on Sushiswap
+[2025-05-03T16:00:05.566Z] - NOT PROFITABLE. Would lose 1431.376229266431321129 DAI
+[2025-05-03T16:00:08.569Z] Waiting for next scan cycle...
+[2025-05-03T16:00:08.571Z] Scan #10 of 10
+[2025-05-03T16:00:09.353Z] Checking WETH/DAI for V2/V3 arbitrage opportunities...
+[2025-05-03T16:00:10.935Z] WETH/DAI prices:
+[2025-05-03T16:00:10.937Z] - Uniswap V2: 1 unit = 11205.492984017425003326 units
+[2025-05-03T16:00:10.939Z] - Sushiswap: 1 unit = 11178.641037390249137127 units
+[2025-05-03T16:00:10.941Z] - Uniswap V3 (0.05%): 1 unit = 11239.814929738163820474 units
+[2025-05-03T16:00:10.943Z] Flash loan details:
+[2025-05-03T16:00:10.945Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T16:00:10.948Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T16:00:10.953Z] - Repayment required: 5.0045 WETH
+[2025-05-03T16:00:10.955Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T16:00:10.961Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T16:00:11.234Z] - Step 2: Swap 11239.814929738163820474 DAI -> 4.967486548460907943 WETH on Uniswap V2
+[2025-05-03T16:00:11.236Z] - NOT PROFITABLE. Would lose 0.037013451539092057 WETH
+[2025-05-03T16:00:11.238Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T16:00:11.241Z] - Step 1: Swap 5.0 WETH -> 11239.814929738163820474 DAI on Uniswap V3 (0.05%)
+[2025-05-03T16:00:11.587Z] - Step 2: Swap 11239.814929738163820474 DAI -> 4.971025770764298858 WETH on Sushiswap
+[2025-05-03T16:00:11.589Z] - NOT PROFITABLE. Would lose 0.033474229235701142 WETH
+[2025-05-03T16:00:11.591Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T16:00:11.594Z] - Step 1: Swap 5.0 WETH -> 11205.492984017425003326 DAI on Uniswap V2
+[2025-05-03T16:00:11.613Z] - Step 2: Swap 11205.492984017425003326 DAI -> 4.955885971726169258 WETH on Sushiswap
+[2025-05-03T16:00:11.616Z] - NOT PROFITABLE. Would lose 0.048614028273830742 WETH
+[2025-05-03T16:00:11.617Z] Checking WETH/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T16:00:11.716Z] WETH/USDC prices:
+[2025-05-03T16:00:11.718Z] - Uniswap V2: 1 unit = 11231.067266 units
+[2025-05-03T16:00:11.720Z] - Sushiswap: 1 unit = 11228.146 units
+[2025-05-03T16:00:11.723Z] - Uniswap V3 (0.05%): 1 unit = 11236.909029 units
+[2025-05-03T16:00:11.726Z] Flash loan details:
+[2025-05-03T16:00:11.774Z] - Amount borrowed: 5.0 WETH
+[2025-05-03T16:00:11.812Z] - Flash loan fee: 0.0045 WETH
+[2025-05-03T16:00:11.829Z] - Repayment required: 5.0045 WETH
+[2025-05-03T16:00:11.868Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Uniswap V2:
+[2025-05-03T16:00:11.901Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T16:00:11.950Z] - Step 2: Swap 11236.909029 USDC -> 4.970516995258018307 WETH on Uniswap V2
+[2025-05-03T16:00:11.953Z] - NOT PROFITABLE. Would lose 0.033983004741981693 WETH
+[2025-05-03T16:00:11.955Z] 
+Checking arbitrage path: Uniswap V3 (0.05%) -> Sushiswap:
+[2025-05-03T16:00:11.959Z] - Step 1: Swap 5.0 WETH -> 11236.909029 USDC on Uniswap V3 (0.05%)
+[2025-05-03T16:00:11.987Z] - Step 2: Swap 11236.909029 USDC -> 4.956059628875585653 WETH on Sushiswap
+[2025-05-03T16:00:11.990Z] - NOT PROFITABLE. Would lose 0.048440371124414347 WETH
+[2025-05-03T16:00:11.997Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T16:00:12.000Z] - Step 1: Swap 5.0 WETH -> 11231.067266 USDC on Uniswap V2
+[2025-05-03T16:00:12.020Z] - Step 2: Swap 11231.067266 USDC -> 4.953487727785361491 WETH on Sushiswap
+[2025-05-03T16:00:12.023Z] - NOT PROFITABLE. Would lose 0.051012272214638509 WETH
+[2025-05-03T16:00:12.025Z] Checking DAI/USDC for V2/V3 arbitrage opportunities...
+[2025-05-03T16:00:12.132Z] DAI/USDC prices:
+[2025-05-03T16:00:12.134Z] - Uniswap V2: 1 unit = 4982.049318 units
+[2025-05-03T16:00:12.136Z] - Sushiswap: 1 unit = 3604.806935 units
+[2025-05-03T16:00:12.137Z] - Uniswap V3 (0.01%): 1 unit = 4999.975316 units
+[2025-05-03T16:00:12.139Z] Flash loan details:
+[2025-05-03T16:00:12.141Z] - Amount borrowed: 5000.0 DAI
+[2025-05-03T16:00:12.146Z] - Flash loan fee: 4.5 DAI
+[2025-05-03T16:00:12.149Z] - Repayment required: 5004.5 DAI
+[2025-05-03T16:00:12.150Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Uniswap V2:
+[2025-05-03T16:00:12.153Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T16:00:12.179Z] - Step 2: Swap 4999.975316 USDC -> 4983.344438532737330227 DAI on Uniswap V2
+[2025-05-03T16:00:12.182Z] - NOT PROFITABLE. Would lose 21.155561467262669773 DAI
+[2025-05-03T16:00:12.183Z] 
+Checking arbitrage path: Uniswap V3 (0.01%) -> Sushiswap:
+[2025-05-03T16:00:12.186Z] - Step 1: Swap 5000.0 DAI -> 4999.975316 USDC on Uniswap V3 (0.01%)
+[2025-05-03T16:00:12.204Z] - Step 2: Swap 4999.975316 USDC -> 3582.396486251979903396 DAI on Sushiswap
+[2025-05-03T16:00:12.207Z] - NOT PROFITABLE. Would lose 1422.103513748020096604 DAI
+[2025-05-03T16:00:12.209Z] 
+Checking arbitrage path: Uniswap V2 -> Sushiswap:
+[2025-05-03T16:00:12.213Z] - Step 1: Swap 5000.0 DAI -> 4982.049318 USDC on Uniswap V2
+[2025-05-03T16:00:12.241Z] - Step 2: Swap 4982.049318 USDC -> 3573.123770733568678871 DAI on Sushiswap
+[2025-05-03T16:00:12.244Z] - NOT PROFITABLE. Would lose 1431.376229266431321129 DAI
+[2025-05-03T16:00:15.249Z] Waiting for next scan cycle...
+[2025-05-03T16:00:15.253Z] Scan complete. Total scans: 10

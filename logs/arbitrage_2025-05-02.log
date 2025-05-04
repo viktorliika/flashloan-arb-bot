@@ -1,0 +1,1088 @@
+[2025-05-02T21:45:41.190Z] Starting arbitrage scanner in simulation mode...
+[2025-05-02T22:07:53.371Z] Starting arbitrage scanner in simulation mode...
+[2025-05-02T22:19:20.873Z] Starting arbitrage scanner in simulation mode...
+[2025-05-02T22:20:32.303Z] Starting arbitrage scanner in simulation mode...
+[2025-05-02T23:23:12.105Z] Starting arbitrage scanner in simulation mode...
+[2025-05-02T23:23:12.112Z] Loaded simulation config with network ID: 31337
+[2025-05-02T23:23:12.641Z] Using account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-02T23:23:12.741Z] Connected to all contracts in simulation
+[2025-05-02T23:23:12.776Z] Starting arbitrage scanning between Uniswap V2 and Uniswap V3...
+[2025-05-02T23:23:13.441Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:23:13.521Z] WETH/DAI prices:
+[2025-05-02T23:23:13.525Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:23:13.527Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:23:13.570Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:23:13.575Z] Path: V3 -> V2
+[2025-05-02T23:23:13.579Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:23:13.583Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:23:13.587Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:23:13.681Z] WETH/USDC prices:
+[2025-05-02T23:23:13.683Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:23:13.686Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:23:13.735Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:23:13.742Z] Path: V2 -> V3
+[2025-05-02T23:23:13.747Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:23:13.749Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:23:13.763Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:23:13.881Z] DAI/USDC prices:
+[2025-05-02T23:23:13.883Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:23:13.887Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:23:13.930Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:23:13.934Z] Path: V2 -> V3
+[2025-05-02T23:23:13.948Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:23:13.951Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:23:18.991Z] Waiting for next scan cycle...
+[2025-05-02T23:23:20.207Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:23:20.280Z] WETH/DAI prices:
+[2025-05-02T23:23:20.281Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:23:20.283Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:23:20.309Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:23:20.311Z] Path: V3 -> V2
+[2025-05-02T23:23:20.314Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:23:20.316Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:23:20.320Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:23:20.375Z] WETH/USDC prices:
+[2025-05-02T23:23:20.377Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:23:20.379Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:23:20.408Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:23:20.410Z] Path: V2 -> V3
+[2025-05-02T23:23:20.413Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:23:20.414Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:23:20.416Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:23:20.453Z] DAI/USDC prices:
+[2025-05-02T23:23:20.455Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:23:20.457Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:23:20.484Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:23:20.488Z] Path: V2 -> V3
+[2025-05-02T23:23:20.492Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:23:20.493Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:23:25.506Z] Waiting for next scan cycle...
+[2025-05-02T23:23:26.083Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:23:26.142Z] WETH/DAI prices:
+[2025-05-02T23:23:26.143Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:23:26.144Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:23:26.174Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:23:26.176Z] Path: V3 -> V2
+[2025-05-02T23:23:26.180Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:23:26.181Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:23:26.182Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:23:26.218Z] WETH/USDC prices:
+[2025-05-02T23:23:26.220Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:23:26.223Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:23:26.241Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:23:26.242Z] Path: V2 -> V3
+[2025-05-02T23:23:26.245Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:23:26.246Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:23:26.247Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:23:26.292Z] DAI/USDC prices:
+[2025-05-02T23:23:26.294Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:23:26.295Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:23:26.313Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:23:26.315Z] Path: V2 -> V3
+[2025-05-02T23:23:26.317Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:23:26.320Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:23:31.337Z] Waiting for next scan cycle...
+[2025-05-02T23:23:32.126Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:23:32.184Z] WETH/DAI prices:
+[2025-05-02T23:23:32.186Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:23:32.191Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:23:32.216Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:23:32.217Z] Path: V3 -> V2
+[2025-05-02T23:23:32.225Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:23:32.226Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:23:32.227Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:23:32.263Z] WETH/USDC prices:
+[2025-05-02T23:23:32.264Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:23:32.266Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:23:32.309Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:23:32.311Z] Path: V2 -> V3
+[2025-05-02T23:23:32.314Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:23:32.315Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:23:32.317Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:23:32.377Z] DAI/USDC prices:
+[2025-05-02T23:23:32.379Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:23:32.380Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:23:32.411Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:23:32.412Z] Path: V2 -> V3
+[2025-05-02T23:23:32.415Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:23:32.416Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:23:37.420Z] Waiting for next scan cycle...
+[2025-05-02T23:23:38.208Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:23:38.267Z] WETH/DAI prices:
+[2025-05-02T23:23:38.269Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:23:38.275Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:23:38.304Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:23:38.307Z] Path: V3 -> V2
+[2025-05-02T23:23:38.310Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:23:38.311Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:23:38.312Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:23:38.360Z] WETH/USDC prices:
+[2025-05-02T23:23:38.361Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:23:38.364Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:23:38.397Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:23:38.398Z] Path: V2 -> V3
+[2025-05-02T23:23:38.400Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:23:38.403Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:23:38.405Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:23:38.460Z] DAI/USDC prices:
+[2025-05-02T23:23:38.461Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:23:38.463Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:23:38.481Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:23:38.482Z] Path: V2 -> V3
+[2025-05-02T23:23:38.485Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:23:38.492Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:23:43.503Z] Waiting for next scan cycle...
+[2025-05-02T23:23:44.143Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:23:44.185Z] WETH/DAI prices:
+[2025-05-02T23:23:44.191Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:23:44.194Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:23:44.213Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:23:44.215Z] Path: V3 -> V2
+[2025-05-02T23:23:44.218Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:23:44.224Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:23:44.227Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:23:44.298Z] WETH/USDC prices:
+[2025-05-02T23:23:44.307Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:23:44.309Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:23:44.495Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:23:44.506Z] Path: V2 -> V3
+[2025-05-02T23:23:44.509Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:23:44.513Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:23:44.515Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:23:44.612Z] DAI/USDC prices:
+[2025-05-02T23:23:44.614Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:23:44.616Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:23:44.645Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:23:44.646Z] Path: V2 -> V3
+[2025-05-02T23:23:44.650Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:23:44.653Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:23:49.669Z] Waiting for next scan cycle...
+[2025-05-02T23:23:50.615Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:23:50.676Z] WETH/DAI prices:
+[2025-05-02T23:23:50.678Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:23:50.680Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:23:50.701Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:23:50.703Z] Path: V3 -> V2
+[2025-05-02T23:23:50.708Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:23:50.710Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:23:50.713Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:23:50.764Z] WETH/USDC prices:
+[2025-05-02T23:23:50.767Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:23:50.774Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:23:50.801Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:23:50.811Z] Path: V2 -> V3
+[2025-05-02T23:23:50.835Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:23:50.845Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:23:50.848Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:23:50.925Z] DAI/USDC prices:
+[2025-05-02T23:23:50.927Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:23:50.929Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:23:50.955Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:23:50.957Z] Path: V2 -> V3
+[2025-05-02T23:23:50.959Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:23:50.960Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:23:55.971Z] Waiting for next scan cycle...
+[2025-05-02T23:23:56.576Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:23:56.698Z] WETH/DAI prices:
+[2025-05-02T23:23:56.700Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:23:56.706Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:23:56.731Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:23:56.732Z] Path: V3 -> V2
+[2025-05-02T23:23:56.735Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:23:56.740Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:23:56.742Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:23:56.843Z] WETH/USDC prices:
+[2025-05-02T23:23:56.845Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:23:56.847Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:23:56.865Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:23:56.867Z] Path: V2 -> V3
+[2025-05-02T23:23:56.871Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:23:56.874Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:23:56.878Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:23:56.914Z] DAI/USDC prices:
+[2025-05-02T23:23:56.915Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:23:56.917Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:23:56.931Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:23:56.932Z] Path: V2 -> V3
+[2025-05-02T23:23:56.935Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:23:56.938Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:01.949Z] Waiting for next scan cycle...
+[2025-05-02T23:24:02.474Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:24:02.520Z] WETH/DAI prices:
+[2025-05-02T23:24:02.522Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:24:02.524Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:24:02.627Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:02.628Z] Path: V3 -> V2
+[2025-05-02T23:24:02.630Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:24:02.632Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:02.634Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:24:02.698Z] WETH/USDC prices:
+[2025-05-02T23:24:02.700Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:24:02.703Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:24:02.724Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:02.726Z] Path: V2 -> V3
+[2025-05-02T23:24:02.728Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:24:02.732Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:02.734Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:24:02.826Z] DAI/USDC prices:
+[2025-05-02T23:24:02.827Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:24:02.829Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:24:02.847Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:02.849Z] Path: V2 -> V3
+[2025-05-02T23:24:02.852Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:24:02.855Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:07.869Z] Waiting for next scan cycle...
+[2025-05-02T23:24:08.385Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:24:08.435Z] WETH/DAI prices:
+[2025-05-02T23:24:08.438Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:24:08.446Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:24:08.768Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:08.776Z] Path: V3 -> V2
+[2025-05-02T23:24:08.779Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:24:08.781Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:08.783Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:24:08.928Z] WETH/USDC prices:
+[2025-05-02T23:24:08.930Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:24:08.933Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:24:08.984Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:08.993Z] Path: V2 -> V3
+[2025-05-02T23:24:08.996Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:24:08.997Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:08.999Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:24:09.095Z] DAI/USDC prices:
+[2025-05-02T23:24:09.096Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:24:09.100Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:24:09.144Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:09.163Z] Path: V2 -> V3
+[2025-05-02T23:24:09.178Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:24:09.180Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:14.215Z] Waiting for next scan cycle...
+[2025-05-02T23:24:15.028Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:24:15.243Z] WETH/DAI prices:
+[2025-05-02T23:24:15.248Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:24:15.255Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:24:15.299Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:15.301Z] Path: V3 -> V2
+[2025-05-02T23:24:15.314Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:24:15.316Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:15.319Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:24:16.999Z] WETH/USDC prices:
+[2025-05-02T23:24:17.002Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:24:17.004Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:24:17.048Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:17.051Z] Path: V2 -> V3
+[2025-05-02T23:24:17.055Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:24:17.056Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:17.058Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:24:17.143Z] DAI/USDC prices:
+[2025-05-02T23:24:17.154Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:24:17.156Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:24:17.194Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:17.201Z] Path: V2 -> V3
+[2025-05-02T23:24:17.210Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:24:17.215Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:22.237Z] Waiting for next scan cycle...
+[2025-05-02T23:24:23.165Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:24:23.327Z] WETH/DAI prices:
+[2025-05-02T23:24:23.332Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:24:23.338Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:24:23.411Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:23.415Z] Path: V3 -> V2
+[2025-05-02T23:24:23.418Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:24:23.426Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:23.428Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:24:23.669Z] WETH/USDC prices:
+[2025-05-02T23:24:23.680Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:24:23.682Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:24:23.732Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:23.733Z] Path: V2 -> V3
+[2025-05-02T23:24:23.738Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:24:23.742Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:23.745Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:24:23.841Z] DAI/USDC prices:
+[2025-05-02T23:24:23.844Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:24:23.847Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:24:23.879Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:23.881Z] Path: V2 -> V3
+[2025-05-02T23:24:23.884Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:24:23.894Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:29.140Z] Waiting for next scan cycle...
+[2025-05-02T23:24:29.743Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:24:29.883Z] WETH/DAI prices:
+[2025-05-02T23:24:29.888Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:24:29.891Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:24:29.911Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:29.913Z] Path: V3 -> V2
+[2025-05-02T23:24:29.919Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:24:29.922Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:29.923Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:24:30.218Z] WETH/USDC prices:
+[2025-05-02T23:24:30.220Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:24:30.224Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:24:30.244Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:30.246Z] Path: V2 -> V3
+[2025-05-02T23:24:30.249Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:24:30.251Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:30.253Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:24:30.290Z] DAI/USDC prices:
+[2025-05-02T23:24:30.292Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:24:30.294Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:24:30.318Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:30.320Z] Path: V2 -> V3
+[2025-05-02T23:24:30.325Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:24:30.326Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:35.328Z] Waiting for next scan cycle...
+[2025-05-02T23:24:35.966Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:24:36.028Z] WETH/DAI prices:
+[2025-05-02T23:24:36.029Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:24:36.030Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:24:36.060Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:36.061Z] Path: V3 -> V2
+[2025-05-02T23:24:36.063Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:24:36.065Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:36.073Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:24:36.107Z] WETH/USDC prices:
+[2025-05-02T23:24:36.109Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:24:36.110Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:24:36.140Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:36.141Z] Path: V2 -> V3
+[2025-05-02T23:24:36.143Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:24:36.145Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:36.147Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:24:36.197Z] DAI/USDC prices:
+[2025-05-02T23:24:36.199Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:24:36.202Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:24:36.228Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:36.229Z] Path: V2 -> V3
+[2025-05-02T23:24:36.231Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:24:36.233Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:41.246Z] Waiting for next scan cycle...
+[2025-05-02T23:24:41.961Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:24:42.027Z] WETH/DAI prices:
+[2025-05-02T23:24:42.029Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:24:42.031Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:24:42.053Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:42.060Z] Path: V3 -> V2
+[2025-05-02T23:24:42.063Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:24:42.064Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:42.066Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:24:42.114Z] WETH/USDC prices:
+[2025-05-02T23:24:42.115Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:24:42.117Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:24:42.136Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:42.138Z] Path: V2 -> V3
+[2025-05-02T23:24:42.141Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:24:42.142Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:42.143Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:24:42.176Z] DAI/USDC prices:
+[2025-05-02T23:24:42.178Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:24:42.180Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:24:42.211Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:42.215Z] Path: V2 -> V3
+[2025-05-02T23:24:42.217Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:24:42.220Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:47.234Z] Waiting for next scan cycle...
+[2025-05-02T23:24:47.813Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:24:47.879Z] WETH/DAI prices:
+[2025-05-02T23:24:47.882Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:24:47.884Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:24:47.926Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:47.928Z] Path: V3 -> V2
+[2025-05-02T23:24:47.930Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:24:47.932Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:47.935Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:24:47.997Z] WETH/USDC prices:
+[2025-05-02T23:24:47.998Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:24:48.000Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:24:48.032Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:48.034Z] Path: V2 -> V3
+[2025-05-02T23:24:48.042Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:24:48.044Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:48.046Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:24:48.128Z] DAI/USDC prices:
+[2025-05-02T23:24:48.131Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:24:48.133Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:24:48.181Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:48.183Z] Path: V2 -> V3
+[2025-05-02T23:24:48.187Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:24:48.198Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:53.220Z] Waiting for next scan cycle...
+[2025-05-02T23:24:54.190Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:24:54.241Z] WETH/DAI prices:
+[2025-05-02T23:24:54.242Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:24:54.243Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:24:54.270Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:54.275Z] Path: V3 -> V2
+[2025-05-02T23:24:54.277Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:24:54.278Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:54.280Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:24:54.313Z] WETH/USDC prices:
+[2025-05-02T23:24:54.314Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:24:54.316Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:24:54.332Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:54.334Z] Path: V2 -> V3
+[2025-05-02T23:24:54.337Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:24:54.339Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:54.341Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:24:54.396Z] DAI/USDC prices:
+[2025-05-02T23:24:54.398Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:24:54.399Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:24:54.417Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:24:54.421Z] Path: V2 -> V3
+[2025-05-02T23:24:54.425Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:24:54.426Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:24:59.428Z] Waiting for next scan cycle...
+[2025-05-02T23:25:00.024Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:25:00.084Z] WETH/DAI prices:
+[2025-05-02T23:25:00.091Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:25:00.093Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:25:00.109Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:00.111Z] Path: V3 -> V2
+[2025-05-02T23:25:00.113Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:25:00.114Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:00.118Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:25:00.156Z] WETH/USDC prices:
+[2025-05-02T23:25:00.157Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:25:00.159Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:25:00.187Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:00.190Z] Path: V2 -> V3
+[2025-05-02T23:25:00.192Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:25:00.193Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:00.195Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:25:00.232Z] DAI/USDC prices:
+[2025-05-02T23:25:00.233Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:25:00.235Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:25:00.265Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:00.267Z] Path: V2 -> V3
+[2025-05-02T23:25:00.279Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:25:00.281Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:05.292Z] Waiting for next scan cycle...
+[2025-05-02T23:25:06.164Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:25:06.228Z] WETH/DAI prices:
+[2025-05-02T23:25:06.230Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:25:06.233Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:25:06.257Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:06.259Z] Path: V3 -> V2
+[2025-05-02T23:25:06.261Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:25:06.263Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:06.264Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:25:06.299Z] WETH/USDC prices:
+[2025-05-02T23:25:06.300Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:25:06.308Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:25:06.328Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:06.329Z] Path: V2 -> V3
+[2025-05-02T23:25:06.331Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:25:06.333Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:06.340Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:25:06.397Z] DAI/USDC prices:
+[2025-05-02T23:25:06.399Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:25:06.400Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:25:06.426Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:06.427Z] Path: V2 -> V3
+[2025-05-02T23:25:06.430Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:25:06.432Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:11.441Z] Waiting for next scan cycle...
+[2025-05-02T23:25:12.349Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:25:12.408Z] WETH/DAI prices:
+[2025-05-02T23:25:12.414Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:25:12.416Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:25:12.486Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:12.490Z] Path: V3 -> V2
+[2025-05-02T23:25:12.493Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:25:12.494Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:12.496Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:25:12.550Z] WETH/USDC prices:
+[2025-05-02T23:25:12.554Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:25:12.556Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:25:12.578Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:12.579Z] Path: V2 -> V3
+[2025-05-02T23:25:12.582Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:25:12.588Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:12.590Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:25:12.661Z] DAI/USDC prices:
+[2025-05-02T23:25:12.663Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:25:12.665Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:25:12.725Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:12.729Z] Path: V2 -> V3
+[2025-05-02T23:25:12.732Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:25:12.736Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:17.741Z] Waiting for next scan cycle...
+[2025-05-02T23:25:18.281Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:25:18.326Z] WETH/DAI prices:
+[2025-05-02T23:25:18.327Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:25:18.329Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:25:18.366Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:18.369Z] Path: V3 -> V2
+[2025-05-02T23:25:18.374Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:25:18.377Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:18.379Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:25:18.432Z] WETH/USDC prices:
+[2025-05-02T23:25:18.433Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:25:18.435Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:25:18.463Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:18.464Z] Path: V2 -> V3
+[2025-05-02T23:25:18.466Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:25:18.469Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:18.472Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:25:18.516Z] DAI/USDC prices:
+[2025-05-02T23:25:18.517Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:25:18.520Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:25:18.546Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:18.548Z] Path: V2 -> V3
+[2025-05-02T23:25:18.550Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:25:18.558Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:23.563Z] Waiting for next scan cycle...
+[2025-05-02T23:25:24.105Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:25:24.154Z] WETH/DAI prices:
+[2025-05-02T23:25:24.155Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:25:24.156Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:25:24.179Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:24.181Z] Path: V3 -> V2
+[2025-05-02T23:25:24.183Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:25:24.186Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:24.187Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:25:24.221Z] WETH/USDC prices:
+[2025-05-02T23:25:24.222Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:25:24.224Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:25:24.239Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:24.240Z] Path: V2 -> V3
+[2025-05-02T23:25:24.242Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:25:24.244Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:24.245Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:25:24.271Z] DAI/USDC prices:
+[2025-05-02T23:25:24.273Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:25:24.274Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:25:24.288Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:24.289Z] Path: V2 -> V3
+[2025-05-02T23:25:24.291Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:25:24.292Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:29.303Z] Waiting for next scan cycle...
+[2025-05-02T23:25:30.277Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:25:30.390Z] WETH/DAI prices:
+[2025-05-02T23:25:30.397Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:25:30.399Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:25:30.450Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:30.464Z] Path: V3 -> V2
+[2025-05-02T23:25:30.468Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:25:30.472Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:30.474Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:25:30.784Z] WETH/USDC prices:
+[2025-05-02T23:25:30.791Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:25:30.794Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:25:30.876Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:30.878Z] Path: V2 -> V3
+[2025-05-02T23:25:30.881Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:25:30.884Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:30.890Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:25:30.944Z] DAI/USDC prices:
+[2025-05-02T23:25:30.946Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:25:30.947Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:25:30.974Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:30.976Z] Path: V2 -> V3
+[2025-05-02T23:25:30.978Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:25:30.979Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:35.987Z] Waiting for next scan cycle...
+[2025-05-02T23:25:36.642Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:25:36.711Z] WETH/DAI prices:
+[2025-05-02T23:25:36.713Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:25:36.715Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:25:36.743Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:36.744Z] Path: V3 -> V2
+[2025-05-02T23:25:36.746Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:25:36.748Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:36.751Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:25:36.776Z] WETH/USDC prices:
+[2025-05-02T23:25:36.778Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:25:36.780Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:25:36.816Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:36.824Z] Path: V2 -> V3
+[2025-05-02T23:25:36.833Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:25:36.835Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:36.838Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:25:36.916Z] DAI/USDC prices:
+[2025-05-02T23:25:36.921Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:25:36.923Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:25:36.949Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:36.951Z] Path: V2 -> V3
+[2025-05-02T23:25:36.954Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:25:36.956Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:41.972Z] Waiting for next scan cycle...
+[2025-05-02T23:25:42.758Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:25:43.015Z] WETH/DAI prices:
+[2025-05-02T23:25:43.017Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:25:43.020Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:25:43.046Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:43.047Z] Path: V3 -> V2
+[2025-05-02T23:25:43.049Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:25:43.051Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:43.054Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:25:43.097Z] WETH/USDC prices:
+[2025-05-02T23:25:43.098Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:25:43.100Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:25:43.132Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:43.134Z] Path: V2 -> V3
+[2025-05-02T23:25:43.136Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:25:43.138Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:43.139Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:25:43.173Z] DAI/USDC prices:
+[2025-05-02T23:25:43.175Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:25:43.177Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:25:43.202Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:43.204Z] Path: V2 -> V3
+[2025-05-02T23:25:43.207Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:25:43.214Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:48.218Z] Waiting for next scan cycle...
+[2025-05-02T23:25:48.810Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:25:48.867Z] WETH/DAI prices:
+[2025-05-02T23:25:48.870Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:25:48.872Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:25:48.897Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:48.898Z] Path: V3 -> V2
+[2025-05-02T23:25:48.900Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:25:48.903Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:48.905Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:25:48.948Z] WETH/USDC prices:
+[2025-05-02T23:25:48.949Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:25:48.952Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:25:48.980Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:48.982Z] Path: V2 -> V3
+[2025-05-02T23:25:48.984Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:25:48.986Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:48.988Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:25:49.024Z] DAI/USDC prices:
+[2025-05-02T23:25:49.026Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:25:49.028Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:25:49.059Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:49.061Z] Path: V2 -> V3
+[2025-05-02T23:25:49.070Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:25:49.072Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:54.079Z] Waiting for next scan cycle...
+[2025-05-02T23:25:54.794Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:25:54.857Z] WETH/DAI prices:
+[2025-05-02T23:25:54.860Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:25:54.864Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:25:54.881Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:54.882Z] Path: V3 -> V2
+[2025-05-02T23:25:54.884Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:25:54.886Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:54.890Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:25:54.932Z] WETH/USDC prices:
+[2025-05-02T23:25:54.933Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:25:54.936Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:25:54.975Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:54.977Z] Path: V2 -> V3
+[2025-05-02T23:25:54.978Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:25:54.979Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:25:54.981Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:25:55.042Z] DAI/USDC prices:
+[2025-05-02T23:25:55.043Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:25:55.046Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:25:55.069Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:25:55.072Z] Path: V2 -> V3
+[2025-05-02T23:25:55.075Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:25:55.077Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:26:00.082Z] Waiting for next scan cycle...
+[2025-05-02T23:26:00.668Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:26:00.727Z] WETH/DAI prices:
+[2025-05-02T23:26:00.728Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:26:00.729Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:26:00.762Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:26:00.764Z] Path: V3 -> V2
+[2025-05-02T23:26:00.769Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:26:00.774Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:26:00.776Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:26:00.817Z] WETH/USDC prices:
+[2025-05-02T23:26:00.819Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:26:00.821Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:26:00.840Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:26:00.842Z] Path: V2 -> V3
+[2025-05-02T23:26:00.844Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:26:00.845Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:26:00.846Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:26:00.882Z] DAI/USDC prices:
+[2025-05-02T23:26:00.884Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:26:00.887Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:26:00.915Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:26:00.917Z] Path: V2 -> V3
+[2025-05-02T23:26:00.921Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:26:00.923Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:26:05.927Z] Waiting for next scan cycle...
+[2025-05-02T23:26:06.503Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:26:06.548Z] WETH/DAI prices:
+[2025-05-02T23:26:06.549Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:26:06.553Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:26:06.595Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:26:06.596Z] Path: V3 -> V2
+[2025-05-02T23:26:06.601Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:26:06.608Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:26:06.609Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:26:06.676Z] WETH/USDC prices:
+[2025-05-02T23:26:06.677Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:26:06.679Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:26:06.718Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:26:06.721Z] Path: V2 -> V3
+[2025-05-02T23:26:06.724Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:26:06.726Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:26:06.728Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:26:06.764Z] DAI/USDC prices:
+[2025-05-02T23:26:06.766Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:26:06.767Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:26:06.781Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:26:06.782Z] Path: V2 -> V3
+[2025-05-02T23:26:06.784Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:26:06.786Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:26:11.798Z] Waiting for next scan cycle...
+[2025-05-02T23:26:12.804Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:26:12.864Z] WETH/DAI prices:
+[2025-05-02T23:26:12.865Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:26:12.868Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:26:12.896Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:26:12.898Z] Path: V3 -> V2
+[2025-05-02T23:26:12.900Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:26:12.902Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:26:12.904Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:26:12.940Z] WETH/USDC prices:
+[2025-05-02T23:26:12.942Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:26:12.944Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:26:12.960Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:26:12.962Z] Path: V2 -> V3
+[2025-05-02T23:26:12.964Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:26:12.966Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:26:12.967Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:26:13.019Z] DAI/USDC prices:
+[2025-05-02T23:26:13.021Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:26:13.023Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:26:13.049Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:26:13.050Z] Path: V2 -> V3
+[2025-05-02T23:26:13.053Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:26:13.055Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:26:18.061Z] Waiting for next scan cycle...
+[2025-05-02T23:26:18.648Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:26:18.706Z] WETH/DAI prices:
+[2025-05-02T23:26:18.707Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:26:18.709Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:26:18.749Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:26:18.752Z] Path: V3 -> V2
+[2025-05-02T23:26:18.755Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:26:18.757Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:26:18.759Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:26:18.801Z] WETH/USDC prices:
+[2025-05-02T23:26:18.805Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:26:18.806Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:26:18.826Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:26:18.827Z] Path: V2 -> V3
+[2025-05-02T23:26:18.830Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:26:18.831Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:26:18.833Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:26:19.065Z] DAI/USDC prices:
+[2025-05-02T23:26:19.077Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:26:19.081Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:26:19.279Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:26:19.280Z] Path: V2 -> V3
+[2025-05-02T23:26:19.283Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:26:19.294Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:26:24.357Z] Waiting for next scan cycle...
+[2025-05-02T23:26:25.253Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:26:25.312Z] WETH/DAI prices:
+[2025-05-02T23:26:25.313Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:26:25.315Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:26:25.343Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:26:25.345Z] Path: V3 -> V2
+[2025-05-02T23:26:25.348Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:26:25.349Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:26:25.354Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:26:25.420Z] WETH/USDC prices:
+[2025-05-02T23:26:25.421Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:26:25.424Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:26:25.442Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:26:25.444Z] Path: V2 -> V3
+[2025-05-02T23:26:25.445Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:26:25.446Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:26:25.448Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:26:25.481Z] DAI/USDC prices:
+[2025-05-02T23:26:25.482Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:26:25.484Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:26:25.514Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:26:25.516Z] Path: V2 -> V3
+[2025-05-02T23:26:25.519Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:26:25.521Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:26:30.538Z] Waiting for next scan cycle...
+[2025-05-02T23:26:31.574Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:26:32.043Z] WETH/DAI prices:
+[2025-05-02T23:26:32.083Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:26:32.094Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:26:32.176Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:26:32.198Z] Path: V3 -> V2
+[2025-05-02T23:26:32.212Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:26:32.215Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:26:32.217Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:26:32.898Z] WETH/USDC prices:
+[2025-05-02T23:26:32.912Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:26:32.926Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:26:33.029Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:26:33.032Z] Path: V2 -> V3
+[2025-05-02T23:26:33.046Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:26:33.094Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:26:33.114Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:26:33.328Z] DAI/USDC prices:
+[2025-05-02T23:26:33.331Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:26:33.345Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:26:33.529Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:26:33.627Z] Path: V2 -> V3
+[2025-05-02T23:26:33.631Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:26:33.636Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:26:38.674Z] Waiting for next scan cycle...
+[2025-05-02T23:26:39.362Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:26:39.718Z] WETH/DAI prices:
+[2025-05-02T23:26:39.742Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:26:39.749Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:26:39.798Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:26:39.799Z] Path: V3 -> V2
+[2025-05-02T23:26:39.802Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:26:39.809Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:26:39.811Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:26:39.866Z] WETH/USDC prices:
+[2025-05-02T23:26:39.868Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:26:39.874Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:26:39.902Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:26:39.907Z] Path: V2 -> V3
+[2025-05-02T23:26:39.910Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:26:39.917Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:26:39.932Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:26:40.100Z] DAI/USDC prices:
+[2025-05-02T23:26:40.107Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:26:40.115Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:26:40.178Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:26:40.180Z] Path: V2 -> V3
+[2025-05-02T23:26:40.183Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:26:40.193Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:26:45.205Z] Waiting for next scan cycle...
+[2025-05-02T23:26:45.853Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:26:45.999Z] WETH/DAI prices:
+[2025-05-02T23:26:46.001Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:26:46.004Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:26:46.082Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:26:46.093Z] Path: V3 -> V2
+[2025-05-02T23:26:46.095Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:26:46.101Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:26:46.105Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:26:46.155Z] WETH/USDC prices:
+[2025-05-02T23:26:46.158Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:26:46.162Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:26:46.183Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:26:46.188Z] Path: V2 -> V3
+[2025-05-02T23:26:46.197Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:26:46.199Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:26:46.202Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:26:46.282Z] DAI/USDC prices:
+[2025-05-02T23:26:46.295Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:26:46.301Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:26:46.330Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:26:46.332Z] Path: V2 -> V3
+[2025-05-02T23:26:46.341Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:26:46.342Z] Profit below threshold (1%). Skipping execution.
+[2025-05-02T23:28:17.569Z] Starting arbitrage scanner in simulation mode...
+[2025-05-02T23:28:17.581Z] Loaded simulation config with network ID: 31337
+[2025-05-02T23:28:18.186Z] Using account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-02T23:28:18.231Z] Connected to all contracts in simulation
+[2025-05-02T23:28:18.234Z] Starting arbitrage scanning between Uniswap V2 and Uniswap V3...
+[2025-05-02T23:28:18.926Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:28:19.017Z] WETH/DAI prices:
+[2025-05-02T23:28:19.023Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:28:19.026Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:28:19.048Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:28:19.050Z] Path: V3 -> V2
+[2025-05-02T23:28:19.057Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:28:19.059Z] Profit below threshold (0.001%). Skipping execution.
+[2025-05-02T23:28:19.060Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:28:19.111Z] WETH/USDC prices:
+[2025-05-02T23:28:19.113Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:28:19.115Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:28:19.141Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:28:19.143Z] Path: V2 -> V3
+[2025-05-02T23:28:19.145Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:28:19.147Z] Profit below threshold (0.001%). Skipping execution.
+[2025-05-02T23:28:19.148Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:28:19.192Z] DAI/USDC prices:
+[2025-05-02T23:28:19.194Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:28:19.195Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:28:19.223Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:28:19.229Z] Path: V2 -> V3
+[2025-05-02T23:28:19.233Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:28:19.240Z] Profit below threshold (0.001%). Skipping execution.
+[2025-05-02T23:28:24.254Z] Waiting for next scan cycle...
+[2025-05-02T23:28:25.278Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:28:25.624Z] WETH/DAI prices:
+[2025-05-02T23:28:25.633Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:28:25.642Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:28:25.766Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:28:25.779Z] Path: V3 -> V2
+[2025-05-02T23:28:25.784Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:28:25.790Z] Profit below threshold (0.001%). Skipping execution.
+[2025-05-02T23:28:25.793Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:28:25.859Z] WETH/USDC prices:
+[2025-05-02T23:28:25.863Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:28:25.865Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:28:25.896Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:28:25.898Z] Path: V2 -> V3
+[2025-05-02T23:28:25.901Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:28:25.903Z] Profit below threshold (0.001%). Skipping execution.
+[2025-05-02T23:28:25.907Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:28:25.951Z] DAI/USDC prices:
+[2025-05-02T23:28:25.960Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:28:25.963Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:28:26.002Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:28:26.004Z] Path: V2 -> V3
+[2025-05-02T23:28:26.008Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:28:26.009Z] Profit below threshold (0.001%). Skipping execution.
+[2025-05-02T23:28:31.014Z] Waiting for next scan cycle...
+[2025-05-02T23:28:31.685Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:28:31.747Z] WETH/DAI prices:
+[2025-05-02T23:28:31.749Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:28:31.752Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:28:31.778Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:28:31.782Z] Path: V3 -> V2
+[2025-05-02T23:28:31.785Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:28:31.787Z] Profit below threshold (0.001%). Skipping execution.
+[2025-05-02T23:28:31.788Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:28:31.838Z] WETH/USDC prices:
+[2025-05-02T23:28:31.843Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:28:31.845Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:28:31.867Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:28:31.869Z] Path: V2 -> V3
+[2025-05-02T23:28:31.871Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:28:31.874Z] Profit below threshold (0.001%). Skipping execution.
+[2025-05-02T23:28:31.877Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:28:31.930Z] DAI/USDC prices:
+[2025-05-02T23:28:31.931Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:28:31.933Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:28:31.962Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:28:31.964Z] Path: V2 -> V3
+[2025-05-02T23:28:31.967Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:28:31.968Z] Profit below threshold (0.001%). Skipping execution.
+[2025-05-02T23:28:36.977Z] Waiting for next scan cycle...
+[2025-05-02T23:28:37.540Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:28:37.589Z] WETH/DAI prices:
+[2025-05-02T23:28:37.592Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:28:37.594Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:28:37.612Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:28:37.613Z] Path: V3 -> V2
+[2025-05-02T23:28:37.615Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:28:37.617Z] Profit below threshold (0.001%). Skipping execution.
+[2025-05-02T23:28:37.619Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:28:37.664Z] WETH/USDC prices:
+[2025-05-02T23:28:37.666Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:28:37.668Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:28:37.682Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:28:37.683Z] Path: V2 -> V3
+[2025-05-02T23:28:37.685Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:28:37.688Z] Profit below threshold (0.001%). Skipping execution.
+[2025-05-02T23:28:37.692Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:28:37.736Z] DAI/USDC prices:
+[2025-05-02T23:28:37.738Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:28:37.740Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:28:37.767Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:28:37.769Z] Path: V2 -> V3
+[2025-05-02T23:28:37.771Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:28:37.773Z] Profit below threshold (0.001%). Skipping execution.
+[2025-05-02T23:28:42.779Z] Waiting for next scan cycle...
+[2025-05-02T23:28:43.307Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:28:43.722Z] WETH/DAI prices:
+[2025-05-02T23:28:43.724Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:28:43.726Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:28:43.747Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:28:43.752Z] Path: V3 -> V2
+[2025-05-02T23:28:43.755Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:28:43.763Z] Profit below threshold (0.001%). Skipping execution.
+[2025-05-02T23:28:43.765Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:28:43.841Z] WETH/USDC prices:
+[2025-05-02T23:28:43.844Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:28:43.846Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:28:43.879Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:28:43.880Z] Path: V2 -> V3
+[2025-05-02T23:28:43.888Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:28:43.891Z] Profit below threshold (0.001%). Skipping execution.
+[2025-05-02T23:28:43.894Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:28:43.958Z] DAI/USDC prices:
+[2025-05-02T23:28:43.960Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:28:43.963Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:28:43.992Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:28:43.993Z] Path: V2 -> V3
+[2025-05-02T23:28:43.996Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:28:43.997Z] Profit below threshold (0.001%). Skipping execution.
+[2025-05-02T23:28:49.001Z] Waiting for next scan cycle...
+[2025-05-02T23:28:49.842Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:28:49.897Z] WETH/DAI prices:
+[2025-05-02T23:28:49.899Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:28:49.900Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:28:49.918Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:28:49.920Z] Path: V3 -> V2
+[2025-05-02T23:28:49.923Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:28:49.927Z] Profit below threshold (0.001%). Skipping execution.
+[2025-05-02T23:28:49.929Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:28:49.984Z] WETH/USDC prices:
+[2025-05-02T23:28:49.986Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:28:49.987Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:28:50.005Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:28:50.007Z] Path: V2 -> V3
+[2025-05-02T23:28:50.009Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:28:50.011Z] Profit below threshold (0.001%). Skipping execution.
+[2025-05-02T23:28:50.013Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:28:50.078Z] DAI/USDC prices:
+[2025-05-02T23:28:50.081Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:28:50.083Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:28:50.105Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:28:50.107Z] Path: V2 -> V3
+[2025-05-02T23:28:50.111Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:28:50.113Z] Profit below threshold (0.001%). Skipping execution.
+[2025-05-02T23:28:55.129Z] Waiting for next scan cycle...
+[2025-05-02T23:28:55.894Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:28:55.955Z] WETH/DAI prices:
+[2025-05-02T23:28:55.962Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:28:55.963Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:28:55.992Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:28:55.994Z] Path: V3 -> V2
+[2025-05-02T23:28:55.997Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:28:55.998Z] Profit below threshold (0.001%). Skipping execution.
+[2025-05-02T23:28:56.000Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:28:56.030Z] WETH/USDC prices:
+[2025-05-02T23:28:56.032Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:28:56.033Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:28:56.071Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:28:56.073Z] Path: V2 -> V3
+[2025-05-02T23:28:56.074Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:28:56.076Z] Profit below threshold (0.001%). Skipping execution.
+[2025-05-02T23:28:56.077Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:28:56.124Z] DAI/USDC prices:
+[2025-05-02T23:28:56.127Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:28:56.129Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:28:56.157Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:28:56.159Z] Path: V2 -> V3
+[2025-05-02T23:28:56.161Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:28:56.162Z] Profit below threshold (0.001%). Skipping execution.
+[2025-05-02T23:29:01.177Z] Waiting for next scan cycle...
+[2025-05-02T23:29:02.127Z] Checking WETH/DAI for arbitrage opportunities...
+[2025-05-02T23:29:02.173Z] WETH/DAI prices:
+[2025-05-02T23:29:02.176Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:29:02.179Z] - Uniswap V3: 1 unit = 209370.0 units
+[2025-05-02T23:29:02.202Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:29:02.205Z] Path: V3 -> V2
+[2025-05-02T23:29:02.213Z] Expected profit: 4.595 (0.00%)
+[2025-05-02T23:29:02.216Z] Profit below threshold (0.001%). Skipping execution.
+[2025-05-02T23:29:02.219Z] Checking WETH/USDC for arbitrage opportunities...
+[2025-05-02T23:29:02.265Z] WETH/USDC prices:
+[2025-05-02T23:29:02.266Z] - Uniswap V2: 1 unit = 200000.0 units
+[2025-05-02T23:29:02.268Z] - Uniswap V3: 1 unit = 189430.0 units
+[2025-05-02T23:29:02.296Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:29:02.297Z] Path: V2 -> V3
+[2025-05-02T23:29:02.300Z] Expected profit: 4.8573684210525896 (0.00%)
+[2025-05-02T23:29:02.303Z] Profit below threshold (0.001%). Skipping execution.
+[2025-05-02T23:29:02.304Z] Checking DAI/USDC for arbitrage opportunities...
+[2025-05-02T23:29:02.383Z] DAI/USDC prices:
+[2025-05-02T23:29:02.386Z] - Uniswap V2: 1 unit = 100000.0 units
+[2025-05-02T23:29:02.389Z] - Uniswap V3: 1 unit = 94715.0 units
+[2025-05-02T23:29:02.439Z] ARBITRAGE OPPORTUNITY FOUND!
+[2025-05-02T23:29:02.442Z] Path: V2 -> V3
+[2025-05-02T23:29:02.444Z] Expected profit: 4857.3684210526315737 (0.00%)
+[2025-05-02T23:29:02.445Z] Profit below threshold (0.001%). Skipping execution.
+[2025-05-02T23:29:07.453Z] Waiting for next scan cycle...

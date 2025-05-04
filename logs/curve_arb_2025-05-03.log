@@ -1,0 +1,433 @@
+[2025-05-03T22:51:49.840Z] Starting Curve arbitrage scanner...
+[2025-05-03T22:51:49.848Z] Loaded fork config with network ID: 1
+[2025-05-03T22:51:51.237Z] Using account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T22:51:51.251Z] Connected to FlashloanArb contract at 0x4458AcB1185aD869F982D51b5b0b87e23767A3A9
+[2025-05-03T22:51:51.371Z] WETH decimals: 18
+[2025-05-03T22:51:51.373Z] DAI decimals: 18
+[2025-05-03T22:51:51.377Z] USDC decimals: 6
+[2025-05-03T22:51:51.392Z] Starting arbitrage scanning between Curve and other DEXs...
+[2025-05-03T22:51:51.404Z] Scan #1 of 10
+[2025-05-03T22:51:51.412Z] 
+Checking WETH/DAI for Curve arbitrage opportunities...
+[2025-05-03T22:51:52.380Z] No Curve pool found for WETH/DAI
+[2025-05-03T22:51:52.382Z] 
+Checking WETH/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:51:52.419Z] No Curve pool found for WETH/USDC
+[2025-05-03T22:51:52.421Z] 
+Checking DAI/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:51:52.455Z] No Curve pool found for DAI/USDC
+[2025-05-03T22:51:55.465Z] Waiting for next scan cycle...
+[2025-05-03T22:51:55.467Z] Scan #2 of 10
+[2025-05-03T22:51:55.469Z] 
+Checking WETH/DAI for Curve arbitrage opportunities...
+[2025-05-03T22:51:55.506Z] No Curve pool found for WETH/DAI
+[2025-05-03T22:51:55.507Z] 
+Checking WETH/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:51:55.537Z] No Curve pool found for WETH/USDC
+[2025-05-03T22:51:55.538Z] 
+Checking DAI/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:51:55.570Z] No Curve pool found for DAI/USDC
+[2025-05-03T22:51:58.585Z] Waiting for next scan cycle...
+[2025-05-03T22:51:58.587Z] Scan #3 of 10
+[2025-05-03T22:51:58.588Z] 
+Checking WETH/DAI for Curve arbitrage opportunities...
+[2025-05-03T22:51:58.629Z] No Curve pool found for WETH/DAI
+[2025-05-03T22:51:58.631Z] 
+Checking WETH/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:51:58.670Z] No Curve pool found for WETH/USDC
+[2025-05-03T22:51:58.673Z] 
+Checking DAI/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:51:58.697Z] No Curve pool found for DAI/USDC
+[2025-05-03T22:52:01.704Z] Waiting for next scan cycle...
+[2025-05-03T22:52:01.706Z] Scan #4 of 10
+[2025-05-03T22:52:01.709Z] 
+Checking WETH/DAI for Curve arbitrage opportunities...
+[2025-05-03T22:52:01.749Z] No Curve pool found for WETH/DAI
+[2025-05-03T22:52:01.752Z] 
+Checking WETH/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:52:01.778Z] No Curve pool found for WETH/USDC
+[2025-05-03T22:52:01.779Z] 
+Checking DAI/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:52:01.884Z] No Curve pool found for DAI/USDC
+[2025-05-03T22:52:04.888Z] Waiting for next scan cycle...
+[2025-05-03T22:52:04.890Z] Scan #5 of 10
+[2025-05-03T22:52:04.892Z] 
+Checking WETH/DAI for Curve arbitrage opportunities...
+[2025-05-03T22:52:04.932Z] No Curve pool found for WETH/DAI
+[2025-05-03T22:52:04.934Z] 
+Checking WETH/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:52:04.960Z] No Curve pool found for WETH/USDC
+[2025-05-03T22:52:04.962Z] 
+Checking DAI/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:52:04.999Z] No Curve pool found for DAI/USDC
+[2025-05-03T22:52:08.005Z] Waiting for next scan cycle...
+[2025-05-03T22:52:08.010Z] Scan #6 of 10
+[2025-05-03T22:52:08.017Z] 
+Checking WETH/DAI for Curve arbitrage opportunities...
+[2025-05-03T22:52:08.047Z] No Curve pool found for WETH/DAI
+[2025-05-03T22:52:08.049Z] 
+Checking WETH/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:52:08.080Z] No Curve pool found for WETH/USDC
+[2025-05-03T22:52:08.083Z] 
+Checking DAI/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:52:08.202Z] No Curve pool found for DAI/USDC
+[2025-05-03T22:52:11.206Z] Waiting for next scan cycle...
+[2025-05-03T22:52:11.209Z] Scan #7 of 10
+[2025-05-03T22:52:11.211Z] 
+Checking WETH/DAI for Curve arbitrage opportunities...
+[2025-05-03T22:52:11.250Z] No Curve pool found for WETH/DAI
+[2025-05-03T22:52:11.252Z] 
+Checking WETH/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:52:11.284Z] No Curve pool found for WETH/USDC
+[2025-05-03T22:52:11.286Z] 
+Checking DAI/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:52:11.319Z] No Curve pool found for DAI/USDC
+[2025-05-03T22:58:43.779Z] Starting Curve arbitrage scanner...
+[2025-05-03T22:58:43.786Z] Loaded fork config with network ID: 1
+[2025-05-03T22:58:45.649Z] Using account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T22:58:45.670Z] Connected to FlashloanArb contract at 0x4458AcB1185aD869F982D51b5b0b87e23767A3A9
+[2025-05-03T22:58:45.906Z] WETH decimals: 18
+[2025-05-03T22:58:45.914Z] DAI decimals: 18
+[2025-05-03T22:58:45.918Z] USDC decimals: 6
+[2025-05-03T22:58:45.923Z] Starting arbitrage scanning between Curve and other DEXs...
+[2025-05-03T22:58:45.931Z] Scan #1 of 10
+[2025-05-03T22:58:45.937Z] 
+Checking WETH/DAI for Curve arbitrage opportunities...
+[2025-05-03T22:58:46.029Z] No Curve pool found for WETH/DAI
+[2025-05-03T22:58:46.031Z] 
+Checking WETH/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:58:46.120Z] No Curve pool found for WETH/USDC
+[2025-05-03T22:58:46.123Z] 
+Checking DAI/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:58:46.133Z] Found Curve pool at 0xbEbc44782C7dB0a1A60Cb6fe97d0b483032FF1C7 for DAI/USDC
+[2025-05-03T22:58:46.135Z] Token indices: 0, 1
+[2025-05-03T22:58:48.048Z] DAI/USDC prices for 5000.0 input:
+[2025-05-03T22:58:48.052Z] - Curve: 4999.156354
+[2025-05-03T22:58:48.054Z] - Uniswap V2: 4982.049318
+[2025-05-03T22:58:48.057Z] - Sushiswap: 3604.806935
+[2025-05-03T22:58:48.063Z] - Uniswap V3 (100): 4999.975316
+[2025-05-03T22:58:48.065Z] 
+Flash loan details:
+[2025-05-03T22:58:48.067Z] - Amount borrowed: 5000.0
+[2025-05-03T22:58:48.069Z] - Flash loan fee: 4.5
+[2025-05-03T22:58:48.072Z] - Repayment required: 5004.5
+[2025-05-03T22:58:48.077Z] 
+Checking arbitrage path: Curve -> Uniswap V2:
+[2025-05-03T22:58:48.082Z] - Step 1: Swap 5000.0 DAI -> 4999.156354 USDC on Curve
+[2025-05-03T22:58:48.139Z] - Step 2: Swap 4999.156354 USDC -> 4982.528575623361154616 DAI on Uniswap V2
+[2025-05-03T22:58:48.148Z] - NOT PROFITABLE. Would lose 21.971424376638845384 DAI
+[2025-05-03T22:58:48.150Z] 
+Checking arbitrage path: Curve -> Sushiswap:
+[2025-05-03T22:58:48.153Z] - Step 1: Swap 5000.0 DAI -> 4999.156354 USDC on Curve
+[2025-05-03T22:58:48.188Z] - Step 2: Swap 4999.156354 USDC -> 3581.973259681749385173 DAI on Sushiswap
+[2025-05-03T22:58:48.198Z] - NOT PROFITABLE. Would lose 1422.526740318250614827 DAI
+[2025-05-03T22:58:48.201Z] Potential Uniswap V3 -> Curve arbitrage for DAI/USDC
+[2025-05-03T22:58:48.202Z] Further implementation needed for V3 path check
+[2025-05-03T22:58:51.212Z] Waiting for next scan cycle...
+[2025-05-03T22:58:51.216Z] Scan #2 of 10
+[2025-05-03T22:58:51.219Z] 
+Checking WETH/DAI for Curve arbitrage opportunities...
+[2025-05-03T22:58:51.351Z] No Curve pool found for WETH/DAI
+[2025-05-03T22:58:51.353Z] 
+Checking WETH/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:58:51.412Z] No Curve pool found for WETH/USDC
+[2025-05-03T22:58:51.414Z] 
+Checking DAI/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:58:51.415Z] Found Curve pool at 0xbEbc44782C7dB0a1A60Cb6fe97d0b483032FF1C7 for DAI/USDC
+[2025-05-03T22:58:51.417Z] Token indices: 0, 1
+[2025-05-03T22:58:51.687Z] DAI/USDC prices for 5000.0 input:
+[2025-05-03T22:58:51.691Z] - Curve: 4999.156354
+[2025-05-03T22:58:51.698Z] - Uniswap V2: 4982.049318
+[2025-05-03T22:58:51.701Z] - Sushiswap: 3604.806935
+[2025-05-03T22:58:51.704Z] - Uniswap V3 (100): 4999.975316
+[2025-05-03T22:58:51.707Z] 
+Flash loan details:
+[2025-05-03T22:58:51.716Z] - Amount borrowed: 5000.0
+[2025-05-03T22:58:51.718Z] - Flash loan fee: 4.5
+[2025-05-03T22:58:51.721Z] - Repayment required: 5004.5
+[2025-05-03T22:58:51.723Z] 
+Checking arbitrage path: Curve -> Uniswap V2:
+[2025-05-03T22:58:51.728Z] - Step 1: Swap 5000.0 DAI -> 4999.156354 USDC on Curve
+[2025-05-03T22:58:51.757Z] - Step 2: Swap 4999.156354 USDC -> 4982.528575623361154616 DAI on Uniswap V2
+[2025-05-03T22:58:51.763Z] - NOT PROFITABLE. Would lose 21.971424376638845384 DAI
+[2025-05-03T22:58:51.765Z] 
+Checking arbitrage path: Curve -> Sushiswap:
+[2025-05-03T22:58:51.768Z] - Step 1: Swap 5000.0 DAI -> 4999.156354 USDC on Curve
+[2025-05-03T22:58:51.803Z] - Step 2: Swap 4999.156354 USDC -> 3581.973259681749385173 DAI on Sushiswap
+[2025-05-03T22:58:51.807Z] - NOT PROFITABLE. Would lose 1422.526740318250614827 DAI
+[2025-05-03T22:58:51.810Z] Potential Uniswap V3 -> Curve arbitrage for DAI/USDC
+[2025-05-03T22:58:51.813Z] Further implementation needed for V3 path check
+[2025-05-03T22:58:54.830Z] Waiting for next scan cycle...
+[2025-05-03T22:58:54.833Z] Scan #3 of 10
+[2025-05-03T22:58:54.835Z] 
+Checking WETH/DAI for Curve arbitrage opportunities...
+[2025-05-03T22:58:54.870Z] No Curve pool found for WETH/DAI
+[2025-05-03T22:58:54.873Z] 
+Checking WETH/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:58:54.901Z] No Curve pool found for WETH/USDC
+[2025-05-03T22:58:54.904Z] 
+Checking DAI/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:58:54.906Z] Found Curve pool at 0xbEbc44782C7dB0a1A60Cb6fe97d0b483032FF1C7 for DAI/USDC
+[2025-05-03T22:58:54.908Z] Token indices: 0, 1
+[2025-05-03T22:58:55.130Z] DAI/USDC prices for 5000.0 input:
+[2025-05-03T22:58:55.132Z] - Curve: 4999.156354
+[2025-05-03T22:58:55.134Z] - Uniswap V2: 4982.049318
+[2025-05-03T22:58:55.135Z] - Sushiswap: 3604.806935
+[2025-05-03T22:58:55.138Z] - Uniswap V3 (100): 4999.975316
+[2025-05-03T22:58:55.140Z] 
+Flash loan details:
+[2025-05-03T22:58:55.145Z] - Amount borrowed: 5000.0
+[2025-05-03T22:58:55.150Z] - Flash loan fee: 4.5
+[2025-05-03T22:58:55.152Z] - Repayment required: 5004.5
+[2025-05-03T22:58:55.153Z] 
+Checking arbitrage path: Curve -> Uniswap V2:
+[2025-05-03T22:58:55.157Z] - Step 1: Swap 5000.0 DAI -> 4999.156354 USDC on Curve
+[2025-05-03T22:58:55.197Z] - Step 2: Swap 4999.156354 USDC -> 4982.528575623361154616 DAI on Uniswap V2
+[2025-05-03T22:58:55.200Z] - NOT PROFITABLE. Would lose 21.971424376638845384 DAI
+[2025-05-03T22:58:55.201Z] 
+Checking arbitrage path: Curve -> Sushiswap:
+[2025-05-03T22:58:55.203Z] - Step 1: Swap 5000.0 DAI -> 4999.156354 USDC on Curve
+[2025-05-03T22:58:55.255Z] - Step 2: Swap 4999.156354 USDC -> 3581.973259681749385173 DAI on Sushiswap
+[2025-05-03T22:58:55.261Z] - NOT PROFITABLE. Would lose 1422.526740318250614827 DAI
+[2025-05-03T22:58:55.263Z] Potential Uniswap V3 -> Curve arbitrage for DAI/USDC
+[2025-05-03T22:58:55.265Z] Further implementation needed for V3 path check
+[2025-05-03T22:58:58.277Z] Waiting for next scan cycle...
+[2025-05-03T22:58:58.280Z] Scan #4 of 10
+[2025-05-03T22:58:58.282Z] 
+Checking WETH/DAI for Curve arbitrage opportunities...
+[2025-05-03T22:58:58.331Z] No Curve pool found for WETH/DAI
+[2025-05-03T22:58:58.333Z] 
+Checking WETH/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:58:58.367Z] No Curve pool found for WETH/USDC
+[2025-05-03T22:58:58.370Z] 
+Checking DAI/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:58:58.379Z] Found Curve pool at 0xbEbc44782C7dB0a1A60Cb6fe97d0b483032FF1C7 for DAI/USDC
+[2025-05-03T22:58:58.382Z] Token indices: 0, 1
+[2025-05-03T22:58:58.583Z] DAI/USDC prices for 5000.0 input:
+[2025-05-03T22:58:58.586Z] - Curve: 4999.156354
+[2025-05-03T22:58:58.587Z] - Uniswap V2: 4982.049318
+[2025-05-03T22:58:58.590Z] - Sushiswap: 3604.806935
+[2025-05-03T22:58:58.595Z] - Uniswap V3 (100): 4999.975316
+[2025-05-03T22:58:58.597Z] 
+Flash loan details:
+[2025-05-03T22:58:58.600Z] - Amount borrowed: 5000.0
+[2025-05-03T22:58:58.602Z] - Flash loan fee: 4.5
+[2025-05-03T22:58:58.605Z] - Repayment required: 5004.5
+[2025-05-03T22:58:58.607Z] 
+Checking arbitrage path: Curve -> Uniswap V2:
+[2025-05-03T22:58:58.615Z] - Step 1: Swap 5000.0 DAI -> 4999.156354 USDC on Curve
+[2025-05-03T22:58:58.638Z] - Step 2: Swap 4999.156354 USDC -> 4982.528575623361154616 DAI on Uniswap V2
+[2025-05-03T22:58:58.642Z] - NOT PROFITABLE. Would lose 21.971424376638845384 DAI
+[2025-05-03T22:58:58.649Z] 
+Checking arbitrage path: Curve -> Sushiswap:
+[2025-05-03T22:58:58.652Z] - Step 1: Swap 5000.0 DAI -> 4999.156354 USDC on Curve
+[2025-05-03T22:58:58.690Z] - Step 2: Swap 4999.156354 USDC -> 3581.973259681749385173 DAI on Sushiswap
+[2025-05-03T22:58:58.697Z] - NOT PROFITABLE. Would lose 1422.526740318250614827 DAI
+[2025-05-03T22:58:58.699Z] Potential Uniswap V3 -> Curve arbitrage for DAI/USDC
+[2025-05-03T22:58:58.701Z] Further implementation needed for V3 path check
+[2025-05-03T22:59:01.716Z] Waiting for next scan cycle...
+[2025-05-03T22:59:01.718Z] Scan #5 of 10
+[2025-05-03T22:59:01.719Z] 
+Checking WETH/DAI for Curve arbitrage opportunities...
+[2025-05-03T22:59:01.761Z] No Curve pool found for WETH/DAI
+[2025-05-03T22:59:01.764Z] 
+Checking WETH/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:59:01.811Z] No Curve pool found for WETH/USDC
+[2025-05-03T22:59:01.813Z] 
+Checking DAI/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:59:01.815Z] Found Curve pool at 0xbEbc44782C7dB0a1A60Cb6fe97d0b483032FF1C7 for DAI/USDC
+[2025-05-03T22:59:01.817Z] Token indices: 0, 1
+[2025-05-03T22:59:02.581Z] DAI/USDC prices for 5000.0 input:
+[2025-05-03T22:59:02.583Z] - Curve: 4999.156354
+[2025-05-03T22:59:02.587Z] - Uniswap V2: 4982.049318
+[2025-05-03T22:59:02.594Z] - Sushiswap: 3604.806935
+[2025-05-03T22:59:02.598Z] - Uniswap V3 (100): 4999.975316
+[2025-05-03T22:59:02.600Z] 
+Flash loan details:
+[2025-05-03T22:59:02.602Z] - Amount borrowed: 5000.0
+[2025-05-03T22:59:02.605Z] - Flash loan fee: 4.5
+[2025-05-03T22:59:02.608Z] - Repayment required: 5004.5
+[2025-05-03T22:59:02.611Z] 
+Checking arbitrage path: Curve -> Uniswap V2:
+[2025-05-03T22:59:02.617Z] - Step 1: Swap 5000.0 DAI -> 4999.156354 USDC on Curve
+[2025-05-03T22:59:02.670Z] - Step 2: Swap 4999.156354 USDC -> 4982.528575623361154616 DAI on Uniswap V2
+[2025-05-03T22:59:02.675Z] - NOT PROFITABLE. Would lose 21.971424376638845384 DAI
+[2025-05-03T22:59:02.680Z] 
+Checking arbitrage path: Curve -> Sushiswap:
+[2025-05-03T22:59:02.684Z] - Step 1: Swap 5000.0 DAI -> 4999.156354 USDC on Curve
+[2025-05-03T22:59:02.718Z] - Step 2: Swap 4999.156354 USDC -> 3581.973259681749385173 DAI on Sushiswap
+[2025-05-03T22:59:02.721Z] - NOT PROFITABLE. Would lose 1422.526740318250614827 DAI
+[2025-05-03T22:59:02.723Z] Potential Uniswap V3 -> Curve arbitrage for DAI/USDC
+[2025-05-03T22:59:02.728Z] Further implementation needed for V3 path check
+[2025-05-03T22:59:05.744Z] Waiting for next scan cycle...
+[2025-05-03T22:59:05.748Z] Scan #6 of 10
+[2025-05-03T22:59:05.754Z] 
+Checking WETH/DAI for Curve arbitrage opportunities...
+[2025-05-03T22:59:05.811Z] No Curve pool found for WETH/DAI
+[2025-05-03T22:59:05.813Z] 
+Checking WETH/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:59:05.861Z] No Curve pool found for WETH/USDC
+[2025-05-03T22:59:05.867Z] 
+Checking DAI/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:59:05.869Z] Found Curve pool at 0xbEbc44782C7dB0a1A60Cb6fe97d0b483032FF1C7 for DAI/USDC
+[2025-05-03T22:59:05.870Z] Token indices: 0, 1
+[2025-05-03T22:59:06.128Z] DAI/USDC prices for 5000.0 input:
+[2025-05-03T22:59:06.132Z] - Curve: 4999.156354
+[2025-05-03T22:59:06.134Z] - Uniswap V2: 4982.049318
+[2025-05-03T22:59:06.136Z] - Sushiswap: 3604.806935
+[2025-05-03T22:59:06.139Z] - Uniswap V3 (100): 4999.975316
+[2025-05-03T22:59:06.148Z] 
+Flash loan details:
+[2025-05-03T22:59:06.151Z] - Amount borrowed: 5000.0
+[2025-05-03T22:59:06.153Z] - Flash loan fee: 4.5
+[2025-05-03T22:59:06.156Z] - Repayment required: 5004.5
+[2025-05-03T22:59:06.159Z] 
+Checking arbitrage path: Curve -> Uniswap V2:
+[2025-05-03T22:59:06.164Z] - Step 1: Swap 5000.0 DAI -> 4999.156354 USDC on Curve
+[2025-05-03T22:59:06.205Z] - Step 2: Swap 4999.156354 USDC -> 4982.528575623361154616 DAI on Uniswap V2
+[2025-05-03T22:59:06.213Z] - NOT PROFITABLE. Would lose 21.971424376638845384 DAI
+[2025-05-03T22:59:06.216Z] 
+Checking arbitrage path: Curve -> Sushiswap:
+[2025-05-03T22:59:06.218Z] - Step 1: Swap 5000.0 DAI -> 4999.156354 USDC on Curve
+[2025-05-03T22:59:06.248Z] - Step 2: Swap 4999.156354 USDC -> 3581.973259681749385173 DAI on Sushiswap
+[2025-05-03T22:59:06.250Z] - NOT PROFITABLE. Would lose 1422.526740318250614827 DAI
+[2025-05-03T22:59:06.252Z] Potential Uniswap V3 -> Curve arbitrage for DAI/USDC
+[2025-05-03T22:59:06.253Z] Further implementation needed for V3 path check
+[2025-05-03T22:59:09.260Z] Waiting for next scan cycle...
+[2025-05-03T22:59:09.262Z] Scan #7 of 10
+[2025-05-03T22:59:09.264Z] 
+Checking WETH/DAI for Curve arbitrage opportunities...
+[2025-05-03T22:59:09.297Z] No Curve pool found for WETH/DAI
+[2025-05-03T22:59:09.299Z] 
+Checking WETH/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:59:09.333Z] No Curve pool found for WETH/USDC
+[2025-05-03T22:59:09.335Z] 
+Checking DAI/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:59:09.337Z] Found Curve pool at 0xbEbc44782C7dB0a1A60Cb6fe97d0b483032FF1C7 for DAI/USDC
+[2025-05-03T22:59:09.339Z] Token indices: 0, 1
+[2025-05-03T22:59:09.609Z] DAI/USDC prices for 5000.0 input:
+[2025-05-03T22:59:09.612Z] - Curve: 4999.156354
+[2025-05-03T22:59:09.613Z] - Uniswap V2: 4982.049318
+[2025-05-03T22:59:09.615Z] - Sushiswap: 3604.806935
+[2025-05-03T22:59:09.617Z] - Uniswap V3 (100): 4999.975316
+[2025-05-03T22:59:09.619Z] 
+Flash loan details:
+[2025-05-03T22:59:09.621Z] - Amount borrowed: 5000.0
+[2025-05-03T22:59:09.623Z] - Flash loan fee: 4.5
+[2025-05-03T22:59:09.626Z] - Repayment required: 5004.5
+[2025-05-03T22:59:09.631Z] 
+Checking arbitrage path: Curve -> Uniswap V2:
+[2025-05-03T22:59:09.634Z] - Step 1: Swap 5000.0 DAI -> 4999.156354 USDC on Curve
+[2025-05-03T22:59:09.669Z] - Step 2: Swap 4999.156354 USDC -> 4982.528575623361154616 DAI on Uniswap V2
+[2025-05-03T22:59:09.671Z] - NOT PROFITABLE. Would lose 21.971424376638845384 DAI
+[2025-05-03T22:59:09.673Z] 
+Checking arbitrage path: Curve -> Sushiswap:
+[2025-05-03T22:59:09.678Z] - Step 1: Swap 5000.0 DAI -> 4999.156354 USDC on Curve
+[2025-05-03T22:59:09.717Z] - Step 2: Swap 4999.156354 USDC -> 3581.973259681749385173 DAI on Sushiswap
+[2025-05-03T22:59:09.720Z] - NOT PROFITABLE. Would lose 1422.526740318250614827 DAI
+[2025-05-03T22:59:09.723Z] Potential Uniswap V3 -> Curve arbitrage for DAI/USDC
+[2025-05-03T22:59:09.730Z] Further implementation needed for V3 path check
+[2025-05-03T22:59:12.743Z] Waiting for next scan cycle...
+[2025-05-03T22:59:12.753Z] Scan #8 of 10
+[2025-05-03T22:59:12.764Z] 
+Checking WETH/DAI for Curve arbitrage opportunities...
+[2025-05-03T22:59:12.800Z] No Curve pool found for WETH/DAI
+[2025-05-03T22:59:12.802Z] 
+Checking WETH/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:59:12.844Z] No Curve pool found for WETH/USDC
+[2025-05-03T22:59:12.846Z] 
+Checking DAI/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:59:12.850Z] Found Curve pool at 0xbEbc44782C7dB0a1A60Cb6fe97d0b483032FF1C7 for DAI/USDC
+[2025-05-03T22:59:12.854Z] Token indices: 0, 1
+[2025-05-03T22:59:13.069Z] DAI/USDC prices for 5000.0 input:
+[2025-05-03T22:59:13.071Z] - Curve: 4999.156354
+[2025-05-03T22:59:13.074Z] - Uniswap V2: 4982.049318
+[2025-05-03T22:59:13.078Z] - Sushiswap: 3604.806935
+[2025-05-03T22:59:13.080Z] - Uniswap V3 (100): 4999.975316
+[2025-05-03T22:59:13.082Z] 
+Flash loan details:
+[2025-05-03T22:59:13.085Z] - Amount borrowed: 5000.0
+[2025-05-03T22:59:13.087Z] - Flash loan fee: 4.5
+[2025-05-03T22:59:13.091Z] - Repayment required: 5004.5
+[2025-05-03T22:59:13.095Z] 
+Checking arbitrage path: Curve -> Uniswap V2:
+[2025-05-03T22:59:13.099Z] - Step 1: Swap 5000.0 DAI -> 4999.156354 USDC on Curve
+[2025-05-03T22:59:13.134Z] - Step 2: Swap 4999.156354 USDC -> 4982.528575623361154616 DAI on Uniswap V2
+[2025-05-03T22:59:13.136Z] - NOT PROFITABLE. Would lose 21.971424376638845384 DAI
+[2025-05-03T22:59:13.138Z] 
+Checking arbitrage path: Curve -> Sushiswap:
+[2025-05-03T22:59:13.146Z] - Step 1: Swap 5000.0 DAI -> 4999.156354 USDC on Curve
+[2025-05-03T22:59:13.176Z] - Step 2: Swap 4999.156354 USDC -> 3581.973259681749385173 DAI on Sushiswap
+[2025-05-03T22:59:13.183Z] - NOT PROFITABLE. Would lose 1422.526740318250614827 DAI
+[2025-05-03T22:59:13.185Z] Potential Uniswap V3 -> Curve arbitrage for DAI/USDC
+[2025-05-03T22:59:13.187Z] Further implementation needed for V3 path check
+[2025-05-03T22:59:16.192Z] Waiting for next scan cycle...
+[2025-05-03T22:59:16.196Z] Scan #9 of 10
+[2025-05-03T22:59:16.216Z] 
+Checking WETH/DAI for Curve arbitrage opportunities...
+[2025-05-03T22:59:16.245Z] No Curve pool found for WETH/DAI
+[2025-05-03T22:59:16.247Z] 
+Checking WETH/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:59:16.271Z] No Curve pool found for WETH/USDC
+[2025-05-03T22:59:16.278Z] 
+Checking DAI/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:59:16.282Z] Found Curve pool at 0xbEbc44782C7dB0a1A60Cb6fe97d0b483032FF1C7 for DAI/USDC
+[2025-05-03T22:59:16.284Z] Token indices: 0, 1
+[2025-05-03T22:59:16.478Z] DAI/USDC prices for 5000.0 input:
+[2025-05-03T22:59:16.480Z] - Curve: 4999.156354
+[2025-05-03T22:59:16.483Z] - Uniswap V2: 4982.049318
+[2025-05-03T22:59:16.485Z] - Sushiswap: 3604.806935
+[2025-05-03T22:59:16.488Z] - Uniswap V3 (100): 4999.975316
+[2025-05-03T22:59:16.491Z] 
+Flash loan details:
+[2025-05-03T22:59:16.497Z] - Amount borrowed: 5000.0
+[2025-05-03T22:59:16.499Z] - Flash loan fee: 4.5
+[2025-05-03T22:59:16.500Z] - Repayment required: 5004.5
+[2025-05-03T22:59:16.502Z] 
+Checking arbitrage path: Curve -> Uniswap V2:
+[2025-05-03T22:59:16.504Z] - Step 1: Swap 5000.0 DAI -> 4999.156354 USDC on Curve
+[2025-05-03T22:59:16.534Z] - Step 2: Swap 4999.156354 USDC -> 4982.528575623361154616 DAI on Uniswap V2
+[2025-05-03T22:59:16.536Z] - NOT PROFITABLE. Would lose 21.971424376638845384 DAI
+[2025-05-03T22:59:16.538Z] 
+Checking arbitrage path: Curve -> Sushiswap:
+[2025-05-03T22:59:16.542Z] - Step 1: Swap 5000.0 DAI -> 4999.156354 USDC on Curve
+[2025-05-03T22:59:16.569Z] - Step 2: Swap 4999.156354 USDC -> 3581.973259681749385173 DAI on Sushiswap
+[2025-05-03T22:59:16.572Z] - NOT PROFITABLE. Would lose 1422.526740318250614827 DAI
+[2025-05-03T22:59:16.574Z] Potential Uniswap V3 -> Curve arbitrage for DAI/USDC
+[2025-05-03T22:59:16.580Z] Further implementation needed for V3 path check
+[2025-05-03T22:59:19.588Z] Waiting for next scan cycle...
+[2025-05-03T22:59:19.619Z] Scan #10 of 10
+[2025-05-03T22:59:19.628Z] 
+Checking WETH/DAI for Curve arbitrage opportunities...
+[2025-05-03T22:59:19.661Z] No Curve pool found for WETH/DAI
+[2025-05-03T22:59:19.663Z] 
+Checking WETH/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:59:19.912Z] No Curve pool found for WETH/USDC
+[2025-05-03T22:59:19.914Z] 
+Checking DAI/USDC for Curve arbitrage opportunities...
+[2025-05-03T22:59:19.951Z] Found Curve pool at 0xbEbc44782C7dB0a1A60Cb6fe97d0b483032FF1C7 for DAI/USDC
+[2025-05-03T22:59:19.954Z] Token indices: 0, 1
+[2025-05-03T22:59:20.159Z] DAI/USDC prices for 5000.0 input:
+[2025-05-03T22:59:20.161Z] - Curve: 4999.156354
+[2025-05-03T22:59:20.163Z] - Uniswap V2: 4982.049318
+[2025-05-03T22:59:20.165Z] - Sushiswap: 3604.806935
+[2025-05-03T22:59:20.168Z] - Uniswap V3 (100): 4999.975316
+[2025-05-03T22:59:20.169Z] 
+Flash loan details:
+[2025-05-03T22:59:20.171Z] - Amount borrowed: 5000.0
+[2025-05-03T22:59:20.174Z] - Flash loan fee: 4.5
+[2025-05-03T22:59:20.179Z] - Repayment required: 5004.5
+[2025-05-03T22:59:20.182Z] 
+Checking arbitrage path: Curve -> Uniswap V2:
+[2025-05-03T22:59:20.184Z] - Step 1: Swap 5000.0 DAI -> 4999.156354 USDC on Curve
+[2025-05-03T22:59:20.205Z] - Step 2: Swap 4999.156354 USDC -> 4982.528575623361154616 DAI on Uniswap V2
+[2025-05-03T22:59:20.208Z] - NOT PROFITABLE. Would lose 21.971424376638845384 DAI
+[2025-05-03T22:59:20.211Z] 
+Checking arbitrage path: Curve -> Sushiswap:
+[2025-05-03T22:59:20.216Z] - Step 1: Swap 5000.0 DAI -> 4999.156354 USDC on Curve
+[2025-05-03T22:59:20.252Z] - Step 2: Swap 4999.156354 USDC -> 3581.973259681749385173 DAI on Sushiswap
+[2025-05-03T22:59:20.256Z] - NOT PROFITABLE. Would lose 1422.526740318250614827 DAI
+[2025-05-03T22:59:20.260Z] Potential Uniswap V3 -> Curve arbitrage for DAI/USDC
+[2025-05-03T22:59:20.263Z] Further implementation needed for V3 path check
+[2025-05-03T22:59:23.271Z] Waiting for next scan cycle...
+[2025-05-03T22:59:23.277Z] Scan complete. Total scans: 10

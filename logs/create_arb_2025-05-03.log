@@ -1,0 +1,77 @@
+[2025-05-03T15:14:52.075Z] Creating artificial arbitrage opportunity...
+[2025-05-03T15:14:52.084Z] Settings: Pair=DAI-USDC, Exchange=sushiswap, Imbalance=20%, Direction=token0
+[2025-05-03T15:14:53.487Z] Impersonating 0x28C6c06298d514Db089934071355E5743bf21d60 for token transfers
+[2025-05-03T15:14:54.015Z] Found DAI-USDC pair at 0xAaF5110db6e744ff70fB339DE037B990A20bdace on sushiswap
+[2025-05-03T15:14:54.235Z] Pair consists of DAI (18 decimals) and USDC (6 decimals)
+[2025-05-03T15:14:54.269Z] Current reserves: 12851.472666893004852684 DAI, 12898.102381 USDC
+[2025-05-03T15:14:54.276Z] Will add 2570.294533378600970536 DAI and remove 2149.683731 USDC
+[2025-05-03T15:14:54.568Z] Impersonated account balances: 3180870.716426447917991234 DAI, 432245938.966419 USDC
+[2025-05-03T15:14:54.571Z] Transferring 2570.294533378600970536 DAI to the pair...
+[2025-05-03T15:28:00.492Z] Creating artificial arbitrage opportunity...
+[2025-05-03T15:28:00.575Z] Settings: Pair=DAI-USDC, Exchange=sushiswap, Imbalance=20%, Direction=token0
+[2025-05-03T15:28:02.431Z] Using deployer account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T15:28:02.663Z] Found DAI-USDC pair at 0xAaF5110db6e744ff70fB339DE037B990A20bdace on sushiswap
+[2025-05-03T15:28:02.832Z] Pair consists of DAI (18 decimals) and USDC (6 decimals)
+[2025-05-03T15:28:02.857Z] Current reserves: 12851.472666893004852684 DAI, 12898.102381 USDC
+[2025-05-03T15:28:02.860Z] Target: Add 2570.294533378600970536 DAI and remove 2149.683731 USDC
+[2025-05-03T15:28:03.121Z] Found storage slot for DAI balance: 2
+[2025-05-03T15:28:03.146Z] Set deployer balance of DAI to 5140.589066757201941072
+[2025-05-03T15:28:03.391Z] Transferred 2570.294533378600970536 DAI to the pair
+[2025-05-03T15:28:03.395Z] Requesting swap to withdraw 2149.683731 USDC
+[2025-05-03T15:58:14.097Z] Creating artificial arbitrage opportunity...
+[2025-05-03T15:58:14.110Z] Settings: Pair=DAI-USDC, Exchange=sushiswap, Imbalance=20%, Direction=token0
+[2025-05-03T15:58:15.679Z] Using deployer account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T15:58:15.773Z] Found DAI-USDC pair at 0xAaF5110db6e744ff70fB339DE037B990A20bdace on sushiswap
+[2025-05-03T15:58:15.892Z] Pair consists of DAI (18 decimals) and USDC (6 decimals)
+[2025-05-03T15:58:15.927Z] Current reserves: 12851.472666893004852684 DAI, 12898.102381 USDC
+[2025-05-03T15:58:15.931Z] Target: Add 2570.294533378600970536 DAI and remove 2149.683731 USDC
+[2025-05-03T15:58:16.837Z] Found storage slot for DAI balance: 2
+[2025-05-03T15:58:16.861Z] Set deployer balance of DAI to 5140.589066757201941072
+[2025-05-03T17:49:27.357Z] Creating artificial arbitrage opportunity...
+[2025-05-03T17:49:27.389Z] Settings: Pair=DAI-USDC, Exchange=sushiswap, Imbalance=20%, Direction=token0
+[2025-05-03T17:49:28.797Z] Using deployer account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T17:49:28.976Z] Found DAI-USDC pair at 0xAaF5110db6e744ff70fB339DE037B990A20bdace on sushiswap
+[2025-05-03T17:49:29.177Z] Pair consists of DAI (18 decimals) and USDC (6 decimals)
+[2025-05-03T17:49:29.207Z] Current reserves: 12851.472666893004852684 DAI, 12898.102381 USDC
+[2025-05-03T17:49:29.212Z] Target: Add 2570.294533378600970536 DAI and remove 2149.683731 USDC
+[2025-05-03T17:49:29.346Z] Found storage slot for DAI balance: 2
+[2025-05-03T17:49:29.394Z] Set deployer balance of DAI to 5140.589066757201941072
+[2025-05-03T17:49:29.616Z] Transferred 2570.294533378600970536 DAI to the pair
+[2025-05-03T17:49:29.619Z] Requesting swap to withdraw 2149.683731 USDC
+[2025-05-03T17:50:45.491Z] Creating artificial arbitrage opportunity...
+[2025-05-03T17:50:45.497Z] Settings: Pair=DAI-USDC, Exchange=sushiswap, Imbalance=5%, Direction=token0
+[2025-05-03T17:50:46.991Z] Using deployer account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T17:50:47.122Z] Found DAI-USDC pair at 0xAaF5110db6e744ff70fB339DE037B990A20bdace on sushiswap
+[2025-05-03T17:50:47.265Z] Pair consists of DAI (18 decimals) and USDC (6 decimals)
+[2025-05-03T17:50:47.300Z] Current reserves: 12851.472666893004852684 DAI, 12898.102381 USDC
+[2025-05-03T17:50:47.304Z] Target: Add 642.573633344650242634 DAI and remove 614.195352 USDC
+[2025-05-03T17:50:47.422Z] Found storage slot for DAI balance: 2
+[2025-05-03T17:50:47.460Z] Set deployer balance of DAI to 1285.147266689300485268
+[2025-05-03T17:50:47.709Z] Transferred 642.573633344650242634 DAI to the pair
+[2025-05-03T17:50:47.711Z] Requesting swap to withdraw 614.195352 USDC
+[2025-05-03T17:50:48.523Z] New reserves: 16064.340833616256065854 DAI, 12283.907029 USDC
+[2025-05-03T17:50:48.527Z] Price impact: 100% change in DAI/USDC price
+[2025-05-03T17:50:48.606Z] Price difference between sushiswap and uniswap: 30.77%
+[2025-05-03T17:50:48.608Z] - sushiswap price: 1 DAI = 0.762327 USDC
+[2025-05-03T17:50:48.609Z] - uniswap price: 1 DAI = 0.996867 USDC
+[2025-05-03T17:50:48.611Z] ✅ Created profitable arbitrage opportunity! Price difference: 30.77%
+[2025-05-03T17:50:48.612Z] Arbitrage path: Buy on sushiswap, sell on uniswap
+[2025-05-03T17:50:48.683Z] Flash loan simulation:
+[2025-05-03T17:50:48.686Z] - Borrow: 10.0 DAI
+[2025-05-03T17:50:48.688Z] - Fee: 0.009 DAI
+[2025-05-03T17:50:48.690Z] - Buy on sushiswap: 7.619023 USDC
+[2025-05-03T17:50:48.692Z] - Sell on uniswap: 7.59716685849759266 DAI
+[2025-05-03T17:50:48.697Z] ⚠️ Not profitable after fees. Loss: 2.41183314150240734 DAI
+[2025-05-03T17:50:48.698Z] Try increasing the imbalance percentage.
+[2025-05-03T17:50:48.700Z] Arbitrage opportunity creation completed!
+[2025-05-03T20:52:45.880Z] Creating artificial arbitrage opportunity...
+[2025-05-03T20:52:45.937Z] Settings: Pair=DAI-USDC, Exchange=sushiswap, Imbalance=5%, Direction=token0
+[2025-05-03T20:52:47.397Z] Using deployer account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T20:52:47.480Z] Found DAI-USDC pair at 0xAaF5110db6e744ff70fB339DE037B990A20bdace on sushiswap
+[2025-05-03T20:52:47.614Z] Pair consists of DAI (18 decimals) and USDC (6 decimals)
+[2025-05-03T20:52:47.635Z] Current reserves: 16064.340833616256065854 DAI, 12283.907029 USDC
+[2025-05-03T20:52:47.639Z] Target: Add 803.217041680812803292 DAI and remove 584.947954 USDC
+[2025-05-03T20:52:47.787Z] Found storage slot for DAI balance: 2
+[2025-05-03T20:52:47.836Z] Set deployer balance of DAI to 1606.434083361625606584
+[2025-05-03T20:52:48.095Z] Transferred 803.217041680812803292 DAI to the pair
+[2025-05-03T20:52:48.097Z] Requesting swap to withdraw 584.947954 USDC

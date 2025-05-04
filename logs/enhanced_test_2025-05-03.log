@@ -1,0 +1,86 @@
+[2025-05-03T22:36:36.370Z] Starting enhanced arbitrage test...
+[2025-05-03T22:36:36.390Z] Loaded configuration with network ID: 1
+[2025-05-03T22:36:38.354Z] Using account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T22:36:38.400Z] Connected to FlashloanArb contract at 0x4458AcB1185aD869F982D51b5b0b87e23767A3A9
+[2025-05-03T22:36:39.051Z] Connected to WETH (WETH) with 18 decimals
+[2025-05-03T22:36:39.103Z] Connected to DAI (DAI) with 18 decimals
+[2025-05-03T22:36:39.160Z] Connected to USDC (USDC) with 6 decimals
+[2025-05-03T22:36:39.165Z] Using mock ETH price: $3000
+[2025-05-03T22:36:39.170Z] Created sample opportunity with expected profit of 0.1 WETH
+[2025-05-03T22:36:39.172Z] 
+Step 1: Validating opportunity...
+[2025-05-03T22:36:39.249Z] Opportunity is valid!
+[2025-05-03T22:36:39.254Z] Adjusted profit: 0.098 WETH
+[2025-05-03T22:36:39.261Z] Gas cost: 0.0238568071265 WETH
+[2025-05-03T22:36:39.282Z] Profitability: 0.7400%
+[2025-05-03T22:36:39.288Z] 
+Step 2: Preparing transaction (simulation only)...
+[2025-05-03T22:36:39.400Z] Calculated optimal gas price: 47.713614253 Gwei
+[2025-05-03T22:36:39.404Z] Gas cost would be: 0.0238568071265 WETH
+[2025-05-03T22:36:39.406Z] Transaction would be profitable: true
+[2025-05-03T22:36:39.412Z] Net profit after gas: 0.0761431928735 WETH
+[2025-05-03T22:36:39.419Z] 
+In production, the transaction would be executed with:
+[2025-05-03T22:36:39.421Z] executor.executeContractMethod(
+[2025-05-03T22:36:39.423Z]   arbContract,
+[2025-05-03T22:36:39.425Z]   "executeTriangleArbitrage",
+[2025-05-03T22:36:39.430Z]   [opportunity.tokenBorrow, opportunity.flashLoanAmount, opportunity.path, opportunity.dexes, opportunity.fees],
+[2025-05-03T22:36:39.435Z]   deployer,
+[2025-05-03T22:36:39.438Z]   opportunity.expectedProfit,
+[2025-05-03T22:36:39.439Z]   500000
+[2025-05-03T22:36:39.441Z] );
+[2025-05-03T22:36:39.445Z] 
+If using Flashbots for MEV protection:
+[2025-05-03T22:36:39.452Z] const flashbotsExecutor = new TransactionExecutor(
+[2025-05-03T22:36:39.454Z]   ethers.provider,
+[2025-05-03T22:36:39.456Z]   gasStrategy,
+[2025-05-03T22:36:39.458Z]   3,           // 3 retry attempts
+[2025-05-03T22:36:39.463Z]   2000,        // 2s backoff
+[2025-05-03T22:36:39.468Z]   true         // Use Flashbots
+[2025-05-03T22:36:39.471Z] );
+[2025-05-03T22:36:39.473Z] flashbotsExecutor.executeContractMethod(...);
+[2025-05-03T22:36:39.483Z] 
+Enhanced arbitrage test completed successfully
+[2025-05-03T22:50:58.090Z] Starting enhanced arbitrage test...
+[2025-05-03T22:50:58.104Z] Loaded configuration with network ID: 1
+[2025-05-03T22:50:59.766Z] Using account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T22:50:59.788Z] Connected to FlashloanArb contract at 0x4458AcB1185aD869F982D51b5b0b87e23767A3A9
+[2025-05-03T22:50:59.911Z] Connected to WETH (WETH) with 18 decimals
+[2025-05-03T22:51:00.190Z] Connected to DAI (DAI) with 18 decimals
+[2025-05-03T22:51:00.275Z] Connected to USDC (USDC) with 6 decimals
+[2025-05-03T22:51:00.277Z] Using mock ETH price: $3000
+[2025-05-03T22:51:00.281Z] Created sample opportunity with expected profit of 0.1 WETH
+[2025-05-03T22:51:00.283Z] 
+Step 1: Validating opportunity...
+[2025-05-03T22:51:00.350Z] Opportunity is valid!
+[2025-05-03T22:51:00.354Z] Adjusted profit: 0.098 WETH
+[2025-05-03T22:51:00.357Z] Gas cost: 0.0238568071265 WETH
+[2025-05-03T22:51:00.359Z] Profitability: 0.7400%
+[2025-05-03T22:51:00.361Z] 
+Step 2: Preparing transaction (simulation only)...
+[2025-05-03T22:51:00.428Z] Calculated optimal gas price: 47.713614253 Gwei
+[2025-05-03T22:51:00.432Z] Gas cost would be: 0.0238568071265 WETH
+[2025-05-03T22:51:00.433Z] Transaction would be profitable: true
+[2025-05-03T22:51:00.436Z] Net profit after gas: 0.0761431928735 WETH
+[2025-05-03T22:51:00.438Z] 
+In production, the transaction would be executed with:
+[2025-05-03T22:51:00.439Z] executor.executeContractMethod(
+[2025-05-03T22:51:00.441Z]   arbContract,
+[2025-05-03T22:51:00.447Z]   "executeTriangleArbitrage",
+[2025-05-03T22:51:00.450Z]   [opportunity.tokenBorrow, opportunity.flashLoanAmount, opportunity.path, opportunity.dexes, opportunity.fees],
+[2025-05-03T22:51:00.452Z]   deployer,
+[2025-05-03T22:51:00.453Z]   opportunity.expectedProfit,
+[2025-05-03T22:51:00.455Z]   500000
+[2025-05-03T22:51:00.456Z] );
+[2025-05-03T22:51:00.459Z] 
+If using Flashbots for MEV protection:
+[2025-05-03T22:51:00.463Z] const flashbotsExecutor = new TransactionExecutor(
+[2025-05-03T22:51:00.465Z]   ethers.provider,
+[2025-05-03T22:51:00.468Z]   gasStrategy,
+[2025-05-03T22:51:00.470Z]   3,           // 3 retry attempts
+[2025-05-03T22:51:00.472Z]   2000,        // 2s backoff
+[2025-05-03T22:51:00.475Z]   true         // Use Flashbots
+[2025-05-03T22:51:00.479Z] );
+[2025-05-03T22:51:00.481Z] flashbotsExecutor.executeContractMethod(...);
+[2025-05-03T22:51:00.484Z] 
+Enhanced arbitrage test completed successfully

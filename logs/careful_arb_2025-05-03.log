@@ -1,0 +1,100 @@
+[2025-05-03T21:02:08.236Z] Creating careful arbitrage opportunity...
+[2025-05-03T21:02:08.240Z] Settings: Pair=DAI-USDC, Exchange=sushiswap, Imbalance=2%, Direction=token0
+[2025-05-03T21:02:09.734Z] Using account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T21:02:09.812Z] Found DAI-USDC pair at 0xAaF5110db6e744ff70fB339DE037B990A20bdace on sushiswap
+[2025-05-03T21:02:09.995Z] Pair consists of DAI (18 decimals) and USDC (6 decimals)
+[2025-05-03T21:02:10.025Z] Current reserves: 16064.340833616256065854 DAI, 12283.907029 USDC
+[2025-05-03T21:14:36.457Z] Creating careful arbitrage opportunity...
+[2025-05-03T21:14:36.499Z] Settings: Pair=DAI-USDC, Exchange=sushiswap, Imbalance=2%, Direction=token0
+[2025-05-03T21:14:37.794Z] Using account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T21:14:37.912Z] Found DAI-USDC pair at 0xAaF5110db6e744ff70fB339DE037B990A20bdace on sushiswap
+[2025-05-03T21:14:38.046Z] Pair consists of DAI (18 decimals) and USDC (6 decimals)
+[2025-05-03T21:14:38.079Z] Current reserves: 16064.340833616256065854 DAI, 12283.907029 USDC
+[2025-05-03T21:19:24.960Z] Creating careful arbitrage opportunity...
+[2025-05-03T21:19:24.972Z] Settings: Pair=WETH-DAI, Exchange=uniswap, Imbalance=2%, Direction=token0
+[2025-05-03T21:19:26.306Z] Using account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T21:19:26.398Z] Found WETH-DAI pair at 0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11 on uniswap
+[2025-05-03T21:19:26.470Z] Adjusted token order based on pair contract
+[2025-05-03T21:19:26.585Z] Pair consists of DAI (18 decimals) and WETH (18 decimals)
+[2025-05-03T21:19:26.649Z] Current reserves: 6272170.369137906058696534 DAI, 2785.322337191568276651 WETH
+[2025-05-03T21:19:26.652Z] Using known storage slot for DAI: 2
+[2025-05-03T21:19:26.654Z] Using known storage slot for WETH: 3
+[2025-05-03T21:19:26.659Z] Adding 125443.40738275812117393 DAI and 55.706446743831365533 WETH to the pair
+[2025-05-03T21:19:26.759Z] Set deployer balance of DAI to 250886.81476551624234786
+[2025-05-03T21:19:26.763Z] Set deployer balance of WETH to 111.412893487662731066
+[2025-05-03T21:19:27.928Z] Transferred 127952.275530413283597408 DAI to the pair
+[2025-05-03T21:19:27.933Z] Transferred 55.706446743831365533 WETH to the pair
+[2025-05-03T21:19:27.936Z] Syncing pair reserves...
+[2025-05-03T21:19:28.522Z] New reserves: 6400122.644668319342293942 DAI, 2841.028783935399642184 WETH
+[2025-05-03T21:21:09.276Z] Creating careful arbitrage opportunity...
+[2025-05-03T21:21:09.283Z] Settings: Pair=WETH-DAI, Exchange=uniswap, Imbalance=2%, Direction=token0
+[2025-05-03T21:21:10.693Z] Using account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T21:21:10.777Z] Found WETH-DAI pair at 0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11 on uniswap
+[2025-05-03T21:21:10.840Z] Adjusted token order based on pair contract
+[2025-05-03T21:21:10.947Z] Pair consists of DAI (18 decimals) and WETH (18 decimals)
+[2025-05-03T21:21:10.970Z] Current reserves: 6400122.644668319342293942 DAI, 2841.028783935399642184 WETH
+[2025-05-03T21:21:10.972Z] Using known storage slot for DAI: 2
+[2025-05-03T21:21:10.975Z] Using known storage slot for WETH: 3
+[2025-05-03T21:21:10.978Z] Adding 128002.452893366386845878 DAI and 56.820575678707992843 WETH to the pair
+[2025-05-03T21:21:11.046Z] Set deployer balance of DAI to 256004.905786732773691756
+[2025-05-03T21:21:11.048Z] Set deployer balance of WETH to 113.641151357415985686
+[2025-05-03T21:21:11.369Z] Transferred 130562.501951233714582795 DAI to the pair
+[2025-05-03T21:21:11.376Z] Transferred 56.820575678707992843 WETH to the pair
+[2025-05-03T21:21:11.383Z] Syncing pair reserves...
+[2025-05-03T21:21:11.533Z] New reserves: 6530685.146619553056876737 DAI, 2897.849359614107635027 WETH
+[2025-05-03T21:21:11.540Z] Calculating price impact...
+[2025-05-03T21:21:11.544Z] Warning: Cannot calculate percentage change due to zero initial price
+[2025-05-03T21:21:11.648Z] Price difference between uniswap and sushiswap: 0.23%
+[2025-05-03T21:21:11.651Z] - uniswap price: 1 DAI = 0.00044239697759139 WETH
+[2025-05-03T21:21:11.664Z] - sushiswap price: 1 DAI = 0.0004434338878261 WETH
+[2025-05-03T21:21:11.670Z] ℹ️ Price difference (0.23%) may be too small for profitable arbitrage.
+[2025-05-03T21:21:11.676Z] Consider increasing the imbalance percentage if needed.
+[2025-05-03T21:21:11.681Z] Arbitrage opportunity creation completed without modifying K constant!
+[2025-05-03T21:29:36.495Z] Creating careful arbitrage opportunity...
+[2025-05-03T21:29:36.505Z] Settings: Pair=WETH-USDC, Exchange=uniswap, Imbalance=5%, Direction=token0
+[2025-05-03T21:29:38.160Z] Using account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T21:29:38.241Z] Found WETH-USDC pair at 0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc on uniswap
+[2025-05-03T21:29:38.310Z] Adjusted token order based on pair contract
+[2025-05-03T21:29:38.415Z] Pair consists of USDC (6 decimals) and WETH (18 decimals)
+[2025-05-03T21:29:38.440Z] Current reserves: 52781008.343855 USDC, 23422.292243344528411897 WETH
+[2025-05-03T21:29:38.446Z] Using known storage slot for USDC: 9
+[2025-05-03T21:29:38.448Z] Using known storage slot for WETH: 3
+[2025-05-03T21:29:38.454Z] Adding 2639050.417192 USDC and 1171.114612167226420594 WETH to the pair
+[2025-05-03T21:29:38.543Z] Set deployer balance of USDC to 5278100.834384
+[2025-05-03T21:29:38.548Z] Set deployer balance of WETH to 2342.229224334452841188
+[2025-05-03T21:29:39.700Z] Transferred 2771002.938051 USDC to the pair
+[2025-05-03T21:29:39.703Z] Transferred 1171.114612167226420594 WETH to the pair
+[2025-05-03T21:29:39.704Z] Syncing pair reserves...
+[2025-05-03T21:29:40.315Z] New reserves: 55552011.281906 USDC, 24593.406855511754832491 WETH
+[2025-05-03T21:29:40.319Z] Calculating price impact...
+[2025-05-03T21:29:40.324Z] Warning: Cannot calculate percentage change due to zero initial price
+[2025-05-03T21:29:40.420Z] Price difference between uniswap and sushiswap: 0.10%
+[2025-05-03T21:29:40.425Z] - uniswap price: 1 USDC = 0.000441381430286292 WETH
+[2025-05-03T21:29:40.426Z] - sushiswap price: 1 USDC = 0.000441844367093403 WETH
+[2025-05-03T21:29:40.429Z] ℹ️ Price difference (0.10%) may be too small for profitable arbitrage.
+[2025-05-03T21:29:40.431Z] Consider increasing the imbalance percentage if needed.
+[2025-05-03T21:29:40.434Z] Arbitrage opportunity creation completed without modifying K constant!
+[2025-05-03T21:37:26.125Z] Creating careful arbitrage opportunity...
+[2025-05-03T21:37:26.151Z] Settings: Pair=WETH-USDC, Exchange=uniswap, Imbalance=15%, Direction=token0
+[2025-05-03T21:37:27.790Z] Using account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T21:37:27.907Z] Found WETH-USDC pair at 0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc on uniswap
+[2025-05-03T21:37:27.973Z] Adjusted token order based on pair contract
+[2025-05-03T21:37:28.074Z] Pair consists of USDC (6 decimals) and WETH (18 decimals)
+[2025-05-03T21:37:28.096Z] Current reserves: 55552011.281906 USDC, 24593.406855511754832491 WETH
+[2025-05-03T21:37:28.097Z] Using known storage slot for USDC: 9
+[2025-05-03T21:37:28.099Z] Using known storage slot for WETH: 3
+[2025-05-03T21:37:28.103Z] Adding 8332801.692285 USDC and 3689.011028326763224873 WETH to the pair
+[2025-05-03T21:37:28.190Z] Set deployer balance of USDC to 16665603.38457
+[2025-05-03T21:37:28.192Z] Set deployer balance of WETH to 7378.022056653526449746
+[2025-05-03T21:37:28.569Z] Transferred 9582721.946127 USDC to the pair
+[2025-05-03T21:37:28.572Z] Transferred 3689.011028326763224873 WETH to the pair
+[2025-05-03T21:37:28.573Z] Syncing pair reserves...
+[2025-05-03T21:37:28.679Z] New reserves: 65134733.228033 USDC, 28282.417883838518057364 WETH
+[2025-05-03T21:37:28.683Z] Calculating price impact...
+[2025-05-03T21:37:28.687Z] Warning: Cannot calculate percentage change due to zero initial price
+[2025-05-03T21:37:28.747Z] Price difference between uniswap and sushiswap: 2.06%
+[2025-05-03T21:37:28.748Z] - uniswap price: 1 USDC = 0.000432911425304471 WETH
+[2025-05-03T21:37:28.749Z] - sushiswap price: 1 USDC = 0.000441844367093403 WETH
+[2025-05-03T21:37:28.751Z] ✅ Created profitable arbitrage opportunity! Price difference: 2.06%
+[2025-05-03T21:37:28.752Z] Arbitrage path: Buy on uniswap, sell on sushiswap
+[2025-05-03T21:37:28.754Z] Arbitrage opportunity creation completed without modifying K constant!

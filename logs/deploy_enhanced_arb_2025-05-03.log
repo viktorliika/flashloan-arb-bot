@@ -1,0 +1,207 @@
+[2025-05-03T17:16:46.195Z] Starting deployment of enhanced arbitrage contract (FlashloanArbV2)...
+[2025-05-03T17:16:46.202Z] Loaded fork config with network ID: 1
+[2025-05-03T17:16:47.619Z] Deploying with account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T17:16:47.620Z] Using Aave LendingPool at: undefined
+[2025-05-03T17:16:47.702Z] Deploying FlashloanArbV2...
+[2025-05-03T17:30:56.377Z] Starting deployment of enhanced arbitrage contract (FlashloanArbV2)...
+[2025-05-03T17:30:56.388Z] Loaded fork config with network ID: 1
+[2025-05-03T17:30:58.326Z] Deploying with account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T17:30:58.328Z] Using Aave LendingPool at: undefined
+[2025-05-03T17:30:58.412Z] Deploying FlashloanArbV2...
+[2025-05-03T17:46:45.674Z] Starting deployment of enhanced arbitrage contract (FlashloanArbV2)...
+[2025-05-03T17:46:45.681Z] Loaded fork config with network ID: 1
+[2025-05-03T17:46:47.726Z] Deploying with account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T17:46:47.731Z] Using Aave LendingPool at: 0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9
+[2025-05-03T17:46:47.838Z] Deploying FlashloanArbV2...
+[2025-05-03T17:48:58.708Z] Starting deployment of enhanced arbitrage contract (FlashloanArbV2)...
+[2025-05-03T17:48:58.715Z] Loaded fork config with network ID: 1
+[2025-05-03T17:49:00.677Z] Deploying with account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T17:49:00.690Z] Using Aave LendingPool at: 0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9
+[2025-05-03T17:49:00.794Z] Deploying FlashloanArbV2...
+[2025-05-03T17:49:01.194Z] Deployment transaction sent. Waiting for confirmation...
+[2025-05-03T17:49:01.233Z] FlashloanArbV2 deployed to: 0x4458AcB1185aD869F982D51b5b0b87e23767A3A9
+[2025-05-03T17:49:01.242Z] Configuring UniswapV3 router...
+[2025-05-03T17:49:01.352Z] UniswapV3 router configured as DEX A
+[2025-05-03T17:49:01.355Z] Setting optimal fee tiers for common pairs...
+[2025-05-03T17:49:02.181Z] Set WETH/DAI optimal fee tier to 0.3%
+[2025-05-03T17:49:02.503Z] Set WETH/USDC optimal fee tier to 0.3%
+[2025-05-03T17:49:02.800Z] Set DAI/USDC optimal fee tier to 0.05%
+[2025-05-03T17:49:02.803Z] Updated fork-config.json with new contract address
+[2025-05-03T17:49:02.805Z] 
+FlashloanArbV2 contract deployment summary:
+[2025-05-03T17:49:02.807Z] Address: 0x4458AcB1185aD869F982D51b5b0b87e23767A3A9
+[2025-05-03T17:49:02.809Z] Owner: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T17:49:02.811Z] Min profit: 0.01 ETH
+[2025-05-03T17:49:02.812Z] Uniswap V2 Router: 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D
+[2025-05-03T17:49:02.814Z] Sushiswap Router: 0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F
+[2025-05-03T17:49:02.818Z] Uniswap V3 Router: 0xE592427A0AEce92De3Edee1F18E0157C05861564
+[2025-05-03T17:49:02.820Z] WETH address: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
+[2025-05-03T17:49:02.823Z] DAI address: 0x6B175474E89094C44Da98b954EedeAC495271d0F
+[2025-05-03T17:49:02.825Z] USDC address: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48
+[2025-05-03T17:49:02.827Z] 
+Deployment complete!
+[2025-05-03T17:49:02.828Z] 
+To test the FlashloanArbV2 contract with triangle arbitrage:
+[2025-05-03T17:49:02.830Z] 1. Run the 'create-arb-opportunity.ts' script to create artificial price differences
+[2025-05-03T17:49:02.832Z] 2. Execute triangle arbitrage with 'npm run execute:triangle'
+[2025-05-03T17:49:02.834Z] 3. Monitor logs for successful arbitrage execution
+[2025-05-03T20:51:43.919Z] Starting deployment of enhanced arbitrage contract (FlashloanArbV2)...
+[2025-05-03T20:51:43.963Z] Loaded fork config with network ID: 1
+[2025-05-03T20:51:45.315Z] Deploying with account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T20:51:45.321Z] Using Aave LendingPool at: 0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9
+[2025-05-03T20:51:45.402Z] Deploying FlashloanArbV2...
+[2025-05-03T20:51:46.023Z] Deployment transaction sent. Waiting for confirmation...
+[2025-05-03T20:51:46.072Z] FlashloanArbV2 deployed to: 0xCdb63c58b907e76872474A0597C5252eDC97c883
+[2025-05-03T20:51:46.075Z] Configuring UniswapV3 router...
+[2025-05-03T20:51:46.154Z] UniswapV3 router configured as DEX A
+[2025-05-03T20:51:46.156Z] Setting optimal fee tiers for common pairs...
+[2025-05-03T20:51:46.501Z] Set WETH/DAI optimal fee tier to 0.3%
+[2025-05-03T20:51:46.994Z] Set WETH/USDC optimal fee tier to 0.3%
+[2025-05-03T20:51:47.358Z] Set DAI/USDC optimal fee tier to 0.05%
+[2025-05-03T20:51:47.366Z] Updated fork-config.json with new contract address
+[2025-05-03T20:51:47.388Z] 
+FlashloanArbV2 contract deployment summary:
+[2025-05-03T20:51:47.397Z] Address: 0xCdb63c58b907e76872474A0597C5252eDC97c883
+[2025-05-03T20:51:47.398Z] Owner: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T20:51:47.401Z] Min profit: 0.01 ETH
+[2025-05-03T20:51:47.403Z] Uniswap V2 Router: 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D
+[2025-05-03T20:51:47.404Z] Sushiswap Router: 0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F
+[2025-05-03T20:51:47.406Z] Uniswap V3 Router: 0xE592427A0AEce92De3Edee1F18E0157C05861564
+[2025-05-03T20:51:47.408Z] WETH address: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
+[2025-05-03T20:51:47.411Z] DAI address: 0x6B175474E89094C44Da98b954EedeAC495271d0F
+[2025-05-03T20:51:47.413Z] USDC address: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48
+[2025-05-03T20:51:47.414Z] 
+Deployment complete!
+[2025-05-03T20:51:47.417Z] 
+To test the FlashloanArbV2 contract with triangle arbitrage:
+[2025-05-03T20:51:47.418Z] 1. Run the 'create-arb-opportunity.ts' script to create artificial price differences
+[2025-05-03T20:51:47.420Z] 2. Execute triangle arbitrage with 'npm run execute:triangle'
+[2025-05-03T20:51:47.422Z] 3. Monitor logs for successful arbitrage execution
+[2025-05-03T21:13:24.914Z] Starting deployment of enhanced arbitrage contract (FlashloanArbV2)...
+[2025-05-03T21:13:24.919Z] Loaded fork config with network ID: 1
+[2025-05-03T21:13:26.302Z] Deploying with account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T21:13:26.310Z] Using Aave LendingPool at: 0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9
+[2025-05-03T21:13:26.395Z] Deploying FlashloanArbV2...
+[2025-05-03T21:13:26.997Z] Deployment transaction sent. Waiting for confirmation...
+[2025-05-03T21:13:27.021Z] FlashloanArbV2 deployed to: 0x9DBb24B10502aD166c198Dbeb5AB54d2d13AfcFd
+[2025-05-03T21:13:27.023Z] Configuring UniswapV3 router...
+[2025-05-03T21:13:27.120Z] UniswapV3 router configured as DEX A
+[2025-05-03T21:13:27.121Z] Setting optimal fee tiers for common pairs...
+[2025-05-03T21:13:27.596Z] Set WETH/DAI optimal fee tier to 0.3%
+[2025-05-03T21:13:27.983Z] Set WETH/USDC optimal fee tier to 0.3%
+[2025-05-03T21:13:28.330Z] Set DAI/USDC optimal fee tier to 0.05%
+[2025-05-03T21:13:28.340Z] Updated fork-config.json with new contract address
+[2025-05-03T21:13:28.356Z] 
+FlashloanArbV2 contract deployment summary:
+[2025-05-03T21:13:28.362Z] Address: 0x9DBb24B10502aD166c198Dbeb5AB54d2d13AfcFd
+[2025-05-03T21:13:28.364Z] Owner: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T21:13:28.369Z] Min profit: 0.01 ETH
+[2025-05-03T21:13:28.372Z] Uniswap V2 Router: 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D
+[2025-05-03T21:13:28.373Z] Sushiswap Router: 0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F
+[2025-05-03T21:13:28.375Z] Uniswap V3 Router: 0xE592427A0AEce92De3Edee1F18E0157C05861564
+[2025-05-03T21:13:28.377Z] WETH address: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
+[2025-05-03T21:13:28.378Z] DAI address: 0x6B175474E89094C44Da98b954EedeAC495271d0F
+[2025-05-03T21:13:28.380Z] USDC address: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48
+[2025-05-03T21:13:28.382Z] 
+Deployment complete!
+[2025-05-03T21:13:28.384Z] 
+To test the FlashloanArbV2 contract with triangle arbitrage:
+[2025-05-03T21:13:28.389Z] 1. Run the 'create-arb-opportunity.ts' script to create artificial price differences
+[2025-05-03T21:13:28.391Z] 2. Execute triangle arbitrage with 'npm run execute:triangle'
+[2025-05-03T21:13:28.392Z] 3. Monitor logs for successful arbitrage execution
+[2025-05-03T21:47:15.257Z] Starting deployment of enhanced arbitrage contract (FlashloanArbV2)...
+[2025-05-03T21:47:15.269Z] Loaded fork config with network ID: 1
+[2025-05-03T21:47:17.465Z] Deploying with account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T21:47:17.470Z] Using Aave LendingPool at: 0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9
+[2025-05-03T21:47:17.562Z] Deploying FlashloanArbV2...
+[2025-05-03T21:47:18.112Z] Deployment transaction sent. Waiting for confirmation...
+[2025-05-03T21:47:18.155Z] FlashloanArbV2 deployed to: 0x4458AcB1185aD869F982D51b5b0b87e23767A3A9
+[2025-05-03T21:47:18.158Z] Configuring UniswapV3 router...
+[2025-05-03T21:47:18.277Z] UniswapV3 router configured as DEX A
+[2025-05-03T21:47:18.279Z] Setting optimal fee tiers for common pairs...
+[2025-05-03T21:47:18.400Z] Set WETH/DAI optimal fee tier to 0.3%
+[2025-05-03T21:47:18.491Z] Set WETH/USDC optimal fee tier to 0.3%
+[2025-05-03T21:47:18.567Z] Set DAI/USDC optimal fee tier to 0.05%
+[2025-05-03T21:47:18.573Z] Updated fork-config.json with new contract address
+[2025-05-03T21:47:18.576Z] 
+FlashloanArbV2 contract deployment summary:
+[2025-05-03T21:47:18.580Z] Address: 0x4458AcB1185aD869F982D51b5b0b87e23767A3A9
+[2025-05-03T21:47:18.581Z] Owner: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T21:47:18.584Z] Min profit: 0.01 ETH
+[2025-05-03T21:47:18.587Z] Uniswap V2 Router: 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D
+[2025-05-03T21:47:18.589Z] Sushiswap Router: 0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F
+[2025-05-03T21:47:18.590Z] Uniswap V3 Router: 0xE592427A0AEce92De3Edee1F18E0157C05861564
+[2025-05-03T21:47:18.595Z] WETH address: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
+[2025-05-03T21:47:18.597Z] DAI address: 0x6B175474E89094C44Da98b954EedeAC495271d0F
+[2025-05-03T21:47:18.598Z] USDC address: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48
+[2025-05-03T21:47:18.600Z] 
+Deployment complete!
+[2025-05-03T21:47:18.602Z] 
+To test the FlashloanArbV2 contract with triangle arbitrage:
+[2025-05-03T21:47:18.604Z] 1. Run the 'create-arb-opportunity.ts' script to create artificial price differences
+[2025-05-03T21:47:18.605Z] 2. Execute triangle arbitrage with 'npm run execute:triangle'
+[2025-05-03T21:47:18.607Z] 3. Monitor logs for successful arbitrage execution
+[2025-05-03T21:53:01.106Z] Starting deployment of enhanced arbitrage contract (FlashloanArbV2)...
+[2025-05-03T21:53:01.114Z] Loaded fork config with network ID: 1
+[2025-05-03T21:53:02.940Z] Deploying with account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T21:53:02.942Z] Using Aave LendingPool at: 0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9
+[2025-05-03T21:53:03.039Z] Deploying FlashloanArbV2...
+[2025-05-03T21:53:04.169Z] Deployment transaction sent. Waiting for confirmation...
+[2025-05-03T21:53:04.221Z] FlashloanArbV2 deployed to: 0xf274De14171Ab928A5Ec19928cE35FaD91a42B64
+[2025-05-03T21:53:04.223Z] Configuring UniswapV3 router...
+[2025-05-03T21:53:04.327Z] UniswapV3 router configured as DEX A
+[2025-05-03T21:53:04.329Z] Setting optimal fee tiers for common pairs...
+[2025-05-03T21:53:04.660Z] Set WETH/DAI optimal fee tier to 0.3%
+[2025-05-03T21:53:05.005Z] Set WETH/USDC optimal fee tier to 0.3%
+[2025-05-03T21:53:05.316Z] Set DAI/USDC optimal fee tier to 0.05%
+[2025-05-03T21:53:05.320Z] Updated fork-config.json with new contract address
+[2025-05-03T21:53:05.322Z] 
+FlashloanArbV2 contract deployment summary:
+[2025-05-03T21:53:05.325Z] Address: 0xf274De14171Ab928A5Ec19928cE35FaD91a42B64
+[2025-05-03T21:53:05.327Z] Owner: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T21:53:05.330Z] Min profit: 0.01 ETH
+[2025-05-03T21:53:05.333Z] Uniswap V2 Router: 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D
+[2025-05-03T21:53:05.334Z] Sushiswap Router: 0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F
+[2025-05-03T21:53:05.336Z] Uniswap V3 Router: 0xE592427A0AEce92De3Edee1F18E0157C05861564
+[2025-05-03T21:53:05.338Z] WETH address: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
+[2025-05-03T21:53:05.341Z] DAI address: 0x6B175474E89094C44Da98b954EedeAC495271d0F
+[2025-05-03T21:53:05.342Z] USDC address: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48
+[2025-05-03T21:53:05.343Z] 
+Deployment complete!
+[2025-05-03T21:53:05.346Z] 
+To test the FlashloanArbV2 contract with triangle arbitrage:
+[2025-05-03T21:53:05.350Z] 1. Run the 'create-arb-opportunity.ts' script to create artificial price differences
+[2025-05-03T21:53:05.352Z] 2. Execute triangle arbitrage with 'npm run execute:triangle'
+[2025-05-03T21:53:05.355Z] 3. Monitor logs for successful arbitrage execution
+[2025-05-03T22:05:49.992Z] Starting deployment of enhanced arbitrage contract (FlashloanArbV2)...
+[2025-05-03T22:05:50.000Z] Loaded fork config with network ID: 1
+[2025-05-03T22:05:51.657Z] Deploying with account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T22:05:51.663Z] Using Aave LendingPool at: 0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9
+[2025-05-03T22:05:51.770Z] Deploying FlashloanArbV2...
+[2025-05-03T22:05:52.337Z] Deployment transaction sent. Waiting for confirmation...
+[2025-05-03T22:05:52.373Z] FlashloanArbV2 deployed to: 0xE2307e3710d108ceC7a4722a020a050681c835b3
+[2025-05-03T22:05:52.376Z] Configuring UniswapV3 router...
+[2025-05-03T22:05:52.513Z] UniswapV3 router configured as DEX A
+[2025-05-03T22:05:52.516Z] Setting optimal fee tiers for common pairs...
+[2025-05-03T22:05:52.869Z] Set WETH/DAI optimal fee tier to 0.3%
+[2025-05-03T22:05:53.195Z] Set WETH/USDC optimal fee tier to 0.3%
+[2025-05-03T22:05:53.528Z] Set DAI/USDC optimal fee tier to 0.05%
+[2025-05-03T22:05:53.533Z] Updated fork-config.json with new contract address
+[2025-05-03T22:05:53.544Z] 
+FlashloanArbV2 contract deployment summary:
+[2025-05-03T22:05:53.548Z] Address: 0xE2307e3710d108ceC7a4722a020a050681c835b3
+[2025-05-03T22:05:53.550Z] Owner: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T22:05:53.555Z] Min profit: 0.01 ETH
+[2025-05-03T22:05:53.557Z] Uniswap V2 Router: 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D
+[2025-05-03T22:05:53.558Z] Sushiswap Router: 0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F
+[2025-05-03T22:05:53.560Z] Uniswap V3 Router: 0xE592427A0AEce92De3Edee1F18E0157C05861564
+[2025-05-03T22:05:53.561Z] WETH address: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
+[2025-05-03T22:05:53.563Z] DAI address: 0x6B175474E89094C44Da98b954EedeAC495271d0F
+[2025-05-03T22:05:53.564Z] USDC address: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48
+[2025-05-03T22:05:53.566Z] 
+Deployment complete!
+[2025-05-03T22:05:53.570Z] 
+To test the FlashloanArbV2 contract with triangle arbitrage:
+[2025-05-03T22:05:53.573Z] 1. Run the 'create-arb-opportunity.ts' script to create artificial price differences
+[2025-05-03T22:05:53.575Z] 2. Execute triangle arbitrage with 'npm run execute:triangle'
+[2025-05-03T22:05:53.577Z] 3. Monitor logs for successful arbitrage execution

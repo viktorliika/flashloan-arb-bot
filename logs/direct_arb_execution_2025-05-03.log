@@ -1,0 +1,25 @@
+[2025-05-03T22:07:10.121Z] Starting direct arbitrage execution script...
+[2025-05-03T22:07:10.128Z] Loaded fork config with network ID: 1
+[2025-05-03T22:07:11.825Z] Using account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+[2025-05-03T22:07:11.987Z] Token details:
+[2025-05-03T22:07:11.989Z] - WETH: 18 decimals
+[2025-05-03T22:07:12.015Z] - DAI: 18 decimals
+[2025-05-03T22:07:12.019Z] 
+Analyzing current market conditions...
+[2025-05-03T22:07:12.118Z] 1 WETH -> 1113.023097414492007566 DAI on Uniswap
+[2025-05-03T22:07:12.120Z] 1 WETH -> 3840.844486352524182877 DAI on Sushiswap
+[2025-05-03T22:07:12.164Z] 1000 DAI -> 0.892802051691685142 WETH on Uniswap
+[2025-05-03T22:07:12.166Z] 1000 DAI -> 0.258636165033940665 WETH on Sushiswap
+[2025-05-03T22:07:12.170Z] 
+Price analysis:
+[2025-05-03T22:07:12.172Z] WETH is cheaper on Uniswap (1120.069110622221 DAI per WETH vs 3866.435306403382 DAI per WETH on Sushiswap)
+[2025-05-03T22:07:12.176Z] DAI is cheaper on Uniswap (1113.023097414492 DAI per WETH vs 3840.844486352524 DAI per WETH on Sushiswap)
+[2025-05-03T22:07:12.177Z] 
+Best arbitrage path: Borrow WETH -> Buy DAI on Sushiswap -> Sell DAI for WETH on Uniswap
+[2025-05-03T22:07:12.181Z] 
+Executing arbitrage with 10.0 WETH
+[2025-05-03T22:07:12.182Z] Path: WETH -> DAI -> WETH
+[2025-05-03T22:07:12.183Z] DEXes: [Sushiswap, Uniswap]
+[2025-05-03T22:07:17.020Z] Gas estimate: 555708
+[2025-05-03T22:07:17.279Z] Transaction sent! Hash: 0xfb905a18d2cf18df1a792d5d62089f399d04d832dec1aa8eb010198a47d05482
+[2025-05-03T22:07:17.329Z] ✅ Transaction successful! Gas used: 433063
